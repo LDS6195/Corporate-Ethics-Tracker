@@ -1,12 +1,14 @@
 /** @type {import('next').NextConfig} */
+const isGitHubPagesBuild = process.env.GITHUB_ACTIONS === "true";
+
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
   images: {
     unoptimized: true,
   },
-  basePath: "/Corporate-Ethics-Tracker",
-  assetPrefix: "/Corporate-Ethics-Tracker/",
+  basePath: isGitHubPagesBuild ? "/Corporate-Ethics-Tracker" : "",
+  assetPrefix: isGitHubPagesBuild ? "/Corporate-Ethics-Tracker/" : undefined,
   trailingSlash: true,
   webpack: (config, { dev }) => {
     // This project lives in a OneDrive-synced folder. OneDrive can lock or
