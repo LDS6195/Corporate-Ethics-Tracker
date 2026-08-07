@@ -1,0 +1,620 @@
+{
+  "_note": "Working evidence log for cause/spending signals. Amounts are only included when explicitly disclosed in source text.",
+  "records": [
+    {
+      "companyId": "alphabet",
+      "categoryId": "education-opportunity",
+      "sourceName": "Google.org Impact Report",
+      "sourceUrl": "https://www.google.org/impact-report",
+      "sourceDate": "2025-09-18",
+      "signal": "Google.org disclosed a $120M global AI Opportunity Fund for AI education and training access.",
+      "amountUsd": 120000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "alphabet",
+      "categoryId": "education-opportunity",
+      "sourceName": "Google for Education",
+      "sourceUrl": "https://edu.google.com/intl/ALL_my/giving/",
+      "sourceDate": "2024-01-01",
+      "signal": "Google.org committed $50M in grant funding to nonprofits focused on education access.",
+      "amountUsd": 50000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "nvidia",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "NVIDIA Foundation",
+      "sourceUrl": "https://www.nvidia.com/en-us/foundation/",
+      "sourceDate": "2026-08-06",
+      "signal": "NVIDIA Foundation states employee donation matching up to $10,000/year and a $25 new-hire charitable gift.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "nvidia",
+      "categoryId": "health-human-services",
+      "sourceName": "NVIDIA Foundation",
+      "sourceUrl": "https://www.nvidia.com/en-us/foundation/",
+      "sourceDate": "2026-08-06",
+      "signal": "NVIDIA Foundation says its Inspire 365 program organizes fundraising and volunteer events aligned with local community needs and amplifies employee donations during disaster and crisis response.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "nvidia",
+      "categoryId": "other-unclassified",
+      "sourceName": "NVIDIA Foundation FY26 Annual Report",
+      "sourceUrl": "https://www.nvidia.com/en-us/foundation/reports/",
+      "sourceDate": "2026-08-06",
+      "signal": "NVIDIA Foundation reported $83 million in charitable giving in FY26, supporting more than 11,000 nonprofits in over 70 countries.",
+      "amountUsd": 83000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "meta-platforms",
+      "categoryId": "education-opportunity",
+      "sourceName": "Meta Data Centers",
+      "sourceUrl": "https://datacenters.atmeta.com/community-action-grants/",
+      "sourceDate": "2026-08-06",
+      "signal": "Meta Community Action Grants program provides direct funding to schools, registered nonprofits and community organizations in locations where Meta has a data center.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "meta-platforms",
+      "categoryId": "health-human-services",
+      "sourceName": "Meta Data Centers",
+      "sourceUrl": "https://datacenters.atmeta.com/community-action-grants/",
+      "sourceDate": "2026-08-06",
+      "signal": "Meta says the grants support projects that address critical community needs by putting technology to use for community benefit, enabling strong sustainable communities, and improving local STEAM education.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "walmart",
+      "categoryId": "health-human-services",
+      "sourceName": "Walmart.org",
+      "sourceUrl": "https://www.walmart.org/",
+      "sourceDate": "2026-08-06",
+      "signal": "Walmart.org reports that in FY2025 Walmart and the Walmart Foundation donated $2.0 billion in cash and in-kind contributions globally.",
+      "amountUsd": 2000000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "walmart",
+      "categoryId": "equity-inclusion",
+      "sourceName": "Walmart.org Center for Racial Equity",
+      "sourceUrl": "https://www.walmart.org/diversity-equity-and-inclusion/center-for-racial-equity",
+      "sourceDate": "2026-08-06",
+      "signal": "Walmart.org says its Center for Racial Equity was established in 2020 as a five-year, $100 million special one-time initiative focused on education, health, finance, and criminal justice gaps affecting Black and African American communities in the U.S.",
+      "amountUsd": 100000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "jpmorgan-chase",
+      "categoryId": "health-human-services",
+      "sourceName": "JPMorganChase Housing Access and Affordability",
+      "sourceUrl": "https://www.jpmorganchase.com/impact/housing",
+      "sourceDate": "2026-08-06",
+      "signal": "JPMorganChase reports $498M in philanthropic capital (2021-2025) supporting housing solutions, alongside larger debt and equity financing flows.",
+      "amountUsd": 498000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "jpmorgan-chase",
+      "categoryId": "health-human-services",
+      "sourceName": "JPMorganChase Housing Access and Affordability",
+      "sourceUrl": "https://www.jpmorganchase.com/impact/housing",
+      "sourceDate": "2026-08-06",
+      "signal": "JPMorganChase reports $160 million deployed through the Chase Homebuyer Grant as part of its housing impact work.",
+      "amountUsd": 160000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "visa",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "Visa Foundation",
+      "sourceUrl": "https://corporate.visa.com/en/sites/visa-foundation.html",
+      "sourceDate": "2026-08-06",
+      "signal": "Visa Foundation reports $80M in grants funded and $120M in social-impact investments tied to economic inclusion and community impact initiatives.",
+      "amountUsd": 200000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "visa",
+      "categoryId": "education-opportunity",
+      "sourceName": "Visa Foundation",
+      "sourceUrl": "https://corporate.visa.com/en/sites/visa-foundation.html",
+      "sourceDate": "2026-08-06",
+      "signal": "Visa Foundation reports $80 million in grants funded, including partner programs focused on skills and digital training for small businesses.",
+      "amountUsd": 80000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "visa",
+      "categoryId": "equity-inclusion",
+      "sourceName": "Visa Foundation",
+      "sourceUrl": "https://corporate.visa.com/en/sites/visa-foundation.html",
+      "sourceDate": "2026-08-06",
+      "signal": "Visa Foundation reports $120 million in investments in emerging markets to help more women control capital and expand financial inclusion.",
+      "amountUsd": 120000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "unitedhealth-group",
+      "categoryId": "health-human-services",
+      "sourceName": "United Health Foundation",
+      "sourceUrl": "https://www.unitedhealthgroup.com/uhg/people-and-culture/our-foundations.html",
+      "sourceDate": "2026-08-06",
+      "signal": "United Health Foundation reports $880M committed to programs and communities to date, including a 10-year $100M healthcare workforce scholarship commitment announced in 2022.",
+      "amountUsd": 880000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "unitedhealth-group",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "United Health Foundation",
+      "sourceUrl": "https://www.unitedhealthgroup.com/uhg/people-and-culture/our-foundations.html",
+      "sourceDate": "2026-08-06",
+      "signal": "United Health Foundation made a 10-year, $100 million commitment to provide scholarships and support to current and future healthcare professionals.",
+      "amountUsd": 100000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "procter-gamble",
+      "categoryId": "education-opportunity",
+      "sourceName": "P&G Citizenship",
+      "sourceUrl": "https://us.pg.com/citizenship/",
+      "sourceDate": "2026-08-06",
+      "signal": "P&G Citizenship highlights Athletes for Good grants including $26,000 and $24,000 awards to athlete-selected charities.",
+      "amountUsd": 50000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "procter-gamble",
+      "categoryId": "other-unclassified",
+      "sourceName": "P&G Blog",
+      "sourceUrl": "https://us.pg.com/blogs/athletes-for-good-olympians-paralympians-grants/",
+      "sourceDate": "2026-01-15",
+      "signal": "P&G said the Athletes for Good Class of 2026 is awarding $26,000 grants to 10 athletes' nominated charities.",
+      "amountUsd": 260000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "berkshire-hathaway",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+      "sourceDate": "2026-03-02",
+      "signal": "Human capital and resources are an integral and essential component of Berkshire's businesses. Berkshire and its operating subsidiaries employed approximately 387,800 people worldwide.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "broadcom",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "sourceDate": "2025-12-18",
+      "signal": "As of November 2, 2025, we had approximately 33,000 employees worldwide, with approximately 57% in research and development roles.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "tesla",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "sourceDate": "2026-01-28",
+      "signal": "As of December 31, 2025, our employee headcount worldwide was 134,785.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "eli-lilly",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+      "sourceDate": "2026-02-12",
+      "signal": "Our core values shape our approach to attracting, retaining, engaging, and developing a highly skilled workforce.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "mastercard",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "sourceDate": "2026-02-11",
+      "signal": "Our Board of Directors and committees oversee human capital management matters, including culture and talent programs.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "mastercard",
+      "categoryId": "equity-inclusion",
+      "sourceName": "Mastercard Center for Inclusive Growth",
+      "sourceUrl": "https://www.mastercardcenter.org/",
+      "sourceDate": "2026-08-07",
+      "signal": "Mastercard says its Impact Fund has committed $432 million in grants to 186 organizations across 104 countries.",
+      "amountUsd": 432000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "exxon-mobil",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2115436/000003408826000093/xom-20260630.htm",
+      "sourceDate": "2026-08-03",
+      "signal": "Disclosures describe decreases in cash operating expense driven in part by operational efficiencies and workforce reductions.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "costco",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+      "sourceDate": "2025-10-08",
+      "signal": "Take Care of Our Employees is identified as a core element of Costco's code of ethics and operating model.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "johnson-johnson",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "sourceDate": "2026-02-11",
+      "signal": "The annual report includes a dedicated employees and human capital management section within core business disclosures.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "home-depot",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+      "sourceDate": "2026-03-18",
+      "signal": "At the end of fiscal 2025, The Home Depot employed approximately 472,400 associates, including about 53,400 salaried associates.",
+      "confidence": "low"
+    },
+    {
+      "companyId": "apple",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "sourceDate": "2025-10-31",
+      "signal": "Apple reports approximately 166,000 full-time equivalent employees, identifying human capital as a critical factor in company performance.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "apple",
+      "categoryId": "equity-inclusion",
+      "sourceName": "Apple Newsroom",
+      "sourceUrl": "https://www.apple.com/newsroom/2023/06/apples-racial-equity-and-justice-initiative-surpasses-200m-usd-in-investments/",
+      "sourceDate": "2023-06-14",
+      "signal": "Apple said its Racial Equity and Justice Initiative surpassed $200 million in investments supporting education, economic empowerment, and criminal justice reform work across five countries.",
+      "amountUsd": 200000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "microsoft",
+      "categoryId": "education-opportunity",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "sourceDate": "2026-07-29",
+      "signal": "Microsoft discloses grants and LinkedIn learning pathways supporting generative AI and digital skilling initiatives.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "microsoft",
+      "categoryId": "education-opportunity",
+      "sourceName": "Microsoft Impact Summary",
+      "sourceUrl": "https://www.microsoft.com/en-us/corporate-responsibility/impact-summary",
+      "sourceDate": "2026-08-06",
+      "signal": "Microsoft said it will invest $4 billion through Microsoft Elevate over five years in cash and AI cloud technology for K-12 schools, community and technical colleges, and nonprofits.",
+      "amountUsd": 4000000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "amazon",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "sourceDate": "2026-02-05",
+      "signal": "Amazon reports that over 300,000 employees have participated in Career Choice reskilling pathways.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "apple",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "sourceDate": "2025-10-31",
+      "signal": "Apple discloses that AI feature expansion can increase personal-data disclosure risk, highlighting privacy and digital-rights exposure.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "amazon",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "sourceDate": "2026-02-05",
+      "signal": "Amazon reports an EU GDPR-related enforcement decision tied to personal-data processing practices.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "microsoft",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "sourceDate": "2026-07-29",
+      "signal": "Microsoft discloses ongoing GDPR-related regulatory proceedings tied to LinkedIn targeted advertising practices.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "meta-platforms",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "sourceDate": "2026-01-28",
+      "signal": "Meta discloses major privacy enforcement outcomes, including an FTC penalty and an EU data-protection fine.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "meta-platforms",
+      "categoryId": "education-opportunity",
+      "sourceName": "Meta Newsroom",
+      "sourceUrl": "https://about.fb.com/news/2026/07/teachers-local-businesses-win-as-meta-expands-louisiana-data-center/",
+      "sourceDate": "2026-07-13",
+      "signal": "Meta said Louisiana Delta Community College is receiving a $5 million donation to create scholarships that train local residents for data center jobs.",
+      "amountUsd": 5000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "nvidia",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "sourceDate": "2026-02-25",
+      "signal": "NVIDIA reports exposure to evolving privacy and security regulation that may affect products, operations, and compliance obligations.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "unitedhealth-group",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+      "sourceDate": "2026-03-02",
+      "signal": "UnitedHealth discloses a cyberattack involving protected health information, reinforcing data-security and privacy risk exposure.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "visa",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "sourceDate": "2025-11-06",
+      "signal": "Visa reports material exposure to privacy, data-use, AI, and cybersecurity regulation across jurisdictions.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "jpmorgan-chase",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+      "sourceDate": "2026-02-13",
+      "signal": "JPMorgan Chase states it is subject to global regulation on data protection, privacy, cybersecurity, and AI.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "mastercard",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "sourceDate": "2026-02-11",
+      "signal": "Mastercard identifies privacy, data, AI, and information-security regulation as material business risk factors.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "walmart",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+      "sourceDate": "2026-03-13",
+      "signal": "Walmart reports board-level cybersecurity oversight and regular CISO/CTO risk updates, signaling sustained data-protection governance.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "procter-gamble",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000103/pg-20260630.htm",
+      "sourceDate": "2026-08-04",
+      "signal": "P&G discloses recurring CIO/CISO governance updates on information-security and systems-security programs.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "berkshire-hathaway",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+      "sourceDate": "2026-03-02",
+      "signal": "Berkshire reports emerging data-privacy and artificial-intelligence regulation across jurisdictions as a material compliance theme.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "berkshire-hathaway",
+      "categoryId": "climate-environment",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+      "sourceDate": "2026-03-02",
+      "signal": "Berkshire reported that BHE invested heavily in owned renewable generation and storage, with cumulative investments of $38.0 billion through December 31, 2025.",
+      "amountUsd": 38000000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "broadcom",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "sourceDate": "2025-12-18",
+      "signal": "Broadcom describes cybersecurity risk-management processes aligned to NIST Cybersecurity Framework practices.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "broadcom",
+      "categoryId": "other-unclassified",
+      "sourceName": "Broadcom Communities",
+      "sourceUrl": "https://www.broadcom.com/company/corporate-responsibility/communities",
+      "sourceDate": "2026-08-07",
+      "signal": "Broadcom said its employee charitable donation matching program matched approximately $7.6 million in donations made by employees to charities and non-profit organizations around the world in 2025.",
+      "amountUsd": 7600000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "broadcom",
+      "categoryId": "other-unclassified",
+      "sourceName": "Broadcom Communities",
+      "sourceUrl": "https://www.broadcom.com/company/corporate-responsibility/communities",
+      "sourceDate": "2026-08-07",
+      "signal": "Broadcom said it has donated over $17 million to charitable causes in India since 2018, focused on education, health and hygiene, and environmental initiatives.",
+      "amountUsd": 17000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "tesla",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "sourceDate": "2026-01-28",
+      "signal": "Tesla discloses proactive privacy and cybersecurity controls, including system reviews and policy audits.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "eli-lilly",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+      "sourceDate": "2026-02-12",
+      "signal": "Eli Lilly flags expanding data-privacy and security regulatory scrutiny as an operational risk factor.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "exxon-mobil",
+      "categoryId": "climate-environment",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2115436/000003408826000093/xom-20260630.htm",
+      "sourceDate": "2026-08-03",
+      "signal": "Exxon Mobil discloses technology and lower-emissions project execution initiatives including carbon-capture-related transition planning.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "costco",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+      "sourceDate": "2025-10-08",
+      "signal": "Costco identifies privacy and data-security compliance as a rising regulatory and operational risk area.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "johnson-johnson",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "sourceDate": "2026-02-11",
+      "signal": "Johnson & Johnson cites evolving privacy, data localization, and cybersecurity rules as material regulatory considerations.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "home-depot",
+      "categoryId": "digital-rights",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+      "sourceDate": "2026-03-18",
+      "signal": "Home Depot flags privacy, AI-related data-use regulation, and data-security law changes as potential business risks.",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "home-depot",
+      "categoryId": "health-human-services",
+      "sourceName": "The Home Depot Foundation",
+      "sourceUrl": "https://corporate.homedepot.com/page/home-depot-foundation",
+      "sourceDate": "2026-08-07",
+      "signal": "The Home Depot Foundation said it has invested more than $650 million in veteran causes since 2011 and pledged to invest $750 million in veteran causes by 2030.",
+      "amountUsd": 650000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "home-depot",
+      "categoryId": "education-opportunity",
+      "sourceName": "The Home Depot Foundation",
+      "sourceUrl": "https://corporate.homedepot.com/page/home-depot-foundation",
+      "sourceDate": "2026-08-07",
+      "signal": "The Home Depot Foundation said it pledged $50 million to train the next generation of skilled tradespeople through its Path to Pro program.",
+      "amountUsd": 50000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "amazon",
+      "categoryId": "health-human-services",
+      "sourceName": "Amazon Community",
+      "sourceUrl": "https://www.aboutamazon.com/news/community/amazon-expands-food-access-delivery",
+      "sourceDate": "2026-07-31",
+      "signal": "Amazon said it donated $925,000 to seven California food banks in 2025 as part of expanded food-access efforts.",
+      "amountUsd": 925000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "amazon",
+      "categoryId": "other-unclassified",
+      "sourceName": "Amazon Community",
+      "sourceUrl": "https://www.aboutamazon.com/news/community/amazon-investment-louisiana-jobs-infrastructure-small-business",
+      "sourceDate": "2026-07-02",
+      "signal": "Amazon launched the Northwest Louisiana Community Fund with $250,000 for local projects focused on STEM, sustainability, health, and veteran support.",
+      "amountUsd": 250000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "amazon",
+      "categoryId": "other-unclassified",
+      "sourceName": "Amazon Community",
+      "sourceUrl": "https://www.aboutamazon.com/news/community/amazon-investment-georgia-jobs-infrastructure-small-business",
+      "sourceDate": "2026-07-07",
+      "signal": "Amazon said it has donated more than $5 million to more than 90 local community organizations in Georgia.",
+      "amountUsd": 5000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "amazon",
+      "categoryId": "climate-environment",
+      "sourceName": "Amazon Community",
+      "sourceUrl": "https://www.aboutamazon.com/news/community/amazon-investment-georgia-jobs-infrastructure-small-business",
+      "sourceDate": "2026-07-07",
+      "signal": "Amazon said it is investing $2 million with the National Fish and Wildlife Foundation in a Georgia water replenishment and forest restoration project.",
+      "amountUsd": 2000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "amazon",
+      "categoryId": "education-opportunity",
+      "sourceName": "Amazon Community",
+      "sourceUrl": "https://www.aboutamazon.com/news/community/amazon-community-impact-2024",
+      "sourceDate": "2024-11-12",
+      "signal": "Amazon said it committed $12 million in Generative AI scholarships to reach 50,000 high school and university students from underserved and underrepresented communities.",
+      "amountUsd": 12000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "microsoft",
+      "categoryId": "other-unclassified",
+      "sourceName": "Microsoft Impact Summary",
+      "sourceUrl": "https://www.microsoft.com/en-us/corporate-responsibility/impact-summary",
+      "sourceDate": "2026-08-07",
+      "signal": "Microsoft reported employees gave $263 million (including company match) to 37,000 nonprofits worldwide in 110 countries.",
+      "amountUsd": 263000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "nvidia",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "NVIDIA Foundation FY26 Annual Report",
+      "sourceUrl": "https://www.nvidia.com/en-us/foundation/reports/",
+      "sourceDate": "2026-08-07",
+      "signal": "NVIDIA reported $64 million in combined employee donations and company matching through Inspire 365 in FY26.",
+      "amountUsd": 64000000,
+      "confidence": "high"
+    }
+  ]
+}

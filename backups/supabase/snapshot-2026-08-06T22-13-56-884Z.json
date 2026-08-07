@@ -1,0 +1,1434 @@
+{
+  "exportedAt": "2026-08-06T22:13:56.884Z",
+  "source": "supabase",
+  "tables": [
+    {
+      "tableName": "companies",
+      "skipped": false,
+      "reason": null,
+      "rows": [
+        {
+          "id": "apple",
+          "name": "Apple Inc.",
+          "ticker": "AAPL",
+          "logo_url": "https://ui-avatars.com/api/?name=AAPL&background=1e3a8a&color=fff&bold=true",
+          "industry": "Technology Hardware",
+          "overall_score": 60,
+          "category_scores": {
+            "dataPrivacy": 13,
+            "transparency": 12,
+            "humanOversight": 13,
+            "laborDisplacement": 22
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "microsoft",
+          "name": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "logo_url": "https://ui-avatars.com/api/?name=MSFT&background=065f46&color=fff&bold=true",
+          "industry": "Software",
+          "overall_score": 54,
+          "category_scores": {
+            "dataPrivacy": 10,
+            "transparency": 13,
+            "humanOversight": 16,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": true,
+          "reskilling_funded": true,
+          "human_in_the_loop_mandate": true,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "nvidia",
+          "name": "NVIDIA Corporation",
+          "ticker": "NVDA",
+          "logo_url": "https://ui-avatars.com/api/?name=NVDA&background=14532d&color=fff&bold=true",
+          "industry": "Semiconductors",
+          "overall_score": 56,
+          "category_scores": {
+            "dataPrivacy": 11,
+            "transparency": 16,
+            "humanOversight": 13,
+            "laborDisplacement": 16
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": true,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "alphabet",
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "logo_url": "https://ui-avatars.com/api/?name=GOOGL&background=7c2d12&color=fff&bold=true",
+          "industry": "Internet & Media",
+          "overall_score": 58,
+          "category_scores": {
+            "dataPrivacy": 12,
+            "transparency": 18,
+            "humanOversight": 13,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "amazon",
+          "name": "Amazon.com, Inc.",
+          "ticker": "AMZN",
+          "logo_url": "https://ui-avatars.com/api/?name=AMZN&background=581c87&color=fff&bold=true",
+          "industry": "E-Commerce & Cloud",
+          "overall_score": 49,
+          "category_scores": {
+            "dataPrivacy": 8,
+            "transparency": 14,
+            "humanOversight": 13,
+            "laborDisplacement": 14
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": true,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "meta-platforms",
+          "name": "Meta Platforms, Inc.",
+          "ticker": "META",
+          "logo_url": "https://ui-avatars.com/api/?name=META&background=1e40af&color=fff&bold=true",
+          "industry": "Internet & Media",
+          "overall_score": 55,
+          "category_scores": {
+            "dataPrivacy": 10,
+            "transparency": 18,
+            "humanOversight": 13,
+            "laborDisplacement": 14
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": true,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "broadcom",
+          "name": "Broadcom Inc.",
+          "ticker": "AVGO",
+          "logo_url": "https://ui-avatars.com/api/?name=AVGO&background=134e4a&color=fff&bold=true",
+          "industry": "Semiconductors",
+          "overall_score": 57,
+          "category_scores": {
+            "dataPrivacy": 12,
+            "transparency": 15,
+            "humanOversight": 14,
+            "laborDisplacement": 16
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": true,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "tesla",
+          "name": "Tesla, Inc.",
+          "ticker": "TSLA",
+          "logo_url": "https://ui-avatars.com/api/?name=TSLA&background=7f1d1d&color=fff&bold=true",
+          "industry": "Automotive",
+          "overall_score": 54,
+          "category_scores": {
+            "dataPrivacy": 11,
+            "transparency": 15,
+            "humanOversight": 14,
+            "laborDisplacement": 14
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": true,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "eli-lilly",
+          "name": "Eli Lilly and Company",
+          "ticker": "LLY",
+          "logo_url": "https://ui-avatars.com/api/?name=LLY&background=3730a3&color=fff&bold=true",
+          "industry": "Pharmaceuticals",
+          "overall_score": 51,
+          "category_scores": {
+            "dataPrivacy": 13,
+            "transparency": 10,
+            "humanOversight": 13,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "jpmorgan-chase",
+          "name": "JPMorgan Chase & Co.",
+          "ticker": "JPM",
+          "logo_url": "https://ui-avatars.com/api/?name=JPM&background=4c1d95&color=fff&bold=true",
+          "industry": "Financial Services",
+          "overall_score": 51,
+          "category_scores": {
+            "dataPrivacy": 13,
+            "transparency": 10,
+            "humanOversight": 13,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "visa",
+          "name": "Visa Inc.",
+          "ticker": "V",
+          "logo_url": "https://ui-avatars.com/api/?name=V&background=164e63&color=fff&bold=true",
+          "industry": "Financial Services",
+          "overall_score": 59,
+          "category_scores": {
+            "dataPrivacy": 11,
+            "transparency": 17,
+            "humanOversight": 15,
+            "laborDisplacement": 16
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": true,
+          "human_in_the_loop_mandate": true,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "unitedhealth-group",
+          "name": "UnitedHealth Group Incorporated",
+          "ticker": "UNH",
+          "logo_url": "https://ui-avatars.com/api/?name=UNH&background=713f12&color=fff&bold=true",
+          "industry": "Healthcare",
+          "overall_score": 56,
+          "category_scores": {
+            "dataPrivacy": 10,
+            "transparency": 17,
+            "humanOversight": 15,
+            "laborDisplacement": 14
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "walmart",
+          "name": "Walmart Inc.",
+          "ticker": "WMT",
+          "logo_url": "https://ui-avatars.com/api/?name=WMT&background=1e293b&color=fff&bold=true",
+          "industry": "Retail",
+          "overall_score": 57,
+          "category_scores": {
+            "dataPrivacy": 12,
+            "transparency": 16,
+            "humanOversight": 15,
+            "laborDisplacement": 14
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": true,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "mastercard",
+          "name": "Mastercard Incorporated",
+          "ticker": "MA",
+          "logo_url": "https://ui-avatars.com/api/?name=MA&background=4a044e&color=fff&bold=true",
+          "industry": "Financial Services",
+          "overall_score": 51,
+          "category_scores": {
+            "dataPrivacy": 13,
+            "transparency": 10,
+            "humanOversight": 13,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "exxon-mobil",
+          "name": "Exxon Mobil Corporation",
+          "ticker": "XOM",
+          "logo_url": "https://ui-avatars.com/api/?name=XOM&background=0c4a6e&color=fff&bold=true",
+          "industry": "Energy",
+          "overall_score": 51,
+          "category_scores": {
+            "dataPrivacy": 13,
+            "transparency": 10,
+            "humanOversight": 13,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "costco",
+          "name": "Costco Wholesale Corporation",
+          "ticker": "COST",
+          "logo_url": "https://ui-avatars.com/api/?name=COST&background=365314&color=fff&bold=true",
+          "industry": "Retail",
+          "overall_score": 51,
+          "category_scores": {
+            "dataPrivacy": 13,
+            "transparency": 10,
+            "humanOversight": 13,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "johnson-johnson",
+          "name": "Johnson & Johnson",
+          "ticker": "JNJ",
+          "logo_url": "https://ui-avatars.com/api/?name=JNJ&background=701a75&color=fff&bold=true",
+          "industry": "Healthcare",
+          "overall_score": 51,
+          "category_scores": {
+            "dataPrivacy": 13,
+            "transparency": 10,
+            "humanOversight": 13,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "berkshire-hathaway",
+          "name": "Berkshire Hathaway Inc.",
+          "ticker": "BRK.B",
+          "logo_url": "https://ui-avatars.com/api/?name=BRK&background=78350f&color=fff&bold=true",
+          "industry": "Conglomerate",
+          "overall_score": 51,
+          "category_scores": {
+            "dataPrivacy": 13,
+            "transparency": 10,
+            "humanOversight": 13,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "procter-gamble",
+          "name": "The Procter & Gamble Company",
+          "ticker": "PG",
+          "logo_url": "https://ui-avatars.com/api/?name=PG&background=422006&color=fff&bold=true",
+          "industry": "Consumer Goods",
+          "overall_score": 54,
+          "category_scores": {
+            "dataPrivacy": 11,
+            "transparency": 16,
+            "humanOversight": 13,
+            "laborDisplacement": 14
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "id": "home-depot",
+          "name": "The Home Depot, Inc.",
+          "ticker": "HD",
+          "logo_url": "https://ui-avatars.com/api/?name=HD&background=1e1b4b&color=fff&bold=true",
+          "industry": "Retail",
+          "overall_score": 51,
+          "category_scores": {
+            "dataPrivacy": 13,
+            "transparency": 10,
+            "humanOversight": 13,
+            "laborDisplacement": 15
+          },
+          "ai_layoff_tracked": false,
+          "reskilling_funded": false,
+          "human_in_the_loop_mandate": false,
+          "tos_scraping_opt_out": false,
+          "last_updated": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "tableName": "company_citations",
+      "skipped": false,
+      "reason": null,
+      "rows": [
+        {
+          "id": "aapl-c1",
+          "company_id": "apple",
+          "title": "Form 10-K, Item 1: Human Capital",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "snippet": "The Company believes that its people play an important role in its success... As of September 27, 2025, the Company had approximately 166,000 full-time equivalent employees.",
+          "source_date": "2025-10-31",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "aapl-c2",
+          "company_id": "apple",
+          "title": "Form 10-K, Item 1A: Risk Factors - Data Privacy and AI",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "snippet": "The risks of inadvertent disclosure of personal data can increase with the introduction of new and complex technologies, such as artificial intelligence features, further exacerbating such risks.",
+          "source_date": "2025-10-31",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "nvda-c4",
+          "company_id": "nvidia",
+          "title": "Form 10-K, Risk Factors - Data Privacy and Security",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "snippet": "We are subject to stringent and changing data privacy and security laws, rules, regulations and other obligations. These areas could damage our reputation, deter current and potential customers, affect our product design, or result in legal or regulatory proceedings and liability.",
+          "source_date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "goog-c1",
+          "company_id": "alphabet",
+          "title": "Form 10-K, Business Overview - AI-First Strategy",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "snippet": "It led us to be a pioneer in the development of artificial intelligence (AI) and, since 2016, be an AI-first company.",
+          "source_date": "2026-02-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "goog-c2",
+          "company_id": "alphabet",
+          "title": "Form 10-K, Culture and Workforce",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "snippet": "As of December 31, 2025, Alphabet had 190,820 employees.",
+          "source_date": "2026-02-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "goog-c3",
+          "company_id": "alphabet",
+          "title": "Form 10-K, Making AI Helpful for Everyone",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "snippet": "We believe AI is a profound platform shift that can bring meaningful and positive change to people and societies across the world, and to our business. We aim to build the most advanced, safe, and responsible AI through our full-stack approach.",
+          "source_date": "2026-02-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "goog-c4",
+          "company_id": "alphabet",
+          "title": "Form 10-K, Privacy and Security",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "snippet": "We make it a priority to protect the privacy and security of our products, users, and customers, even if there are near-term financial consequences.",
+          "source_date": "2026-02-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amzn-c1",
+          "company_id": "amazon",
+          "title": "Form 10-K, Item 1: Human Capital - Career Choice Reskilling",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "snippet": "Over 300,000 Amazon employees around the world have participated in Career Choice.",
+          "source_date": "2026-02-05",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amzn-c2",
+          "company_id": "amazon",
+          "title": "Form 10-K, Item 7: MD&A - Severance / Role Elimination Charges",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "snippet": "Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related to the settlement of a lawsuit with the FTC and $2.7 billion, of which $1.8 billion was recorded in Q3 2025, of estimated severance costs primarily related to planned role eliminations.",
+          "source_date": "2026-02-05",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amzn-c3",
+          "company_id": "amazon",
+          "title": "Form 10-K, Note 7: Commitments and Contingencies - Luxembourg GDPR Fine",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "snippet": "In July 2021, the Luxembourg National Commission for Data Protection (the 'CNPD') issued a decision against Amazon Europe Core S.à r.l. claiming that Amazon's processing of personal data did not comply with the EU General Data Protection Regulation. The decision imposes a fine of €746 million and corresponding practice revisions.",
+          "source_date": "2026-02-05",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "meta-c1",
+          "company_id": "meta-platforms",
+          "title": "Form 10-K, Human Capital",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "snippet": "We had a global workforce of 78,865 employees as of December 31, 2025.",
+          "source_date": "2026-01-28",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "meta-c2",
+          "company_id": "meta-platforms",
+          "title": "Form 10-K, Employee Learning and Development",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "snippet": "We aim to make AI utilization core to the way we operate by providing our personnel access to AI tools and training programs.",
+          "source_date": "2026-01-28",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "meta-c3",
+          "company_id": "meta-platforms",
+          "title": "Form 10-K, Risk Factors - AI Initiatives",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "snippet": "We have made significant investments in AI initiatives, including generative AI and superintelligence, to, among other things, recommend relevant content across our products, enhance our advertising tools, develop new products, and develop new features for existing products.",
+          "source_date": "2026-01-28",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "meta-c4",
+          "company_id": "meta-platforms",
+          "title": "Form 10-K, Legal Proceedings - Privacy Penalties",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "snippet": "We entered into a settlement and modified consent order to resolve the FTC inquiry, which took effect in April 2020 and required us to pay a penalty of $5.0 billion. ... the IDPC issued an administrative fine of EUR €1.2 billion.",
+          "source_date": "2026-01-28",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "avgo-c1",
+          "company_id": "broadcom",
+          "title": "Form 10-K, Human Capital - Employee Base",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+          "snippet": "As of November 2, 2025, we had approximately 33,000 employees worldwide, with approximately 57% in research and development roles.",
+          "source_date": "2025-12-18",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "avgo-c2",
+          "company_id": "broadcom",
+          "title": "Form 10-K, Business - AI Infrastructure Demand",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+          "snippet": "Our semiconductor and semiconductor-based solutions also enable our customers to build and deploy AI data center infrastructure for their training and inference workloads and manage the movement of data across their AI network infrastructure based on open, flexible, standards-based Ethernet.",
+          "source_date": "2025-12-18",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "avgo-c3",
+          "company_id": "broadcom",
+          "title": "Form 10-K, Item 1C Cybersecurity - Frameworks",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+          "snippet": "Our program includes processes for identifying, assessing and managing material risks from cybersecurity threats that are guided by the National Institute of Standards & Technology's Cybersecurity Framework, the ISO 27001 international standard for information security and other applicable industry benchmarks.",
+          "source_date": "2025-12-18",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "avgo-c4",
+          "company_id": "broadcom",
+          "title": "Form 10-K, Item 1C Cybersecurity - Board Oversight",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+          "snippet": "Our Board of Directors is actively involved in overseeing our cybersecurity risk management and shares oversight responsibility and processes with the Audit Committee of the Board of Directors (the \"Audit Committee\").",
+          "source_date": "2025-12-18",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "msft-c1",
+          "company_id": "microsoft",
+          "title": "Form 10-K, Item 1A: Risk Factors - AI Human Oversight",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "snippet": "Human review of certain inputs and outputs or other forms of human oversight may be required, including for agentic AI systems that can take actions autonomously.",
+          "source_date": "2026-07-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "msft-c2",
+          "company_id": "microsoft",
+          "title": "Form 10-K, Note 14: Contingencies - Irish DPC/LinkedIn GDPR Decision",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "snippet": "In 2018, the Irish Data Protection Commission ('IDPC') began investigating a complaint against LinkedIn as to whether LinkedIn's targeted advertising practices violated the recently implemented European Union General Data Protection Regulation ('GDPR'). ... In October 2024, the IDPC provided LinkedIn with a final decision alleging GDPR violations and assessing a fine.",
+          "source_date": "2026-07-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "msft-c3",
+          "company_id": "microsoft",
+          "title": "Form 10-K, Item 1: Business - AI Skilling Programs",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "snippet": "Providing training on generative AI and greater access to digital learning and resources through skilling programs and initiatives, grants, and LinkedIn learning pathways.",
+          "source_date": "2026-07-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "msft-c4",
+          "company_id": "microsoft",
+          "title": "Microsoft to cut 4,800 jobs, overhaul Xbox unit",
+          "source_name": "Reuters",
+          "url": "https://www.reuters.com/business/world-at-work/microsoft-joins-ai-driven-tech-layoff-wave-with-4800-job-cuts-2026-07-06/",
+          "snippet": "Microsoft said on Monday it would cut 4,800 jobs, or about 2.1% of its global workforce, overhauling its Xbox gaming unit while shifting investment toward AI infrastructure.",
+          "source_date": "2026-07-06",
+          "category": "News"
+        },
+        {
+          "id": "nvda-c1",
+          "company_id": "nvidia",
+          "title": "Form 10-K, Human Capital Management",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "snippet": "As of the end of fiscal year 2026, we had approximately 42,000 employees in 38 countries; 31,000 were engaged in research and development and 11,000 were engaged in sales, marketing, operations, and administrative positions.",
+          "source_date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "nvda-c2",
+          "company_id": "nvidia",
+          "title": "Form 10-K, Business Overview - AI Infrastructure",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "snippet": "NVIDIA is now a data center scale AI infrastructure company reshaping all industries.",
+          "source_date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "nvda-c3",
+          "company_id": "nvidia",
+          "title": "Form 10-K, Human Capital Management - Employee Development",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "snippet": "We invest in employee development through on-the-job trainings and tuition reimbursement programs.",
+          "source_date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "tsla-c1",
+          "company_id": "tesla",
+          "title": "Form 10-K, Human Capital Resources",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "snippet": "As of December 31, 2025, our employee headcount worldwide was 134,785.",
+          "source_date": "2026-01-28",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "tsla-c2",
+          "company_id": "tesla",
+          "title": "Form 10-K, Business Overview - Real-World AI Focus",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "snippet": "We are focused on bringing artificial intelligence (\"AI\") into the real world, through products and services like Full Self-Driving (\"FSD\") (Supervised) and Robotaxi, as well as working to develop and commercialize AI robots (\"Bots\") (including Optimus).",
+          "source_date": "2026-01-28",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "tsla-c3",
+          "company_id": "tesla",
+          "title": "Form 10-K, Item 1C Cybersecurity - Risk Management",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "snippet": "To defend, detect and respond to cybersecurity incidents, we, among other things: conduct proactive privacy and cybersecurity reviews of systems and applications, audit applicable data policies, perform penetration testing using external third-party tools and techniques to test security controls, operate a bug bounty program to encourage proactive vulnerability reporting, conduct employee training, monitor emerging laws and regulations related to data protection and information security (including our consumer products) and implement appropriate changes.",
+          "source_date": "2026-01-28",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "tsla-c4",
+          "company_id": "tesla",
+          "title": "Form 10-K, Item 1C Cybersecurity - Governance",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "snippet": "Our Audit Committee is responsible for the oversight of risks from cybersecurity threats.",
+          "source_date": "2026-01-28",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "visa-c1",
+          "company_id": "visa",
+          "title": "Form 10-K, Talent and People",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+          "snippet": "This year, we grew our total workforce from approximately 31,600 in fiscal 2024 to approximately 34,100 employees in fiscal 2025, an increase of 8% year-over-year.",
+          "source_date": "2025-11-06",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "visa-c2",
+          "company_id": "visa",
+          "title": "Form 10-K, Talent and People - GenAI Hub",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+          "snippet": "Visa's commitment to innovation and collaboration is reflected in how we equip employees with GenAI capabilities that can enhance content creation, productivity and business automation.",
+          "source_date": "2025-11-06",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "visa-c3",
+          "company_id": "visa",
+          "title": "Form 10-K, Risk Factors - Human Oversight of AI",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+          "snippet": "Human review of certain inputs and outputs or other forms of human oversight may be required, including for agentic AI systems that can take actions autonomously.",
+          "source_date": "2025-11-06",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "visa-c4",
+          "company_id": "visa",
+          "title": "Form 10-K, Government Regulation - Privacy, Data Use, AI and Cybersecurity",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+          "snippet": "Aspects of our operations or business are subject to increasingly complex and fragmented data-related regulations, including with respect to privacy, data use, AI and cybersecurity.",
+          "source_date": "2025-11-06",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "unh-c1",
+          "company_id": "unitedhealth-group",
+          "title": "Form 10-K, Human Capital Resources",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+          "snippet": "As of December 31, 2025, we had more than 390,000 employees, of whom nearly 165,000 were clinical professionals.",
+          "source_date": "2026-03-02",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "unh-c2",
+          "company_id": "unitedhealth-group",
+          "title": "Form 10-K, Business - Clinical Expertise, Technology and Data",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+          "snippet": "Bringing together clinical expertise, technology and data to make care simpler, more effective and more affordable, we seek to advance whole-person health.",
+          "source_date": "2026-03-02",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "unh-c3",
+          "company_id": "unitedhealth-group",
+          "title": "Form 10-K, Risk Factors - AI Systems and Governance",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+          "snippet": "To the extent an AI system does not operate as intended or produces an inaccurate, incomplete or biased output, the system could impact operations, customer service or other functions and could have an adverse effect on our business.",
+          "source_date": "2026-03-02",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "unh-c4",
+          "company_id": "unitedhealth-group",
+          "title": "Form 10-K, Risk Factors - Change Healthcare Cyberattack",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+          "snippet": "We previously reported that our Change Healthcare business, which we had recently acquired, was subject to a cyberattack in 2024, in which the data involved contained protected health information or personally identifiable information.",
+          "source_date": "2026-03-02",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "wmt-c1",
+          "company_id": "walmart",
+          "title": "Form 10-K, Human Capital Resources",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+          "snippet": "As of January 31, 2026, we employed approximately 2.1 million associates around the world with approximately 1.6 million associates in the U.S. and approximately 0.5 million associates internationally.",
+          "source_date": "2026-03-13",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "wmt-c2",
+          "company_id": "walmart",
+          "title": "Form 10-K, Forward-Looking Statements - AI Investment",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+          "snippet": "Our increasing investments in eCommerce, technology (including the use of artificial intelligence \"AI\"), automation, supply chain, new stores and clubs as well as remodels and other omnichannel customer initiatives, such as same day pickup and delivery.",
+          "source_date": "2026-03-13",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "wmt-c3",
+          "company_id": "walmart",
+          "title": "Form 10-K, Item 1C Cybersecurity - Governance",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+          "snippet": "The Audit Committee receives periodic updates from our Chief Information Security Officer (\"CISO\"), Chief Technology Officer (\"CTO\") and other members of management on risks related to information systems, information security, data privacy and cybersecurity.",
+          "source_date": "2026-03-13",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "wmt-c4",
+          "company_id": "walmart",
+          "title": "Form 10-K, Item 1C Cybersecurity - NIST-CSF",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+          "snippet": "Our cybersecurity program is informed by various industry frameworks including the National Institute of Standards and Technology Cybersecurity Framework (NIST-CSF), which are reflected in our related policies, standards, processes and practices.",
+          "source_date": "2026-03-13",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pg-c1",
+          "company_id": "procter-gamble",
+          "title": "Form 10-K, Human Capital",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000103/pg-20260630.htm",
+          "snippet": "As of June 30, 2026, the Company had approximately 104,000 employees, a decrease of 4% versus the prior year due to the ongoing restructuring program.",
+          "source_date": "2026-08-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pg-c2",
+          "company_id": "procter-gamble",
+          "title": "Form 10-K, Focused Portfolio, Supply Chain and Productivity Plan",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000103/pg-20260630.htm",
+          "snippet": "These restructuring activities include a plan for a reduction of up to 7,000 non-manufacturing overhead personnel by the end of fiscal 2027.",
+          "source_date": "2026-08-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pg-c3",
+          "company_id": "procter-gamble",
+          "title": "Form 10-K, Strategic Focus - AI and Changing Consumer Habits",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000103/pg-20260630.htm",
+          "snippet": "Lastly, technologies, including AI, offer new capabilities to innovate, produce and market our products and brands.",
+          "source_date": "2026-08-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pg-c4",
+          "company_id": "procter-gamble",
+          "title": "Form 10-K, Cybersecurity - Governance",
+          "source_name": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000103/pg-20260630.htm",
+          "snippet": "The Audit Committee also receives regular updates from the Company's CIO and CISO about the Company's information security and systems security programs and plans, including emerging trends and progress on overall enterprise cybersecurity programs and priorities.",
+          "source_date": "2026-08-04",
+          "category": "SEC Filing"
+        }
+      ]
+    },
+    {
+      "tableName": "cause_profiles",
+      "skipped": false,
+      "reason": null,
+      "rows": [
+        {
+          "company_id": "apple",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": null,
+          "category_spend_usd": null,
+          "top_cause_category_id": null,
+          "evidence_records": 1,
+          "high_confidence_records": 0,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "microsoft",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": null,
+          "category_spend_usd": null,
+          "top_cause_category_id": null,
+          "evidence_records": 2,
+          "high_confidence_records": 0,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "nvidia",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": null,
+          "category_spend_usd": null,
+          "top_cause_category_id": "worker-wellbeing",
+          "evidence_records": 2,
+          "high_confidence_records": 0,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "alphabet",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": 120000000,
+          "category_spend_usd": {
+            "education-opportunity": 120000000
+          },
+          "top_cause_category_id": "education-opportunity",
+          "evidence_records": 2,
+          "high_confidence_records": 1,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "amazon",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": null,
+          "category_spend_usd": null,
+          "top_cause_category_id": null,
+          "evidence_records": 2,
+          "high_confidence_records": 0,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "meta-platforms",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": null,
+          "category_spend_usd": null,
+          "top_cause_category_id": "education-opportunity",
+          "evidence_records": 2,
+          "high_confidence_records": 0,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "walmart",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": 2000000000,
+          "category_spend_usd": {
+            "health-human-services": 2000000000
+          },
+          "top_cause_category_id": "health-human-services",
+          "evidence_records": 1,
+          "high_confidence_records": 1,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "jpmorgan-chase",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": 498000000,
+          "category_spend_usd": {
+            "health-human-services": 498000000
+          },
+          "top_cause_category_id": "health-human-services",
+          "evidence_records": 1,
+          "high_confidence_records": 1,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "procter-gamble",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": 50000,
+          "category_spend_usd": {
+            "education-opportunity": 50000
+          },
+          "top_cause_category_id": "education-opportunity",
+          "evidence_records": 1,
+          "high_confidence_records": 0,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "visa",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": 200000000,
+          "category_spend_usd": {
+            "worker-wellbeing": 200000000
+          },
+          "top_cause_category_id": "worker-wellbeing",
+          "evidence_records": 1,
+          "high_confidence_records": 1,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "unitedhealth-group",
+          "profile_status": "in-progress",
+          "cause_score": null,
+          "disclosed_spend_usd": 880000000,
+          "category_spend_usd": {
+            "health-human-services": 880000000
+          },
+          "top_cause_category_id": "health-human-services",
+          "evidence_records": 1,
+          "high_confidence_records": 1,
+          "last_updated": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "tableName": "cause_evidence",
+      "skipped": false,
+      "reason": null,
+      "rows": [
+        {
+          "id": 1,
+          "record_key": "alphabet::education-opportunity::https://www.google.org/impact-report::2025-09-18",
+          "company_id": "alphabet",
+          "category_id": "education-opportunity",
+          "amount_usd": 120000000,
+          "source_name": "Google.org Impact Report",
+          "source_url": "https://www.google.org/impact-report",
+          "source_date": "2025-09-18",
+          "signal": "Google.org disclosed a $120M global AI Opportunity Fund for AI education and training access.",
+          "confidence": "high"
+        },
+        {
+          "id": 2,
+          "record_key": "alphabet::education-opportunity::https://edu.google.com/intl/ALL_my/giving/::2024-01-01",
+          "company_id": "alphabet",
+          "category_id": "education-opportunity",
+          "amount_usd": 50000000,
+          "source_name": "Google for Education",
+          "source_url": "https://edu.google.com/intl/ALL_my/giving/",
+          "source_date": "2024-01-01",
+          "signal": "Google.org committed $50M in grant funding to nonprofits focused on education access.",
+          "confidence": "medium"
+        },
+        {
+          "id": 3,
+          "record_key": "nvidia::worker-wellbeing::https://www.nvidia.com/en-us/foundation/::2026-08-06",
+          "company_id": "nvidia",
+          "category_id": "worker-wellbeing",
+          "amount_usd": null,
+          "source_name": "NVIDIA Foundation",
+          "source_url": "https://www.nvidia.com/en-us/foundation/",
+          "source_date": "2026-08-06",
+          "signal": "NVIDIA Foundation states employee donation matching up to $10,000/year and a $25 new-hire charitable gift.",
+          "confidence": "medium"
+        },
+        {
+          "id": 22,
+          "record_key": "nvidia::health-human-services::https://www.nvidia.com/en-us/foundation/::2026-08-06",
+          "company_id": "nvidia",
+          "category_id": "health-human-services",
+          "amount_usd": null,
+          "source_name": "NVIDIA Foundation",
+          "source_url": "https://www.nvidia.com/en-us/foundation/",
+          "source_date": "2026-08-06",
+          "signal": "NVIDIA Foundation says its Inspire 365 program organizes fundraising and volunteer events aligned with local community needs and amplifies employee donations during disaster and crisis response.",
+          "confidence": "medium"
+        },
+        {
+          "id": 4,
+          "record_key": "meta-platforms::education-opportunity::https://datacenters.atmeta.com/community-action-grants/::2026-08-06",
+          "company_id": "meta-platforms",
+          "category_id": "education-opportunity",
+          "amount_usd": null,
+          "source_name": "Meta Data Centers",
+          "source_url": "https://datacenters.atmeta.com/community-action-grants/",
+          "source_date": "2026-08-06",
+          "signal": "Meta Community Action Grants program provides direct funding to schools, registered nonprofits and community organizations in locations where Meta has a data center.",
+          "confidence": "low"
+        },
+        {
+          "id": 5,
+          "record_key": "walmart::health-human-services::https://www.walmart.org/::2026-08-06",
+          "company_id": "walmart",
+          "category_id": "health-human-services",
+          "amount_usd": 2000000000,
+          "source_name": "Walmart.org",
+          "source_url": "https://www.walmart.org/",
+          "source_date": "2026-08-06",
+          "signal": "Walmart.org reports that in FY2025 Walmart and the Walmart Foundation donated $2.0 billion in cash and in-kind contributions globally.",
+          "confidence": "high"
+        },
+        {
+          "id": 24,
+          "record_key": "meta-platforms::health-human-services::https://datacenters.atmeta.com/community-action-grants/::2026-08-06",
+          "company_id": "meta-platforms",
+          "category_id": "health-human-services",
+          "amount_usd": null,
+          "source_name": "Meta Data Centers",
+          "source_url": "https://datacenters.atmeta.com/community-action-grants/",
+          "source_date": "2026-08-06",
+          "signal": "Meta says the grants support projects that address critical community needs by putting technology to use for community benefit, enabling strong sustainable communities, and improving local STEAM education.",
+          "confidence": "low"
+        },
+        {
+          "id": 6,
+          "record_key": "jpmorgan-chase::health-human-services::https://www.jpmorganchase.com/impact/housing::2026-08-06",
+          "company_id": "jpmorgan-chase",
+          "category_id": "health-human-services",
+          "amount_usd": 498000000,
+          "source_name": "JPMorganChase Housing Access and Affordability",
+          "source_url": "https://www.jpmorganchase.com/impact/housing",
+          "source_date": "2026-08-06",
+          "signal": "JPMorganChase reports $498M in philanthropic capital (2021-2025) supporting housing solutions, alongside larger debt and equity financing flows.",
+          "confidence": "high"
+        },
+        {
+          "id": 7,
+          "record_key": "visa::worker-wellbeing::https://corporate.visa.com/en/sites/visa-foundation.html::2026-08-06",
+          "company_id": "visa",
+          "category_id": "worker-wellbeing",
+          "amount_usd": 200000000,
+          "source_name": "Visa Foundation",
+          "source_url": "https://corporate.visa.com/en/sites/visa-foundation.html",
+          "source_date": "2026-08-06",
+          "signal": "Visa Foundation reports $80M in grants funded and $120M in social-impact investments tied to economic inclusion and community impact initiatives.",
+          "confidence": "high"
+        },
+        {
+          "id": 8,
+          "record_key": "unitedhealth-group::health-human-services::https://www.unitedhealthgroup.com/uhg/people-and-culture/our-foundations.html::2026-08-06",
+          "company_id": "unitedhealth-group",
+          "category_id": "health-human-services",
+          "amount_usd": 880000000,
+          "source_name": "United Health Foundation",
+          "source_url": "https://www.unitedhealthgroup.com/uhg/people-and-culture/our-foundations.html",
+          "source_date": "2026-08-06",
+          "signal": "United Health Foundation reports $880M committed to programs and communities to date, including a 10-year $100M healthcare workforce scholarship commitment announced in 2022.",
+          "confidence": "high"
+        },
+        {
+          "id": 9,
+          "record_key": "procter-gamble::education-opportunity::https://us.pg.com/citizenship/::2026-08-06",
+          "company_id": "procter-gamble",
+          "category_id": "education-opportunity",
+          "amount_usd": 50000,
+          "source_name": "P&G Citizenship",
+          "source_url": "https://us.pg.com/citizenship/",
+          "source_date": "2026-08-06",
+          "signal": "P&G Citizenship highlights Athletes for Good grants including $26,000 and $24,000 awards to athlete-selected charities.",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "tableName": "political_profiles",
+      "skipped": false,
+      "reason": null,
+      "rows": [
+        {
+          "company_id": "apple",
+          "profile_status": "not-started",
+          "election_cycle": null,
+          "pac_contributions_usd": null,
+          "democratic_pct": null,
+          "republican_pct": null,
+          "third_party_pct": null,
+          "lobbying_spend_usd": null,
+          "lobbying_spend_prior_year_usd": null,
+          "lobbying_focus_summary": null,
+          "lobbying_policy_area": null,
+          "lobbying_bill_summary": null,
+          "lobbying_focus_areas": null,
+          "top_lobbied_bill_id": null,
+          "top_lobbied_bill_title": null,
+          "top_lobbied_bill_url": null,
+          "lobbying_source_url": null,
+          "revolving_door_current": null,
+          "revolving_door_prior": null,
+          "trade_association_risk_flag": null,
+          "evidence_records": 0,
+          "high_confidence_records": 0,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "microsoft",
+          "profile_status": "published",
+          "election_cycle": "2024",
+          "pac_contributions_usd": 800500,
+          "democratic_pct": 83.61,
+          "republican_pct": 16.39,
+          "third_party_pct": 0,
+          "lobbying_spend_usd": 10353764,
+          "lobbying_spend_prior_year_usd": 10544433,
+          "lobbying_focus_summary": "Online platform safety and youth-protection compliance requirements.",
+          "lobbying_policy_area": "Science, Technology, Communications",
+          "lobbying_bill_summary": "S.1409 (Kids Online Safety Act) would require covered platforms to mitigate harms to minors, add parental controls, and increase transparency around recommendations and advertising.",
+          "lobbying_focus_areas": [
+            "Online child-safety compliance obligations",
+            "Algorithmic recommendation transparency",
+            "Minor data protections and parental controls"
+          ],
+          "top_lobbied_bill_id": "S.1409",
+          "top_lobbied_bill_title": "Kids Online Safety Act",
+          "top_lobbied_bill_url": "https://www.congress.gov/bill/118th-congress/senate-bill/1409",
+          "lobbying_source_url": "https://www.opensecrets.org/orgs/microsoft-corp/summary?id=D000000115",
+          "revolving_door_current": {
+            "cycle": "2024",
+            "totalLobbyists": 99,
+            "formerGovtLobbyists": 72
+          },
+          "revolving_door_prior": {
+            "cycle": "2023",
+            "totalLobbyists": 110,
+            "formerGovtLobbyists": 83
+          },
+          "trade_association_risk_flag": null,
+          "evidence_records": 4,
+          "high_confidence_records": 4,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "amazon",
+          "profile_status": "published",
+          "election_cycle": "2024",
+          "pac_contributions_usd": 799000,
+          "democratic_pct": 82.15,
+          "republican_pct": 17.85,
+          "third_party_pct": 0,
+          "lobbying_spend_usd": 19140000,
+          "lobbying_spend_prior_year_usd": 19990000,
+          "lobbying_focus_summary": "Federal software procurement, license management, and cost-efficiency rules.",
+          "lobbying_policy_area": "Government Operations and Politics",
+          "lobbying_bill_summary": "H.R.1695 (Strengthening Agency Management and Oversight of Software Assets Act) targets federal software asset management, enterprise licensing, and agency cost controls.",
+          "lobbying_focus_areas": [
+            "Federal software procurement standards",
+            "Enterprise licensing and contract structures",
+            "Public-sector IT cost and interoperability policy"
+          ],
+          "top_lobbied_bill_id": "H.R.1695",
+          "top_lobbied_bill_title": "Strengthening Agency Management and Oversight of Software Assets Act",
+          "top_lobbied_bill_url": "https://www.congress.gov/bill/118th-congress/house-bill/1695",
+          "lobbying_source_url": "https://www.opensecrets.org/orgs/amazon-com/summary?id=D000023883",
+          "revolving_door_current": {
+            "cycle": "2024",
+            "totalLobbyists": 126,
+            "formerGovtLobbyists": 89
+          },
+          "revolving_door_prior": {
+            "cycle": "2023",
+            "totalLobbyists": 132,
+            "formerGovtLobbyists": 98
+          },
+          "trade_association_risk_flag": null,
+          "evidence_records": 4,
+          "high_confidence_records": 4,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "meta-platforms",
+          "profile_status": "in-progress",
+          "election_cycle": null,
+          "pac_contributions_usd": null,
+          "democratic_pct": null,
+          "republican_pct": null,
+          "third_party_pct": null,
+          "lobbying_spend_usd": null,
+          "lobbying_spend_prior_year_usd": null,
+          "lobbying_focus_summary": null,
+          "lobbying_policy_area": null,
+          "lobbying_bill_summary": null,
+          "lobbying_focus_areas": null,
+          "top_lobbied_bill_id": null,
+          "top_lobbied_bill_title": null,
+          "top_lobbied_bill_url": null,
+          "lobbying_source_url": null,
+          "revolving_door_current": null,
+          "revolving_door_prior": null,
+          "trade_association_risk_flag": null,
+          "evidence_records": 1,
+          "high_confidence_records": 0,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "nvidia",
+          "profile_status": "in-progress",
+          "election_cycle": null,
+          "pac_contributions_usd": null,
+          "democratic_pct": null,
+          "republican_pct": null,
+          "third_party_pct": null,
+          "lobbying_spend_usd": null,
+          "lobbying_spend_prior_year_usd": null,
+          "lobbying_focus_summary": null,
+          "lobbying_policy_area": null,
+          "lobbying_bill_summary": null,
+          "lobbying_focus_areas": null,
+          "top_lobbied_bill_id": null,
+          "top_lobbied_bill_title": null,
+          "top_lobbied_bill_url": null,
+          "lobbying_source_url": null,
+          "revolving_door_current": null,
+          "revolving_door_prior": null,
+          "trade_association_risk_flag": null,
+          "evidence_records": 1,
+          "high_confidence_records": 0,
+          "last_updated": "2026-08-06"
+        },
+        {
+          "company_id": "alphabet",
+          "profile_status": "published",
+          "election_cycle": "2024",
+          "pac_contributions_usd": 737066,
+          "democratic_pct": 88.84,
+          "republican_pct": 11.16,
+          "third_party_pct": 0,
+          "lobbying_spend_usd": 14790000,
+          "lobbying_spend_prior_year_usd": 14450000,
+          "lobbying_focus_summary": "Children and teen online privacy rules and related data-use restrictions.",
+          "lobbying_policy_area": "Commerce",
+          "lobbying_bill_summary": "S.1418 (Children and Teens' Online Privacy Protection Act) expands youth privacy protections and tightens data-use constraints for minors on online platforms.",
+          "lobbying_focus_areas": [
+            "Children and teen data privacy requirements",
+            "Consent and data-processing constraints for minors",
+            "Platform compliance obligations under youth-privacy law"
+          ],
+          "top_lobbied_bill_id": "S.1418",
+          "top_lobbied_bill_title": "Children and Teens' Online Privacy Protection Act",
+          "top_lobbied_bill_url": "https://www.congress.gov/bill/118th-congress/senate-bill/1418",
+          "lobbying_source_url": "https://www.opensecrets.org/orgs/alphabet-inc/summary?id=D000067823",
+          "revolving_door_current": {
+            "cycle": "2024",
+            "totalLobbyists": 89,
+            "formerGovtLobbyists": 66
+          },
+          "revolving_door_prior": {
+            "cycle": "2023",
+            "totalLobbyists": 86,
+            "formerGovtLobbyists": 69
+          },
+          "trade_association_risk_flag": null,
+          "evidence_records": 4,
+          "high_confidence_records": 4,
+          "last_updated": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "tableName": "political_evidence",
+      "skipped": false,
+      "reason": null,
+      "rows": [
+        {
+          "id": 1,
+          "record_key": "microsoft::pacContributionsUsd::2024::https://www.opensecrets.org/orgs/microsoft-corp/recipients?id=D000000115::2025-02-06",
+          "company_id": "microsoft",
+          "metric_key": "pacContributionsUsd",
+          "metric_value": "800500",
+          "source_name": "OpenSecrets - Microsoft Corp Recipients",
+          "source_url": "https://www.opensecrets.org/orgs/microsoft-corp/recipients?id=D000000115",
+          "source_date": "2025-02-06",
+          "confidence": "high"
+        },
+        {
+          "id": 2,
+          "record_key": "microsoft::partySplitPct::2024::https://www.opensecrets.org/orgs/microsoft-corp/recipients?id=D000000115::2025-02-06",
+          "company_id": "microsoft",
+          "metric_key": "partySplitPct",
+          "metric_value": "{\"democraticPct\":83.61,\"republicanPct\":16.39,\"thirdPartyPct\":0}",
+          "source_name": "OpenSecrets - Microsoft Corp Recipients",
+          "source_url": "https://www.opensecrets.org/orgs/microsoft-corp/recipients?id=D000000115",
+          "source_date": "2025-02-06",
+          "confidence": "high"
+        },
+        {
+          "id": 3,
+          "record_key": "microsoft::lobbyingSpendUsd::2024::https://www.opensecrets.org/orgs/microsoft-corp/summary?id=D000000115::2026-01-23",
+          "company_id": "microsoft",
+          "metric_key": "lobbyingSpendUsd",
+          "metric_value": "10353764",
+          "source_name": "OpenSecrets - Microsoft Corp Summary",
+          "source_url": "https://www.opensecrets.org/orgs/microsoft-corp/summary?id=D000000115",
+          "source_date": "2026-01-23",
+          "confidence": "high"
+        },
+        {
+          "id": 4,
+          "record_key": "alphabet::pacContributionsUsd::2024::https://www.opensecrets.org/orgs/alphabet-inc/recipients?id=D000067823::2025-02-06",
+          "company_id": "alphabet",
+          "metric_key": "pacContributionsUsd",
+          "metric_value": "737066",
+          "source_name": "OpenSecrets - Alphabet Inc Recipients",
+          "source_url": "https://www.opensecrets.org/orgs/alphabet-inc/recipients?id=D000067823",
+          "source_date": "2025-02-06",
+          "confidence": "high"
+        },
+        {
+          "id": 5,
+          "record_key": "alphabet::partySplitPct::2024::https://www.opensecrets.org/orgs/alphabet-inc/recipients?id=D000067823::2025-02-06",
+          "company_id": "alphabet",
+          "metric_key": "partySplitPct",
+          "metric_value": "{\"democraticPct\":88.84,\"republicanPct\":11.16,\"thirdPartyPct\":0}",
+          "source_name": "OpenSecrets - Alphabet Inc Recipients",
+          "source_url": "https://www.opensecrets.org/orgs/alphabet-inc/recipients?id=D000067823",
+          "source_date": "2025-02-06",
+          "confidence": "high"
+        },
+        {
+          "id": 6,
+          "record_key": "alphabet::lobbyingSpendUsd::2024::https://www.opensecrets.org/orgs/alphabet-inc/summary?id=D000067823::2026-01-23",
+          "company_id": "alphabet",
+          "metric_key": "lobbyingSpendUsd",
+          "metric_value": "14790000",
+          "source_name": "OpenSecrets - Alphabet Inc Summary",
+          "source_url": "https://www.opensecrets.org/orgs/alphabet-inc/summary?id=D000067823",
+          "source_date": "2026-01-23",
+          "confidence": "high"
+        },
+        {
+          "id": 7,
+          "record_key": "amazon::pacContributionsUsd::2024::https://www.opensecrets.org/orgs/amazon-com/recipients?id=D000023883::2025-02-06",
+          "company_id": "amazon",
+          "metric_key": "pacContributionsUsd",
+          "metric_value": "799000",
+          "source_name": "OpenSecrets - Amazon.com Recipients",
+          "source_url": "https://www.opensecrets.org/orgs/amazon-com/recipients?id=D000023883",
+          "source_date": "2025-02-06",
+          "confidence": "high"
+        },
+        {
+          "id": 8,
+          "record_key": "amazon::partySplitPct::2024::https://www.opensecrets.org/orgs/amazon-com/recipients?id=D000023883::2025-02-06",
+          "company_id": "amazon",
+          "metric_key": "partySplitPct",
+          "metric_value": "{\"democraticPct\":82.15,\"republicanPct\":17.85,\"thirdPartyPct\":0}",
+          "source_name": "OpenSecrets - Amazon.com Recipients",
+          "source_url": "https://www.opensecrets.org/orgs/amazon-com/recipients?id=D000023883",
+          "source_date": "2025-02-06",
+          "confidence": "high"
+        },
+        {
+          "id": 9,
+          "record_key": "amazon::lobbyingSpendUsd::2024::https://www.opensecrets.org/orgs/amazon-com/summary?id=D000023883::2026-01-23",
+          "company_id": "amazon",
+          "metric_key": "lobbyingSpendUsd",
+          "metric_value": "19140000",
+          "source_name": "OpenSecrets - Amazon.com Summary",
+          "source_url": "https://www.opensecrets.org/orgs/amazon-com/summary?id=D000023883",
+          "source_date": "2026-01-23",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "tableName": "layoffs_fyi_signals",
+      "skipped": true,
+      "reason": "Could not find the table 'public.layoffs_fyi_signals' in the schema cache",
+      "rows": []
+    }
+  ]
+}

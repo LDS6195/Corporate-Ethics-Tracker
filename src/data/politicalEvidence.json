@@ -1,0 +1,855 @@
+{
+  "_note": "Political tracker evidence log. Keep one record per metric when possible and only include values explicitly disclosed by source.",
+  "records": [
+    {
+      "companyId": "microsoft",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 800500,
+      "sourceName": "OpenSecrets - Microsoft Corp Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/microsoft-corp/recipients?id=D000000115",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "microsoft",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 83.61,
+        "republicanPct": 16.39,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Microsoft Corp Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/microsoft-corp/recipients?id=D000000115",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "microsoft",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 10353764,
+      "sourceName": "OpenSecrets - Microsoft Corp Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/microsoft-corp/summary?id=D000000115",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "alphabet",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 737066,
+      "sourceName": "OpenSecrets - Alphabet Inc Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/alphabet-inc/recipients?id=D000067823",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "alphabet",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 88.84,
+        "republicanPct": 11.16,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Alphabet Inc Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/alphabet-inc/recipients?id=D000067823",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "alphabet",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 14790000,
+      "sourceName": "OpenSecrets - Alphabet Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/alphabet-inc/summary?id=D000067823",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "amazon",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 799000,
+      "sourceName": "OpenSecrets - Amazon.com Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/amazon-com/recipients?id=D000023883",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "amazon",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 82.15,
+        "republicanPct": 17.85,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Amazon.com Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/amazon-com/recipients?id=D000023883",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "amazon",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 19140000,
+      "sourceName": "OpenSecrets - Amazon.com Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/amazon-com/summary?id=D000023883",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "berkshire-hathaway",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "Data privacy and artificial intelligence laws and regulations have been enacted or are under development in various jurisdictions in the U.S. and throughout the world.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+      "sourceDate": "2026-03-02",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "berkshire-hathaway",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 6395088,
+      "sourceName": "OpenSecrets - Berkshire Hathaway Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/berkshire-hathaway/summary?id=D000021757",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "berkshire-hathaway",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 47.27,
+        "republicanPct": 52.73,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Berkshire Hathaway Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/berkshire-hathaway/recipients?id=D000021757",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "berkshire-hathaway",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 6855000,
+      "sourceName": "OpenSecrets - Berkshire Hathaway Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/berkshire-hathaway/summary?id=D000021757",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "broadcom",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "Our program includes processes for identifying, assessing and managing material risks from cybersecurity threats that are guided by the National Institute of Standards & Technology's Cybersecurity Fra",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "sourceDate": "2025-12-18",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "broadcom",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1828923,
+      "sourceName": "OpenSecrets - Broadcom Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/broadcom-inc/summary?id=D000060210",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "broadcom",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 78.7,
+        "republicanPct": 21.3,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Broadcom Inc Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/broadcom-inc/recipients?id=D000060210",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "broadcom",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 2120000,
+      "sourceName": "OpenSecrets - Broadcom Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/broadcom-inc/summary?id=D000060210",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "tesla",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "To defend, detect and respond to cybersecurity incidents, we, among other things: conduct proactive privacy and cybersecurity reviews of systems and applications, audit applicable data policies, perfo",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "sourceDate": "2026-01-28",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "tesla",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 338456,
+      "sourceName": "OpenSecrets - Tesla Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/tesla-inc/summary?id=D000057516",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "tesla",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 76.82,
+        "republicanPct": 23.18,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Tesla Inc Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/tesla-inc/recipients?id=D000057516",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "tesla",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 750000,
+      "sourceName": "OpenSecrets - Tesla Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/tesla-inc/summary?id=D000057516",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "eli-lilly",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "The use of artificial intelligence or other emerging technologies in various facets of our operations may create new operational and compliance risks.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+      "sourceDate": "2026-02-12",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "eli-lilly",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1863367,
+      "sourceName": "OpenSecrets - Eli Lilly & Co Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/eli-lilly-co/summary?id=D000000166",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "eli-lilly",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 48.62,
+        "republicanPct": 51.38,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Eli Lilly & Co Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/eli-lilly-co/recipients?id=D000000166",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "eli-lilly",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 6720000,
+      "sourceName": "OpenSecrets - Eli Lilly & Co Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/eli-lilly-co/summary?id=D000000166",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "jpmorgan-chase",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "The Firm is subject to laws, rules and regulations globally concerning data, including data protection, consumer protection, privacy, cybersecurity and artificial intelligence.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+      "sourceDate": "2026-02-13",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "jpmorgan-chase",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 8048922,
+      "sourceName": "OpenSecrets - JPMorgan Chase & Co Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/jpmorgan-chase-co/summary?id=D000000103",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "jpmorgan-chase",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 69.86,
+        "republicanPct": 30.14,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - JPMorgan Chase & Co Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/jpmorgan-chase-co/recipients?id=D000000103",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "jpmorgan-chase",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 3600000,
+      "sourceName": "OpenSecrets - JPMorgan Chase & Co Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/jpmorgan-chase-co/summary?id=D000000103",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "visa",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "Aspects of our operations or business are subject to increasingly complex and fragmented data-related regulations, including with respect to privacy, data use, AI and cybersecurity.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "sourceDate": "2025-11-06",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "visa",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1892532,
+      "sourceName": "OpenSecrets - Visa Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/visa-inc/summary?id=D000029689",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "visa",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 62.73,
+        "republicanPct": 37.27,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Visa Inc Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/visa-inc/recipients?id=D000029689",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "visa",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 7720000,
+      "sourceName": "OpenSecrets - Visa Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/visa-inc/summary?id=D000029689",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "walmart",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "The Audit Committee receives periodic updates from our Chief Information Security Officer (\"CISO\"), Chief Technology Officer (\"CTO\") and other members of management on risks related to information sys",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+      "sourceDate": "2026-03-13",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "walmart",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 3892311,
+      "sourceName": "OpenSecrets - Wal-Mart Stores Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/wal-mart-stores/summary?id=D000000367",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "walmart",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 48.29,
+        "republicanPct": 51.71,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Wal-Mart Stores Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/wal-mart-stores/recipients?id=D000000367",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "walmart",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 7240000,
+      "sourceName": "OpenSecrets - Wal-Mart Stores Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/wal-mart-stores/summary?id=D000000367",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "mastercard",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "Risk disclosures cite regulation of privacy, data, AI, information security and the digital economy as material factors for the business.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "sourceDate": "2026-02-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "costco",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "The company highlights obligations to maintain privacy and security of personal and business information amid a growing threat landscape and expanding global regulation.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+      "sourceDate": "2025-10-08",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "costco",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1234076,
+      "sourceName": "OpenSecrets - Costco Wholesale Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/costco-wholesale/summary?id=D000000703",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "costco",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 80.01,
+        "republicanPct": 19.99,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Costco Wholesale Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/costco-wholesale/recipients?id=D000000703",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "costco",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 0,
+      "sourceName": "OpenSecrets - Costco Wholesale Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/costco-wholesale/summary?id=D000000703",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "johnson-johnson",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "Johnson & Johnson notes expanding global regulation around ethical use, privacy and security of artificial intelligence technologies.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "sourceDate": "2026-02-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "procter-gamble",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "The Audit Committee also receives regular updates from the Company's CIO and CISO about the Company's information security and systems security programs and plans, including emerging trends and progre",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000103/pg-20260630.htm",
+      "sourceDate": "2026-08-04",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "home-depot",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "The filing flags legislation and regulation governing data privacy, data-driven technologies such as AI, and data security as potential business risks.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+      "sourceDate": "2026-03-18",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "apple",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "The risks of inadvertent disclosure of personal data can increase with the introduction of new and complex technologies, such as artificial intelligence features.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "sourceDate": "2025-10-31",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "apple",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 5315297,
+      "sourceName": "OpenSecrets - Apple Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/apple-inc/summary?id=D000021754",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "apple",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 95.04,
+        "republicanPct": 4.96,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Apple Inc Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/apple-inc/recipients?id=D000021754",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "apple",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 7820000,
+      "sourceName": "OpenSecrets - Apple Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/apple-inc/summary?id=D000021754",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "meta-platforms",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "The company disclosed major privacy enforcement actions including an FTC penalty and an IDPC administrative fine, highlighting regulatory exposure tied to platform data practices.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "sourceDate": "2026-01-28",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "meta-platforms",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 5530524,
+      "sourceName": "OpenSecrets - Meta Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/meta/summary?id=D000033563",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "meta-platforms",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 90.45,
+        "republicanPct": 9.55,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Meta Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/meta/recipients?id=D000033563",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "meta-platforms",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 24430000,
+      "sourceName": "OpenSecrets - Meta Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/meta/summary?id=D000033563",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "nvidia",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "NVIDIA reports exposure to stringent and changing data privacy and security obligations that may lead to legal or regulatory proceedings.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "sourceDate": "2026-02-25",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "nvidia",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1485963,
+      "sourceName": "OpenSecrets - NVIDIA Corp Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/nvidia-corp/summary?id=D000036303",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "nvidia",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 90.82,
+        "republicanPct": 9.18,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - NVIDIA Corp Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/nvidia-corp/recipients?id=D000036303",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "nvidia",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 640000,
+      "sourceName": "OpenSecrets - NVIDIA Corp Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/nvidia-corp/summary?id=D000036303",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "unitedhealth-group",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "UnitedHealth discloses risk that AI systems could produce inaccurate or biased outputs and affect operations, plus material cyber and data-protection exposure.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+      "sourceDate": "2026-03-02",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "unitedhealth-group",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 4469669,
+      "sourceName": "OpenSecrets - UnitedHealth Group Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/unitedhealth-group/summary?id=D000000348",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "unitedhealth-group",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 66.17,
+        "republicanPct": 33.83,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - UnitedHealth Group Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/unitedhealth-group/recipients?id=D000000348",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "unitedhealth-group",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 7520000,
+      "sourceName": "OpenSecrets - UnitedHealth Group Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/unitedhealth-group/summary?id=D000000348",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "exxon-mobil",
+      "metric": "policyRiskDisclosure",
+      "electionCycle": "2024",
+      "value": "The filing describes operational efficiency and workforce reduction actions alongside technology-transition execution risk that can influence regulatory and policy exposure.",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2115436/000003408826000093/xom-20260630.htm",
+      "sourceDate": "2026-08-03",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "mastercard",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 796349,
+      "sourceName": "OpenSecrets - Mastercard Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/mastercard-inc/summary?id=D000022099",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "mastercard",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 68.1,
+        "republicanPct": 31.9,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Mastercard Inc Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/mastercard-inc/recipients?id=D000022099",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "mastercard",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 5210000,
+      "sourceName": "OpenSecrets - Mastercard Inc Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/mastercard-inc/summary?id=D000022099",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "exxon-mobil",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1885072,
+      "sourceName": "OpenSecrets - Exxon Mobil Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/exxon-mobil/summary?id=D000000129",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "exxon-mobil",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 44.61,
+        "republicanPct": 55.39,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Exxon Mobil Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/exxon-mobil/recipients?id=D000000129",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "exxon-mobil",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 6820000,
+      "sourceName": "OpenSecrets - Exxon Mobil Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/exxon-mobil/summary?id=D000000129",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "johnson-johnson",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1759932,
+      "sourceName": "OpenSecrets - Johnson & Johnson Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/johnson-johnson/summary?id=D000000386",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "johnson-johnson",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 61.76,
+        "republicanPct": 38.24,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Johnson & Johnson Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/johnson-johnson/recipients?id=D000000386",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "johnson-johnson",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 8250000,
+      "sourceName": "OpenSecrets - Johnson & Johnson Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/johnson-johnson/summary?id=D000000386",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "procter-gamble",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 599595,
+      "sourceName": "OpenSecrets - Procter & Gamble Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/procter-gamble/summary?id=D000000485",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "procter-gamble",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 66.12,
+        "republicanPct": 33.88,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Procter & Gamble Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/procter-gamble/recipients?id=D000000485",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "procter-gamble",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 2790000,
+      "sourceName": "OpenSecrets - Procter & Gamble Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/procter-gamble/summary?id=D000000485",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    },
+    {
+      "companyId": "home-depot",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 5400645,
+      "sourceName": "OpenSecrets - Home Depot Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/home-depot/summary?id=D000000419",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "home-depot",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "democraticPct": 46.17,
+        "republicanPct": 53.83,
+        "thirdPartyPct": 0
+      },
+      "sourceName": "OpenSecrets - Home Depot Recipients",
+      "sourceUrl": "https://www.opensecrets.org/orgs/home-depot/recipients?id=D000000419",
+      "sourceDate": "2025-02-06",
+      "confidence": "high"
+    },
+    {
+      "companyId": "home-depot",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 3400000,
+      "sourceName": "OpenSecrets - Home Depot Summary",
+      "sourceUrl": "https://www.opensecrets.org/orgs/home-depot/summary?id=D000000419",
+      "sourceDate": "2026-01-23",
+      "confidence": "high"
+    }
+  ]
+}

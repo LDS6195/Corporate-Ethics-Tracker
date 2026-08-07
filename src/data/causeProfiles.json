@@ -1,0 +1,227 @@
+{
+  "_note": "POC cause profile coverage. Null numeric fields indicate no verified spend total or cause score has been published yet.",
+  "profiles": [
+    {
+      "companyId": "apple",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 200000000,
+      "categorySpendUsd": {
+        "equity-inclusion": 200000000
+      },
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-06",
+      "topCauseCategoryId": "equity-inclusion"
+    },
+    {
+      "companyId": "microsoft",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 4000000000,
+      "categorySpendUsd": {
+        "education-opportunity": 4000000000
+      },
+      "evidenceRecords": 4,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-07",
+      "topCauseCategoryId": "education-opportunity"
+    },
+    {
+      "companyId": "nvidia",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 83000000,
+      "topCauseCategoryId": "worker-wellbeing",
+      "evidenceRecords": 5,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-07"
+    },
+    {
+      "companyId": "alphabet",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 120000000,
+      "categorySpendUsd": {
+        "education-opportunity": 120000000
+      },
+      "topCauseCategoryId": "education-opportunity",
+      "evidenceRecords": 2,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-06"
+    },
+    {
+      "companyId": "amazon",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 7,
+      "highConfidenceRecords": 5,
+      "lastUpdated": "2026-08-07",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": 20175000,
+      "categorySpendUsd": {
+        "health-human-services": 925000,
+        "other-unclassified": 5250000,
+        "climate-environment": 2000000,
+        "education-opportunity": 12000000
+      }
+    },
+    {
+      "companyId": "meta-platforms",
+      "profileStatus": "in-progress",
+      "topCauseCategoryId": "education-opportunity",
+      "evidenceRecords": 4,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-07",
+      "disclosedSpendUsd": 5000000,
+      "categorySpendUsd": {
+        "education-opportunity": 5000000
+      }
+    },
+    {
+      "companyId": "walmart",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 2000000000,
+      "topCauseCategoryId": "health-human-services",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-06",
+      "categorySpendUsd": {
+        "health-human-services": 2000000000
+      }
+    },
+    {
+      "companyId": "jpmorgan-chase",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 498000000,
+      "topCauseCategoryId": "health-human-services",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-06",
+      "categorySpendUsd": {
+        "health-human-services": 498000000
+      }
+    },
+    {
+      "companyId": "procter-gamble",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 310000,
+      "topCauseCategoryId": "other-unclassified",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-07",
+      "categorySpendUsd": {
+        "education-opportunity": 50000,
+        "other-unclassified": 260000
+      }
+    },
+    {
+      "companyId": "visa",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 200000000,
+      "topCauseCategoryId": "worker-wellbeing",
+      "evidenceRecords": 4,
+      "highConfidenceRecords": 3,
+      "lastUpdated": "2026-08-06",
+      "categorySpendUsd": {
+        "worker-wellbeing": 200000000
+      }
+    },
+    {
+      "companyId": "unitedhealth-group",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 880000000,
+      "topCauseCategoryId": "health-human-services",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-06",
+      "categorySpendUsd": {
+        "health-human-services": 880000000
+      }
+    },
+    {
+      "companyId": "berkshire-hathaway",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-07",
+      "topCauseCategoryId": "climate-environment",
+      "disclosedSpendUsd": 38000000000,
+      "categorySpendUsd": {
+        "climate-environment": 38000000000
+      }
+    },
+    {
+      "companyId": "broadcom",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 4,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-07",
+      "topCauseCategoryId": "other-unclassified",
+      "disclosedSpendUsd": 24600000,
+      "categorySpendUsd": {
+        "other-unclassified": 24600000
+      }
+    },
+    {
+      "companyId": "tesla",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 2,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-06",
+      "topCauseCategoryId": "worker-wellbeing"
+    },
+    {
+      "companyId": "eli-lilly",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 2,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-06",
+      "topCauseCategoryId": "worker-wellbeing"
+    },
+    {
+      "companyId": "mastercard",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-07",
+      "topCauseCategoryId": "equity-inclusion",
+      "disclosedSpendUsd": 432000000,
+      "categorySpendUsd": {
+        "equity-inclusion": 432000000
+      }
+    },
+    {
+      "companyId": "exxon-mobil",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 2,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-06",
+      "topCauseCategoryId": "worker-wellbeing"
+    },
+    {
+      "companyId": "costco",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 2,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-06",
+      "topCauseCategoryId": "worker-wellbeing"
+    },
+    {
+      "companyId": "johnson-johnson",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 2,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-06",
+      "topCauseCategoryId": "worker-wellbeing"
+    },
+    {
+      "companyId": "home-depot",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 4,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-07",
+      "topCauseCategoryId": "health-human-services",
+      "disclosedSpendUsd": 700000000,
+      "categorySpendUsd": {
+        "health-human-services": 650000000,
+        "education-opportunity": 50000000
+      }
+    }
+  ]
+}

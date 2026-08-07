@@ -1,0 +1,34 @@
+{
+  "alphabet": {
+    "names": ["Google"],
+    "slugs": ["google"]
+  },
+  "meta-platforms": {
+    "names": ["Meta", "Facebook"],
+    "slugs": ["meta", "facebook"]
+  },
+  "amazon": {
+    "names": ["Amazon"],
+    "slugs": ["amazon"]
+  },
+  "procter-gamble": {
+    "names": ["Procter & Gamble", "P&G"],
+    "slugs": ["procter-gamble", "p-and-g"]
+  },
+  "jpmorgan-chase": {
+    "names": ["JPMorgan", "J.P. Morgan", "JPMorgan Chase"],
+    "slugs": ["jpmorgan", "jp-morgan", "jpmorgan-chase"]
+  },
+  "johnson-johnson": {
+    "names": ["Johnson & Johnson", "JNJ"],
+    "slugs": ["johnson-and-johnson", "jnj"]
+  },
+  "exxon-mobil": {
+    "names": ["Exxon", "ExxonMobil", "Exxon Mobil"],
+    "slugs": ["exxon", "exxonmobil", "exxon-mobil"]
+  },
+  "home-depot": {
+    "names": ["Home Depot"],
+    "slugs": ["home-depot"]
+  }
+}
