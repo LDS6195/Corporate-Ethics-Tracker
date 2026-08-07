@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+  basePath: "/Corporate-Ethics-Tracker",
+  assetPrefix: "/Corporate-Ethics-Tracker/",
+  trailingSlash: true,
   webpack: (config, { dev }) => {
     // This project lives in a OneDrive-synced folder. OneDrive can lock or
     // move files mid-write, which corrupts webpack's on-disk persistent

@@ -19,6 +19,8 @@ import { CAUSE_TAXONOMY } from "@/lib/causes";
 import ProgressBar from "@/components/ProgressBar";
 import Tooltip from "@/components/Tooltip";
 
+export const dynamic = "force-static";
+
 const TIER_STYLES: Record<string, string> = {
   high: "text-emerald-400 bg-emerald-950/60 ring-1 ring-emerald-500/40",
   medium: "text-amber-400 bg-amber-950/60 ring-1 ring-amber-500/40",
