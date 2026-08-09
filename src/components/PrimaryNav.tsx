@@ -11,16 +11,24 @@ const NAV_ITEMS = [
   { href: "/about", label: "About" },
 ];
 
+// next.config.js sets trailingSlash: true, so usePathname() returns paths
+// like "/causes/" — normalize before comparing against the trailing-slash-free hrefs.
+function normalizePath(path: string) {
+  return path.length > 1 && path.endsWith("/") ? path.slice(0, -1) : path;
+}
+
 function isActive(pathname: string, href: string) {
+  const normalizedPathname = normalizePath(pathname);
+
   if (href === "/") {
-    return pathname === "/" || pathname.startsWith("/company/");
+    return normalizedPathname === "/" || normalizedPathname.startsWith("/company/");
   }
 
   if (href === "/about") {
-    return pathname === "/about" || pathname === "/causes/about";
+    return normalizedPathname === "/about" || normalizedPathname === "/causes/about";
   }
 
-  return pathname === href;
+  return normalizedPathname === href;
 }
 
 export default function PrimaryNav() {

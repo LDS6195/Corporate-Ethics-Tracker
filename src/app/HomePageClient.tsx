@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { CompanyAudit } from "@/types/company";
 import { compareCompaniesBySp500Rank } from "@/lib/companyRank";
 import {
@@ -11,8 +11,24 @@ import {
 import CompanyCard from "@/components/CompanyCard";
 import CompanyTable from "@/components/CompanyTable";
 import WeightSliders from "@/components/WeightSliders";
+import SortControl, { type SortOption } from "@/components/SortControl";
+import { useIsMobileViewport } from "@/lib/useIsMobileViewport";
 
 type ViewMode = "grid" | "list";
+
+type SortKey = "sp500Rank" | "overall" | "aiLayoffCount" | "name";
+type SortDirection = "asc" | "desc";
+
+const SORT_OPTIONS: SortOption<SortKey>[] = [
+  { value: "sp500Rank", label: "S&P 500" },
+  { value: "overall", label: "Score" },
+  { value: "aiLayoffCount", label: "Layoffs" },
+  { value: "name", label: "Alphabetical" },
+];
+
+function getAiLayoffCount(company: CompanyAudit): number | null {
+  return typeof company.aiLayoffEmployees === "number" ? company.aiLayoffEmployees : null;
+}
 
 interface HomePageClientProps {
   companies: CompanyAudit[];
@@ -23,6 +39,13 @@ export default function HomePageClient({ companies }: HomePageClientProps) {
   const [industry, setIndustry] = useState("All");
   const [weights, setWeights] = useState<CategoryWeights>(DEFAULT_WEIGHTS);
   const [viewMode, setViewMode] = useState<ViewMode>("list");
+  const [sortKey, setSortKey] = useState<SortKey>("sp500Rank");
+  const [sortDir, setSortDir] = useState<SortDirection>("asc");
+  const isMobile = useIsMobileViewport();
+
+  useEffect(() => {
+    if (isMobile) setViewMode("grid");
+  }, [isMobile]);
 
   const industries = useMemo(
     () => ["All", ...Array.from(new Set(companies.map((c) => c.industry)))],
@@ -45,29 +68,35 @@ export default function HomePageClient({ companies }: HomePageClientProps) {
             industry === "All" || company.industry === industry;
           return matchesSearch && matchesIndustry;
         })
-        .sort((a, b) => compareCompaniesBySp500Rank(a.company, b.company)),
-    [companies, search, industry, weights]
+        .sort((a, b) => {
+          const dir = sortDir === "asc" ? 1 : -1;
+          switch (sortKey) {
+            case "sp500Rank":
+              return dir * compareCompaniesBySp500Rank(a.company, b.company);
+            case "overall":
+              return dir * (a.displayScore - b.displayScore);
+            case "aiLayoffCount":
+              return dir * ((getAiLayoffCount(a.company) ?? -1) - (getAiLayoffCount(b.company) ?? -1));
+            case "name":
+              return dir * a.company.name.localeCompare(b.company.name);
+            default:
+              return 0;
+          }
+        }),
+    [companies, search, industry, weights, sortKey, sortDir]
   );
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <header className="intro-reveal mb-12 border-b border-neutral-800 pb-8">
-        <p className="mb-1 text-xs font-medium uppercase tracking-[0.18em] text-neutral-500">
-          Independent Corporate Research
-        </p>
         <h1 className="font-serif text-3xl font-bold leading-tight tracking-tight text-neutral-50 sm:text-4xl">
           Corporate AI Accountability Index
         </h1>
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-neutral-400">
-          Tracking how the world&rsquo;s largest companies disclose, govern,
-          and answer for their use of artificial intelligence &mdash; labor
-          impact, data privacy, human oversight, and transparency, sourced
-          directly from SEC filings, WARN notices, and public policy.
-        </p>
-        <p className="mt-3 max-w-3xl text-xs leading-relaxed text-neutral-500">
-          The index view prioritizes concrete indicators (counts and yes/no
-          disclosures). Open any company profile for full score methodology and
-          factor-by-factor breakdown.
+          Shows how big companies handle AI, including job impact, data
+          privacy, human oversight, and how much they disclose. Sourced from
+          SEC filings, WARN notices, and public policy. Click a company to see
+          its full score breakdown and source citations.
         </p>
       </header>
 
@@ -101,6 +130,15 @@ export default function HomePageClient({ companies }: HomePageClientProps) {
           </select>
         </div>
         <div className="flex items-center gap-4">
+          {viewMode === "grid" && (
+            <SortControl
+              options={SORT_OPTIONS}
+              sortKey={sortKey}
+              sortDir={sortDir}
+              onSortKeyChange={setSortKey}
+              onToggleDirection={() => setSortDir((d) => (d === "asc" ? "desc" : "asc"))}
+            />
+          )}
           <div className="flex rounded-md border border-neutral-800 bg-neutral-900 p-0.5">
             <button
               type="button"

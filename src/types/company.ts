@@ -55,6 +55,20 @@ export interface CompanyAudit {
   humanInTheLoopMandate: boolean;
   /** True if the company's ToS reserves the right to scrape/train on user data without opt-out. */
   tosScrapingOptOut: boolean;
+  /** True if the company has an explicit, public statement that it does not train AI models on users' private personal data. */
+  noAiTrainingOnPersonalData: boolean;
+  /** True if the company offers an opt-out mechanism specific to AI training use (not just general data-sale opt-out). */
+  dedicatedAiTrainingOptOut: boolean;
+  /** True if a confirmed regulatory privacy fine (e.g. GDPR, FTC) is documented in citations. */
+  confirmedPrivacyFine: boolean;
+  /** True if the company has a named, dedicated internal body governing AI trust/safety (not just a general committee mention). */
+  dedicatedAiGovernanceBody: boolean;
+  /** True if the company explicitly commits to not making legally/significantly consequential decisions via full automation. */
+  noConsequentialAutomatedDecisions: boolean;
+  /** True if the company publishes a recurring (annual or more frequent) public AI transparency/progress report. */
+  recurringPublicAiReport: boolean;
+  /** True if the company publishes concrete, verifiable AI transparency artifacts (e.g. model cards, published risk assessments). */
+  concreteTransparencyArtifacts: boolean;
   /** Optional total layoffs value from external layoff-tracker sources. */
   layoffsTotal?: number;
   /** Optional latest layoff date from external layoff-tracker sources. */

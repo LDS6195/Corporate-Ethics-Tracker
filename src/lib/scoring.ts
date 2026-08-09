@@ -37,7 +37,7 @@ export const CATEGORY_INFO: Record<
 
 /** Explains how the overall composite score is derived, for tooltips. */
 export const OVERALL_SCORE_DESCRIPTION =
-  "Composite of Labor Displacement (0-30), Data Privacy (0-25), Human Oversight (0-25), and Transparency (0-20). Each category is normalized to 0-100 and combined using the Weight Customizer sliders above (defaults mirror each category's natural share of the total).";
+  "AI Accountability Score, 0-100. Higher is better: scores toward 0 mean less accountable (weaker or unverified evidence), scores toward 100 mean more accountable (stronger verified evidence). Composite of Labor Displacement (0-30), Data Privacy (0-25), Human Oversight (0-25), and Transparency (0-20). Each category is normalized to 0-100 and combined using the Weight Customizer sliders above (defaults mirror each category's natural share of the total).";
 
 /** User-adjustable importance weights, one per sub-category. */
 export type CategoryWeights = Record<keyof CategoryScores, number>;

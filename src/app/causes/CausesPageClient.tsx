@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { CompanyAudit } from "@/types/company";
 import type {
@@ -11,8 +11,21 @@ import type {
 import { compareCompaniesBySp500Rank } from "@/lib/companyRank";
 import { CAUSE_TAXONOMY } from "@/lib/causes";
 import type { CauseEvidenceSummaryRow } from "@/lib/data/types";
+import SortControl, { type SortOption } from "@/components/SortControl";
+import SortableHeader from "@/components/SortableHeader";
+import { useIsMobileViewport } from "@/lib/useIsMobileViewport";
 
 type ViewMode = "grid" | "list";
+
+type GridSortKey = "sp500Rank" | "spend" | "name";
+type ListSortKey = "sp500Rank" | "name" | "industry" | "spend" | "topCause";
+type SortDirection = "asc" | "desc";
+
+const GRID_SORT_OPTIONS: SortOption<GridSortKey>[] = [
+  { value: "sp500Rank", label: "S&P 500 Rank" },
+  { value: "spend", label: "Disclosed Social Impact Spend" },
+  { value: "name", label: "Alphabetical" },
+];
 
 interface CauseCompanyRow {
   company: CompanyAudit;
@@ -124,6 +137,24 @@ export default function CausesPageClient({
   const [industry, setIndustry] = useState("All");
   const [statusFilter, setStatusFilter] = useState<CauseProfileStatus | "All">("All");
   const [viewMode, setViewMode] = useState<ViewMode>("list");
+  const [gridSortKey, setGridSortKey] = useState<GridSortKey>("sp500Rank");
+  const [gridSortDir, setGridSortDir] = useState<SortDirection>("asc");
+  const [listSortKey, setListSortKey] = useState<ListSortKey>("sp500Rank");
+  const [listSortDir, setListSortDir] = useState<SortDirection>("asc");
+  const isMobile = useIsMobileViewport();
+
+  useEffect(() => {
+    if (isMobile) setViewMode("grid");
+  }, [isMobile]);
+
+  const handleListSort = (key: ListSortKey) => {
+    if (key === listSortKey) {
+      setListSortDir((d) => (d === "asc" ? "desc" : "asc"));
+    } else {
+      setListSortKey(key);
+      setListSortDir(key === "name" || key === "industry" || key === "topCause" ? "asc" : "desc");
+    }
+  };
 
   const industries = useMemo(
     () => ["All", ...Array.from(new Set(companies.map((c) => c.industry)))],
@@ -132,20 +163,57 @@ export default function CausesPageClient({
 
   const rows = useMemo(() => {
     const all = toCauseRows(companies, seededProfiles);
-    return all
-      .filter(({ company, profile }) => {
-        const query = search.trim().toLowerCase();
-        const matchesSearch =
-          query === "" ||
-          company.name.toLowerCase().includes(query) ||
-          company.ticker.toLowerCase().includes(query);
-        const matchesIndustry = industry === "All" || company.industry === industry;
-        const matchesStatus =
-          statusFilter === "All" || profile.profileStatus === statusFilter;
-        return matchesSearch && matchesIndustry && matchesStatus;
-      })
-      .sort((a, b) => compareCompaniesBySp500Rank(a.company, b.company));
+    return all.filter(({ company, profile }) => {
+      const query = search.trim().toLowerCase();
+      const matchesSearch =
+        query === "" ||
+        company.name.toLowerCase().includes(query) ||
+        company.ticker.toLowerCase().includes(query);
+      const matchesIndustry = industry === "All" || company.industry === industry;
+      const matchesStatus =
+        statusFilter === "All" || profile.profileStatus === statusFilter;
+      return matchesSearch && matchesIndustry && matchesStatus;
+    });
   }, [companies, seededProfiles, search, industry, statusFilter]);
+
+  const gridRows = useMemo(() => {
+    const dir = gridSortDir === "asc" ? 1 : -1;
+    return [...rows].sort((a, b) => {
+      switch (gridSortKey) {
+        case "sp500Rank":
+          return dir * compareCompaniesBySp500Rank(a.company, b.company);
+        case "spend":
+          return dir * ((getTotalCategorySpend(a.profile) ?? -1) - (getTotalCategorySpend(b.profile) ?? -1));
+        case "name":
+          return dir * a.company.name.localeCompare(b.company.name);
+        default:
+          return 0;
+      }
+    });
+  }, [rows, gridSortKey, gridSortDir]);
+
+  const listRows = useMemo(() => {
+    const dir = listSortDir === "asc" ? 1 : -1;
+    return [...rows].sort((a, b) => {
+      switch (listSortKey) {
+        case "sp500Rank":
+          return dir * compareCompaniesBySp500Rank(a.company, b.company);
+        case "name":
+          return dir * a.company.name.localeCompare(b.company.name);
+        case "industry":
+          return (
+            dir * a.company.industry.localeCompare(b.company.industry) ||
+            a.company.name.localeCompare(b.company.name)
+          );
+        case "spend":
+          return dir * ((getTotalCategorySpend(a.profile) ?? -1) - (getTotalCategorySpend(b.profile) ?? -1));
+        case "topCause":
+          return dir * getTopCauseLabel(a.profile).localeCompare(getTopCauseLabel(b.profile));
+        default:
+          return 0;
+      }
+    });
+  }, [rows, listSortKey, listSortDir]);
 
   const causeColumns = useMemo(
     () =>
@@ -156,30 +224,16 @@ export default function CausesPageClient({
   );
 
   return (
-    <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      <header className="mb-10 border-b border-neutral-800 pb-6">
-        <p className="mb-2 text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">
-          Independent Corporate Research
-        </p>
-        <h1 className="font-serif text-3xl font-bold tracking-tight text-neutral-50 sm:text-4xl">
+    <main className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <header className="mb-12 border-b border-neutral-800 pb-8">
+        <h1 className="font-serif text-3xl font-bold leading-tight tracking-tight text-neutral-50 sm:text-4xl">
           Causes and Spending Index
         </h1>
-        <p className="mt-2 max-w-3xl text-sm text-neutral-400">
-          Compare what companies outwardly support and what their disclosed
-          spending records currently show. This POC emphasizes coverage and
-          evidence quality as profiles are built out.
-        </p>
-        <p className="mt-2 max-w-3xl text-xs text-neutral-500">
-          In list view, this page focuses on the most reliable summary fields:
-          company, tracked spend, and top disclosed cause.
-        </p>
-        <p className="mt-2 max-w-3xl text-xs text-neutral-500">
-          Spend columns currently represent tracked, source-backed amounts and
-          are not yet a complete ledger of all corporate giving.
-        </p>
-        <p className="mt-2 max-w-3xl text-xs text-amber-300/90">
-          Category cells only show explicit dollar amounts. Programs with real cause
-          signals but no verifiable amount are tracked separately as unpriced signals.
+        <p className="mt-3 max-w-3xl text-sm leading-relaxed text-neutral-400">
+          Highlights how much companies contribute to causes, and which
+          causes they support. Only includes amounts that are publicly
+          disclosed and source-backed. Click a company to see its full
+          spending breakdown by cause.
         </p>
       </header>
 
@@ -214,31 +268,42 @@ export default function CausesPageClient({
             <option value="not-started">Not started</option>
           </select>
         </div>
-        <div className="flex rounded-md border border-neutral-800 bg-neutral-900 p-0.5">
-          <button
-            type="button"
-            onClick={() => setViewMode("grid")}
-            aria-pressed={viewMode === "grid"}
-            className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
-              viewMode === "grid"
-                ? "bg-neutral-700 text-neutral-100"
-                : "text-neutral-400 hover:text-neutral-200"
-            }`}
-          >
-            Card
-          </button>
-          <button
-            type="button"
-            onClick={() => setViewMode("list")}
-            aria-pressed={viewMode === "list"}
-            className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
-              viewMode === "list"
-                ? "bg-neutral-700 text-neutral-100"
-                : "text-neutral-400 hover:text-neutral-200"
-            }`}
-          >
-            List
-          </button>
+        <div className="flex items-center gap-3">
+          {viewMode === "grid" && (
+            <SortControl
+              options={GRID_SORT_OPTIONS}
+              sortKey={gridSortKey}
+              sortDir={gridSortDir}
+              onSortKeyChange={setGridSortKey}
+              onToggleDirection={() => setGridSortDir((d) => (d === "asc" ? "desc" : "asc"))}
+            />
+          )}
+          <div className="flex rounded-md border border-neutral-800 bg-neutral-900 p-0.5">
+            <button
+              type="button"
+              onClick={() => setViewMode("grid")}
+              aria-pressed={viewMode === "grid"}
+              className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
+                viewMode === "grid"
+                  ? "bg-neutral-700 text-neutral-100"
+                  : "text-neutral-400 hover:text-neutral-200"
+              }`}
+            >
+              Card
+            </button>
+            <button
+              type="button"
+              onClick={() => setViewMode("list")}
+              aria-pressed={viewMode === "list"}
+              className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
+                viewMode === "list"
+                  ? "bg-neutral-700 text-neutral-100"
+                  : "text-neutral-400 hover:text-neutral-200"
+              }`}
+            >
+              List
+            </button>
+          </div>
         </div>
       </section>
 
@@ -247,15 +312,46 @@ export default function CausesPageClient({
           <table className="w-full min-w-[760px] border-collapse text-sm">
             <thead>
               <tr className="border-b border-neutral-800 bg-neutral-900/60 text-[11px] uppercase tracking-wide text-neutral-300 md:text-xs">
-                <th className="px-4 py-3 text-left font-medium">#</th>
-                <th className="px-4 py-3 text-left font-medium">Company</th>
-                <th className="px-4 py-3 text-left font-medium">Industry</th>
-                <th className="px-4 py-3 text-right font-medium">Disclosed Social Impact Spend</th>
-                <th className="px-4 py-3 text-left font-medium">Top Cause</th>
+                <SortableHeader
+                  label="#"
+                  sortKey="sp500Rank"
+                  activeKey={listSortKey}
+                  direction={listSortDir}
+                  onSort={handleListSort}
+                />
+                <SortableHeader
+                  label="Company"
+                  sortKey="name"
+                  activeKey={listSortKey}
+                  direction={listSortDir}
+                  onSort={handleListSort}
+                />
+                <SortableHeader
+                  label="Industry"
+                  sortKey="industry"
+                  activeKey={listSortKey}
+                  direction={listSortDir}
+                  onSort={handleListSort}
+                />
+                <SortableHeader
+                  label="Disclosed Social Impact Spend"
+                  sortKey="spend"
+                  activeKey={listSortKey}
+                  direction={listSortDir}
+                  onSort={handleListSort}
+                  align="right"
+                />
+                <SortableHeader
+                  label="Top Cause"
+                  sortKey="topCause"
+                  activeKey={listSortKey}
+                  direction={listSortDir}
+                  onSort={handleListSort}
+                />
               </tr>
             </thead>
             <tbody className="divide-y divide-neutral-800">
-              {rows.map(({ company, profile }, index) => {
+              {listRows.map(({ company, profile }, index) => {
                 const totalDisclosedSpend = getTotalCategorySpend(profile);
                 const topCauseLabel = getTopCauseLabel(profile);
 
@@ -265,7 +361,7 @@ export default function CausesPageClient({
                       {index + 1}
                     </td>
                     <td className="px-4 py-3">
-                      <Link href={`/company/${company.id}`} className="flex items-center gap-3">
+                      <Link href={`/company/${company.id}?tab=causes`} className="flex items-center gap-3">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={company.logoUrl}
@@ -295,7 +391,7 @@ export default function CausesPageClient({
         </div>
       ) : (
         <section className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3" aria-live="polite">
-          {rows.map(({ company, profile }) => {
+          {gridRows.map(({ company, profile }) => {
             const topCause = getTopCauseLabel(profile);
             const totalDisclosedSpend = getTotalCategorySpend(profile);
             const amountBackedCount = getAmountBackedCountByCompany(evidenceRows, company.id);
@@ -323,7 +419,7 @@ export default function CausesPageClient({
                     />
                     <div>
                       <Link
-                        href={`/company/${company.id}`}
+                        href={`/company/${company.id}?tab=causes`}
                         className="font-serif text-base font-semibold leading-tight text-neutral-100 hover:text-sky-400 hover:underline"
                       >
                         {company.name}

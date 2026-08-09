@@ -8,7 +8,7 @@ import {
   OVERALL_SCORE_DESCRIPTION,
   getScoreTier,
 } from "@/lib/scoring";
-import Tooltip from "./Tooltip";
+import SortableHeader from "./SortableHeader";
 
 interface ScoredCompany {
   company: CompanyAudit;
@@ -48,58 +48,6 @@ function YesNoPill({ value }: { value: boolean }) {
     >
       {value ? "Yes" : "No"}
     </span>
-  );
-}
-
-interface SortableHeaderProps {
-  label: string;
-  sortKey: SortKey;
-  activeKey: SortKey;
-  direction: SortDirection;
-  onSort: (key: SortKey) => void;
-  align?: "left" | "right";
-  className?: string;
-  description?: string;
-}
-
-function SortableHeader({
-  label,
-  sortKey,
-  activeKey,
-  direction,
-  onSort,
-  align = "left",
-  className = "",
-  description,
-}: SortableHeaderProps) {
-  const isActive = sortKey === activeKey;
-  return (
-    <th
-      scope="col"
-      className={`px-4 py-3 font-medium ${align === "right" ? "text-right" : "text-left"} ${className}`}
-    >
-      <span className="inline-flex items-center gap-1">
-        <button
-          type="button"
-          onClick={() => onSort(sortKey)}
-          className={`inline-flex items-center gap-1 hover:text-neutral-200 ${
-            isActive ? "text-neutral-200" : ""
-          }`}
-        >
-          {label}
-          <span className="text-[10px] leading-none">
-            {isActive ? (direction === "asc" ? "▲" : "▼") : ""}
-          </span>
-        </button>
-        {description && (
-          <Tooltip content={<p>{description}</p>}>
-            <span className="tooltip-indicator" aria-label="More info">
-              ?
-            </span>
-          </Tooltip>
-        )}
-      </span>
-    </th>
   );
 }
 
@@ -168,7 +116,6 @@ export default function CompanyTable({ rows }: { rows: ScoredCompany[] }) {
               direction={sortDir}
               onSort={handleSort}
               align="right"
-              description="S&P 500 rank for ordering; defaults to 500 when unavailable."
             />
             <SortableHeader
               label="Company"
@@ -194,16 +141,16 @@ export default function CompanyTable({ rows }: { rows: ScoredCompany[] }) {
               description={OVERALL_SCORE_DESCRIPTION}
             />
             <SortableHeader
-              label="AI Layoffs (#)"
+              label="AI Layoffs"
               sortKey="aiLayoffCount"
               activeKey={sortKey}
               direction={sortDir}
               onSort={handleSort}
               align="right"
-              description="Cumulative AI-attributed layoffs from tracked public layoff disclosures."
+              description="Cumulative AI-attributed layoffs since 2024, from tracked public layoff disclosures."
             />
             <SortableHeader
-              label="Workforce Support"
+              label="Workforce Reskilling"
               sortKey="workforceSupport"
               activeKey={sortKey}
               direction={sortDir}

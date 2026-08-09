@@ -179,6 +179,14 @@ const listCompaniesCached = unstable_cache(
       reskillingFunded: row.reskilling_funded,
       humanInTheLoopMandate: row.human_in_the_loop_mandate,
       tosScrapingOptOut: row.tos_scraping_opt_out,
+      // Not yet columns in the Supabase schema; default to false until backfilled there too.
+      noAiTrainingOnPersonalData: false,
+      dedicatedAiTrainingOptOut: false,
+      confirmedPrivacyFine: false,
+      dedicatedAiGovernanceBody: false,
+      noConsequentialAutomatedDecisions: false,
+      recurringPublicAiReport: false,
+      concreteTransparencyArtifacts: false,
       citations: (row.company_citations ?? []).map((citation) => ({
         id: citation.id,
         title: citation.title,
