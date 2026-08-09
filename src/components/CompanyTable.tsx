@@ -147,7 +147,7 @@ export default function CompanyTable({ rows }: { rows: ScoredCompany[] }) {
               direction={sortDir}
               onSort={handleSort}
               align="right"
-              description="Cumulative AI-attributed layoffs since 2024, from tracked public layoff disclosures."
+              description="Cumulative layoffs since 2024 where the company or credible reporting cited A.I. or automation as a direct reason for the cuts."
             />
             <SortableHeader
               label="Workforce Reskilling"
