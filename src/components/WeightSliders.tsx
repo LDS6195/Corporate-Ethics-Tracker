@@ -77,14 +77,6 @@ export default function WeightSliders({
           </span>
           <button
             type="button"
-            onClick={() => setIsExpanded((current) => !current)}
-            aria-expanded={isExpanded}
-            className="text-xs font-medium text-neutral-400 hover:text-neutral-200"
-          >
-            {isExpanded ? "Collapse" : "Expand"}
-          </button>
-          <button
-            type="button"
             onClick={onReset}
             className="text-xs font-medium text-sky-400 hover:text-sky-300 hover:underline"
           >
