@@ -500,6 +500,67 @@
       "republicanPct": 53.83,
       "thirdPartyPct": 0,
       "lobbyingSpendUsd": 3400000
+    },
+    {
+      "companyId": "abbvie",
+      "profileStatus": "not-started",
+      "electionCycle": "2024",
+      "evidenceRecords": 0,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-09"
+    },
+    {
+      "companyId": "netflix",
+      "profileStatus": "not-started",
+      "electionCycle": "2024",
+      "evidenceRecords": 0,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-09"
+    },
+    {
+      "companyId": "bank-of-america",
+      "profileStatus": "in-progress",
+      "electionCycle": "2024",
+      "pacContributionsUsd": 4231320,
+      "democraticPct": 60.4,
+      "republicanPct": 39.6,
+      "thirdPartyPct": 0,
+      "lobbyingSpendUsd": 2400000,
+      "lobbyingSpendPriorYearUsd": 2920000,
+      "lobbyingFocusSummary": "Financial regulation, capital requirements, and banking policy remain central federal advocacy themes for Bank of America as a systemically important financial institution.",
+      "lobbyingPolicyArea": "Finance",
+      "topLobbiedBillId": "H.R.3881",
+      "topLobbiedBillUrl": "https://www.opensecrets.org/federal-lobbying/clients/summary?id=D000000090",
+      "lobbyingSourceUrl": "https://www.opensecrets.org/orgs/bank-of-america/summary?id=D000000090",
+      "revolvingDoorCurrent": {
+        "cycle": "2024",
+        "formerGovtLobbyists": 11,
+        "totalLobbyists": 17
+      },
+      "revolvingDoorPrior": {
+        "cycle": "2023",
+        "formerGovtLobbyists": 12,
+        "totalLobbyists": 15
+      },
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 3,
+      "lastUpdated": "2026-08-09"
+    },
+    {
+      "companyId": "oracle",
+      "profileStatus": "not-started",
+      "electionCycle": "2024",
+      "evidenceRecords": 0,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-09"
+    },
+    {
+      "companyId": "salesforce",
+      "profileStatus": "not-started",
+      "electionCycle": "2024",
+      "evidenceRecords": 0,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-09"
     }
   ]
 }

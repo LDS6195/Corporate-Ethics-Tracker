@@ -176,6 +176,8 @@ const listCompaniesCached = unstable_cache(
       overallScore: Number(row.overall_score),
       categoryScores: row.category_scores,
       aiLayoffTracked: row.ai_layoff_tracked,
+      // Supabase schema doesn't have ai_layoff_count yet; default to 0 until backfilled.
+      aiLayoffCount: 0,
       reskillingFunded: row.reskilling_funded,
       humanInTheLoopMandate: row.human_in_the_loop_mandate,
       tosScrapingOptOut: row.tos_scraping_opt_out,

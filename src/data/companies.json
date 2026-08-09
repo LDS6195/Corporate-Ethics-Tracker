@@ -64,7 +64,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "microsoft",
@@ -72,14 +73,14 @@
       "ticker": "MSFT",
       "industry": "Software",
       "logoUrl": "https://ui-avatars.com/api/?name=MSFT&background=065f46&color=fff&bold=true",
-      "overallScore": 37,
+      "overallScore": 53,
       "categoryScores": {
-        "laborDisplacement": 6,
+        "laborDisplacement": 22,
         "dataPrivacy": 0,
         "humanOversight": 18,
         "transparency": 13
       },
-      "aiLayoffTracked": true,
+      "aiLayoffTracked": false,
       "reskillingFunded": true,
       "humanInTheLoopMandate": true,
       "tosScrapingOptOut": false,
@@ -138,7 +139,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": true
+      "concreteTransparencyArtifacts": true,
+      "aiLayoffCount": 0
     },
     {
       "id": "nvidia",
@@ -221,7 +223,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": true
+      "concreteTransparencyArtifacts": true,
+      "aiLayoffCount": 0
     },
     {
       "id": "alphabet",
@@ -229,14 +232,14 @@
       "ticker": "GOOGL",
       "industry": "Internet & Media",
       "logoUrl": "https://ui-avatars.com/api/?name=GOOGL&background=7c2d12&color=fff&bold=true",
-      "overallScore": 64,
+      "overallScore": 56,
       "categoryScores": {
-        "laborDisplacement": 13,
+        "laborDisplacement": 5,
         "dataPrivacy": 18,
         "humanOversight": 18,
         "transparency": 15
       },
-      "aiLayoffTracked": false,
+      "aiLayoffTracked": true,
       "reskillingFunded": false,
       "humanInTheLoopMandate": true,
       "tosScrapingOptOut": false,
@@ -304,7 +307,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": true,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 150
     },
     {
       "id": "amazon",
@@ -312,14 +316,14 @@
       "ticker": "AMZN",
       "industry": "E-Commerce & Cloud",
       "logoUrl": "https://ui-avatars.com/api/?name=AMZN&background=581c87&color=fff&bold=true",
-      "overallScore": 37,
+      "overallScore": 21,
       "categoryScores": {
-        "laborDisplacement": 22,
+        "laborDisplacement": 6,
         "dataPrivacy": 0,
         "humanOversight": 9,
         "transparency": 6
       },
-      "aiLayoffTracked": false,
+      "aiLayoffTracked": true,
       "reskillingFunded": true,
       "humanInTheLoopMandate": false,
       "tosScrapingOptOut": false,
@@ -360,7 +364,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 30000
     },
     {
       "id": "meta-platforms",
@@ -368,14 +373,14 @@
       "ticker": "META",
       "industry": "Internet & Media",
       "logoUrl": "https://ui-avatars.com/api/?name=META&background=1e40af&color=fff&bold=true",
-      "overallScore": 39,
+      "overallScore": 23,
       "categoryScores": {
-        "laborDisplacement": 22,
+        "laborDisplacement": 6,
         "dataPrivacy": 0,
         "humanOversight": 9,
         "transparency": 8
       },
-      "aiLayoffTracked": false,
+      "aiLayoffTracked": true,
       "reskillingFunded": true,
       "humanInTheLoopMandate": false,
       "tosScrapingOptOut": false,
@@ -443,7 +448,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 10400
     },
     {
       "id": "berkshire-hathaway",
@@ -508,7 +514,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "broadcom",
@@ -516,14 +523,14 @@
       "ticker": "AVGO",
       "industry": "Semiconductors",
       "logoUrl": "https://ui-avatars.com/api/?name=AVGO&background=134e4a&color=fff&bold=true",
-      "overallScore": 70,
+      "overallScore": 62,
       "categoryScores": {
-        "laborDisplacement": 22,
+        "laborDisplacement": 14,
         "dataPrivacy": 18,
         "humanOversight": 23,
         "transparency": 7
       },
-      "aiLayoffTracked": false,
+      "aiLayoffTracked": true,
       "reskillingFunded": true,
       "humanInTheLoopMandate": true,
       "tosScrapingOptOut": false,
@@ -582,7 +589,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": true,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 247
     },
     {
       "id": "tesla",
@@ -647,7 +655,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "eli-lilly",
@@ -712,7 +721,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "jpmorgan-chase",
@@ -786,7 +796,8 @@
       "dedicatedAiGovernanceBody": true,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "visa",
@@ -860,7 +871,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "unitedhealth-group",
@@ -925,7 +937,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "walmart",
@@ -1008,7 +1021,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": true,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "mastercard",
@@ -1073,7 +1087,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "exxon-mobil",
@@ -1120,7 +1135,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "costco",
@@ -1185,7 +1201,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "johnson-johnson",
@@ -1259,7 +1276,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": true,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "procter-gamble",
@@ -1324,7 +1342,8 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": false,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
     },
     {
       "id": "home-depot",
@@ -1398,7 +1417,383 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": true,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false
+      "concreteTransparencyArtifacts": false,
+      "aiLayoffCount": 0
+    },
+    {
+      "id": "abbvie",
+      "name": "AbbVie Inc.",
+      "ticker": "ABBV",
+      "industry": "Pharmaceuticals",
+      "logoUrl": "https://ui-avatars.com/api/?name=ABBV&background=6d28d9&color=fff&bold=true",
+      "overallScore": 56,
+      "categoryScores": {
+        "laborDisplacement": 22,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffTracked": false,
+      "reskillingFunded": true,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "abbv-c1",
+          "title": "Form 10-K, Human Capital Management - AI Skills Investment",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+          "snippet": "AbbVie has invested significantly in equipping employees with foundational artificial intelligence (AI) skills, reflecting both the opportunities AI presents and its commitment to supporting employees as work evolves.",
+          "date": "2026-02-20",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "abbv-c2",
+          "title": "Form 10-K, Risk Factors - AI Technology Risks",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+          "snippet": "AbbVie depends on information technology and a failure of, or significant disruption to, those systems, or a failure to adequately adopt emerging technologies such as artificial intelligence, could have a material adverse effect on AbbVie's business. Additionally, AbbVie utilizes AI and other emerging technologies in select applications to support its operations.",
+          "date": "2026-02-20",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "abbv-c3",
+          "title": "Form 10-K, Item 1C Cybersecurity - NIST Framework and Governance",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+          "snippet": "AbbVie follows the National Institute of Standards and Technology (NIST) Cybersecurity Framework and undergoes a third-party assessment every two years. Our board of directors is actively involved in reviewing our information security and technology risks. The Audit Committee receives regular updates from the Chief Information Security Officer.",
+          "date": "2026-02-20",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "abbv-c4",
+          "title": "Form 10-K, Legal Proceedings - No Regulatory Privacy Fines",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+          "snippet": "AbbVie is subject to contingencies including product liability, intellectual property, commercial and securities matters. No regulatory privacy or data protection fines are disclosed in legal proceedings.",
+          "date": "2026-02-20",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "abbv-c5",
+          "title": "AbbVie Privacy Notice - No AI-Specific Training Opt-Out",
+          "sourceName": "AbbVie",
+          "url": "https://www.abbvie.com/privacy-center/privacy-notice.html",
+          "snippet": "AbbVie's privacy notice describes uses of personal information for business improvement and customization but does not include a specific opt-out for AI model training, nor explicit commitments against consequential automated decisions.",
+          "date": "2026-08-09",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-09",
+      "sp500Rank": 21,
+      "aiLayoffCount": 0
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "industry": "Streaming & Entertainment",
+      "logoUrl": "https://ui-avatars.com/api/?name=NFLX&background=dc2626&color=fff&bold=true",
+      "overallScore": 47,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "nflx-c1",
+          "title": "Form 10-K, Human Capital - Workforce and Culture",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+          "snippet": "As of December 31, 2025, we had approximately 16,000 full-time employees. Our business is to entertain the world across different countries, cultures, languages and tastes. We view our employees and our culture as key to our success.",
+          "date": "2026-01-23",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "nflx-c2",
+          "title": "Form 10-K, Risk Factors - Generative AI and Competition",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+          "snippet": "New technological developments, including the development and use of generative AI, are rapidly evolving. If our competitors gain an advantage by using such technologies more effectively to satisfy consumer demand, our ability to compete successfully and our results of operations could be adversely impacted. Additionally, generative AI could intensify cybersecurity risks.",
+          "date": "2026-01-23",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "nflx-c3",
+          "title": "Form 10-K, Item 1C Cybersecurity - Governance and Risk Management",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+          "snippet": "The Senior Director, Security, Privacy & Assurance leads our global information security organization. The Board oversees our annual enterprise risk assessment, where we assess key risks including security and technology risks. The Audit Committee of the Board oversees our cybersecurity risk and receives regular reports.",
+          "date": "2026-01-23",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "nflx-c4",
+          "title": "Form 10-K, Legal Proceedings - No Privacy Regulatory Fines",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+          "snippet": "From time to time, in the normal course of its operations, the Company is subject to litigation matters and claims, including claims relating to employee relations, business practices and patent infringement. No privacy regulatory fines are disclosed. The Brazil non-income tax assessment of approximately $619 million is a non-income tax matter, not a privacy fine.",
+          "date": "2026-01-23",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "nflx-c5",
+          "title": "Netflix Privacy Statement - Data Practices and Automated Decision Rights",
+          "sourceName": "Netflix",
+          "url": "https://help.netflix.com/legal/privacy",
+          "snippet": "Netflix's privacy statement discloses your right under GDPR 'not to be subject to a decision made solely using automated means, where such decision would have a legal effect.' However, Netflix does not provide a dedicated opt-out for AI model training on member data, and member viewing data is used to provide and improve personalized recommendations.",
+          "date": "2026-08-09",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-09",
+      "sp500Rank": 22,
+      "aiLayoffCount": 0
+    },
+    {
+      "id": "bank-of-america",
+      "name": "Bank of America Corp.",
+      "ticker": "BAC",
+      "industry": "Banking & Financial Services",
+      "logoUrl": "https://ui-avatars.com/api/?name=BAC&background=b91c1c&color=fff&bold=true",
+      "overallScore": 47,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "bac-c1",
+          "title": "Form 10-K, Human Capital and Responsible Growth",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "snippet": "Bank of America's responsible growth framework includes talent development, operational excellence, and technology investment. The company operates eight lines of business and employs approximately 213,000 full-time employees as of December 31, 2025.",
+          "date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "bac-c2",
+          "title": "Form 10-K, Technology and AI Risk Factors",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "snippet": "The company uses AI-powered tools including the Erica virtual assistant, which has surpassed 2.5 billion client interactions. AI is embedded in fraud detection, credit underwriting, risk modeling, and customer service. AI-related risks including model risk and regulatory uncertainty are disclosed as material risk factors.",
+          "date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "bac-c3",
+          "title": "Form 10-K, Legal Proceedings - No Data Privacy Regulatory Fines",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "snippet": "Legal proceedings and regulatory matters include CFPB actions related to junk fees and unfair practices (UDAAP), not data privacy violations. No GDPR, CCPA, or equivalent data privacy regulatory fines are disclosed in legal proceedings.",
+          "date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "bac-c4",
+          "title": "Form 10-K, Cybersecurity - Risk Management and Governance",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "snippet": "Bank of America maintains enterprise-wide information security and technology risk management programs with oversight by the Board's Enterprise Risk Committee. The company employs a Chief Information Security Officer and deploys advanced threat intelligence and monitoring across its global operations.",
+          "date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "bac-c5",
+          "title": "Consumer Privacy Notice - Standard GLB Disclosure",
+          "sourceName": "Bank of America",
+          "url": "https://web.bankofamerica.com/en/privacy/consumer-privacy-notice",
+          "snippet": "Bank of America's consumer privacy notice is a standard Gramm-Leach-Bliley (GLB) disclosure covering sharing of personal information with affiliates and nonaffiliates. No AI-specific training opt-out, no automated decision-making commitments, and no AI-specific data use disclosures are present.",
+          "date": "2026-08-09",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-09",
+      "sp500Rank": 23,
+      "aiLayoffCount": 0
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle Corporation",
+      "ticker": "ORCL",
+      "industry": "Enterprise Software & Cloud",
+      "logoUrl": "https://ui-avatars.com/api/?name=ORCL&background=dc2626&color=fff&bold=true",
+      "overallScore": 40,
+      "categoryScores": {
+        "laborDisplacement": 6,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffTracked": true,
+      "reskillingFunded": true,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "orcl-c1",
+          "title": "Form 10-K, Human Capital - 141,000 Employees and AI Skills Training",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+          "snippet": "As of May 31, 2026, we employed approximately 141,000 full-time employees. Oracle employees received more than 4.2 million hours of training in fiscal 2026 and accessed online learning content at an average rate of approximately 2.6 million views per month on AI, sales, business, product, market/industry, leadership, technical and compliance skills.",
+          "date": "2026-06-22",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "orcl-c2",
+          "title": "Form 10-K, 2026 Restructuring Plan - AI-Attributed Workforce Reductions",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+          "snippet": "During fiscal 2026, our management approved, committed to, initiated and further supplemented plans to restructure to implement certain strategic measures and further improve operational efficiencies, including through the adoption and integration of AI technologies across certain functions and other operational activities (2026 Restructuring Plan). The total estimated restructuring costs associated with the 2026 Restructuring Plan are up to $2.1 billion.",
+          "date": "2026-06-22",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "orcl-c3",
+          "title": "Form 10-K, Risk Factors - AI Technologies Resulting in Workforce Reductions",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+          "snippet": "In addition, the adoption and deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce. These types of restructurings have resulted, and may in the future result, in increased restructuring costs and reduced productivity.",
+          "date": "2026-06-22",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "orcl-c4",
+          "title": "Form 10-K, Legal Proceedings - Netherlands GDPR Class Action Pending",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+          "snippet": "The Privacy Collective filed a purported class action against Oracle Nederland B.V., Oracle Corporation and Oracle America, Inc. alleging that Oracle's Data Management Platform product violates GDPR. We believe that we have meritorious defenses against this action. While the final outcome cannot be predicted, we do not believe it will have a material impact on our financial position.",
+          "date": "2026-06-22",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "orcl-c5",
+          "title": "Oracle General Privacy Policy - No AI-Specific Training Opt-Out",
+          "sourceName": "Oracle",
+          "url": "https://www.oracle.com/legal/privacy/privacy-policy.html",
+          "snippet": "Oracle's General Privacy Policy describes data collection and use for website interactions and marketing. No dedicated AI training opt-out, no automated decision-making commitments for users, and no AI-specific data rights are provided in the general privacy policy. Opt-out options cover marketing, deletion, access and correction.",
+          "date": "2026-08-09",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-09",
+      "sp500Rank": 24,
+      "aiLayoffCount": 21000
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "industry": "Enterprise Software & Cloud",
+      "logoUrl": "https://ui-avatars.com/api/?name=CRM&background=00a1e0&color=fff&bold=true",
+      "overallScore": 56,
+      "categoryScores": {
+        "laborDisplacement": 10,
+        "dataPrivacy": 18,
+        "humanOversight": 14,
+        "transparency": 14
+      },
+      "aiLayoffTracked": true,
+      "reskillingFunded": true,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": true,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": true,
+      "citations": [
+        {
+          "id": "crm-c1",
+          "title": "Form 10-K, Human Capital - 4Rs Reskilling Strategy and Agent & AI Literacy",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+          "snippet": "To help prepare for future-readiness, we anchor development around our Top 10 Enterprise Skills - from Agent & AI Literacy to Strategic Problem Solving - which are embedded into our development processes and quarterly check-ins. These Enterprise Skills are also the foundation of our 4R's strategy - redesign, reskill, redeploy and rebalance. We want to help our employees build the right skills for the future and afford them the opportunity to grow, learn and be relevant based on the market and business needs.",
+          "date": "2026-03-02",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "crm-c2",
+          "title": "Form 10-K, Restructuring - Workforce Reduction Without AI Attribution",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+          "snippet": "The Company has undertaken various restructuring initiatives to improve operating margins and continue advancing its ongoing commitment to profitable growth, which have included a reduction of the Company's workforce, select data center exits, and office space reductions within certain markets. In fiscal 2026, approximately $586 million of costs were incurred related to our restructuring initiatives, primarily related to employee transitions, severance payments and employee benefits.",
+          "date": "2026-03-02",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "crm-c3",
+          "title": "Form 10-K, Agentforce - Human Oversight and Trust Layer Governance",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+          "snippet": "Every agent operates within defined permissions with full observability, governance, and auditability. Organizations can see what agents are doing, measure their performance, understand why decisions were made and intervene when needed. At its core, Agentforce powers the Agentic Enterprise — where humans set direction and values, and agents execute with speed, precision, and trust. Our Trust Layer is built into the Platform to help customers safely use their data and set guardrails on what AI agents do with that data.",
+          "date": "2026-03-02",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "crm-c4",
+          "title": "Salesforce Privacy Statement - No Automated Decision-Making on Sites or Services",
+          "sourceName": "Salesforce",
+          "url": "https://www.salesforce.com/company/privacy/",
+          "snippet": "You have the right to not be subject to a decision based solely on automated processing, including profiling, which produces legal effects. Please note that Automated Decision-Making currently does not take place on our websites or in our services. Salesforce may use artificial intelligence to process your Personal Data, including to develop and deploy AI systems. Where artificial intelligence is leveraged, it will only be used where legally permissible.",
+          "date": "2026-05-19",
+          "category": "Policy"
+        },
+        {
+          "id": "crm-c5",
+          "title": "Salesforce Privacy Statement - Transparency Reports and Published BCRs",
+          "sourceName": "Salesforce",
+          "url": "https://www.salesforce.com/company/privacy/",
+          "snippet": "Salesforce publishes EU Processor and UK Processor Binding Corporate Rules, a Data Processing Addendum, Data Transfer Mechanisms FAQ, and Transparency Reports. The privacy statement links to Salesforce's Responsible AI practices page. Salesforce holds SOC 1, SOC 2, SOC 3, ISO 27001 certifications and publishes attestations on its global compliance webpage.",
+          "date": "2026-05-19",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-09",
+      "sp500Rank": 25,
+      "aiLayoffCount": 5471
     }
   ]
 }

@@ -14,9 +14,9 @@
   ],
   "sourceUpdatedAt": "2026-08-06T22:22:57.406Z",
   "generatedAt": "2026-08-06T22:27:31.533Z",
-  "trackedCount": 20,
-  "matchedCount": 7,
-  "aiTrackedCount": 4,
+  "trackedCount": 22,
+  "matchedCount": 9,
+  "aiTrackedCount": 6,
   "trackedCompanies": [
     {
       "companyId": "apple",
@@ -471,6 +471,122 @@
       "aiEvents": [],
       "source": "Layoffs.fyi",
       "sourceCompanyUrl": null
+    },
+    {
+      "companyId": "oracle",
+      "companyName": "Oracle Corporation",
+      "ticker": "ORCL",
+      "matched": true,
+      "matchedName": "Oracle",
+      "matchedSlug": "oracle",
+      "layoffsTotal": 22294,
+      "layoffsLatest": "2026-06-23",
+      "layoffsIndustry": "Other",
+      "aiLayoffEmployees": 21000,
+      "aiLayoffEvents": 1,
+      "aiLayoffTrackedFromSource": true,
+      "aiEvents": [
+        {
+          "year": "2026",
+          "company": "Oracle",
+          "slug": "oracle",
+          "date": "2026-06-23",
+          "count": 21000,
+          "percent": 13,
+          "source": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html",
+          "explanation": "Oracle attributed the layoffs directly to AI adoption across its operations, stating that \"the adoption and deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce.\""
+        }
+      ],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": "https://layoffs.fyi/company/oracle/"
+    },
+    {
+      "companyId": "salesforce",
+      "companyName": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "matched": true,
+      "matchedName": "Salesforce",
+      "matchedSlug": "salesforce",
+      "layoffsTotal": 5782,
+      "layoffsLatest": "2026-06-09",
+      "layoffsIndustry": "Software",
+      "aiLayoffEmployees": 5471,
+      "aiLayoffEvents": 7,
+      "aiLayoffTrackedFromSource": true,
+      "aiEvents": [
+        {
+          "year": "2025",
+          "company": "Salesforce",
+          "slug": "salesforce",
+          "date": "2025-08-31",
+          "count": 4000,
+          "percent": null,
+          "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9",
+          "explanation": "Salesforce's Agentforce AI agents automated customer support tasks to the point where CEO Marc Benioff directly attributed the elimination of 4,000 support roles to the technology, stating \"I've reduced it from 9,000 heads to about 5,000, because I need less heads\" and crediting \"the benefits and efficiencies of Agentforce\" for handling roughly 50% of the customer division's workload, rendering thousands of human support positions redundant."
+        },
+        {
+          "year": "2025",
+          "company": "Salesforce",
+          "slug": "salesforce",
+          "date": "2025-02-03",
+          "count": 1000,
+          "percent": 1,
+          "source": "https://finance.yahoo.com/news/salesforce-cut-1-000-roles-002028643.html",
+          "explanation": "Salesforce eliminated over 1,000 roles as part of a deliberate workforce restructuring to shift resources toward its agentic AI platform, Agentforce, simultaneously announcing plans to hire 2,000 new employees focused on selling AI products."
+        },
+        {
+          "year": "2025",
+          "company": "Salesforce",
+          "slug": "salesforce",
+          "date": "2025-09-04",
+          "count": 262,
+          "percent": null,
+          "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/",
+          "explanation": "Salesforce CEO Marc Benioff explicitly credited AI as enabling the company to reduce its workforce, stating that artificial intelligence had let him slash support staff and describing it as an 'exciting' labor replacement."
+        },
+        {
+          "year": "2025",
+          "company": "Salesforce",
+          "slug": "salesforce",
+          "date": "2025-09-03",
+          "count": 93,
+          "percent": null,
+          "source": "https://www.seattletimes.com/business/seattle-area-tech-layoffs-mount-with-salesforce-and-oracle-job-cuts/",
+          "explanation": "Salesforce has been restructuring its workforce to realign resources toward AI development, having publicly committed to aggressive investment in agentic AI products while reducing headcount in roles made redundant by automation and AI-driven efficiency gains."
+        },
+        {
+          "year": "2025",
+          "company": "Salesforce",
+          "slug": "salesforce",
+          "date": "2025-09-03",
+          "count": 30,
+          "percent": null,
+          "source": "https://www.thejournal.ie/salesforce-ireland-redundancies-6806486-Sep2025/",
+          "explanation": "Salesforce cut roles in Ireland as part of its broader workforce restructuring driven by AI automation, as the company has been actively replacing traditional sales and support functions with AI-powered agents."
+        },
+        {
+          "year": "2026",
+          "company": "Salesforce",
+          "slug": "salesforce",
+          "date": "2026-02-09",
+          "count": 0,
+          "percent": null,
+          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-executive-changes-2026-2",
+          "explanation": "Salesforce restructured its marketing, product, and data teams as part of a broader strategic pivot toward AI-driven products and services, particularly its Agentforce AI platform, which reduced the need for certain traditional roles."
+        },
+        {
+          "year": "2026",
+          "company": "Salesforce",
+          "slug": "salesforce",
+          "date": "2026-06-09",
+          "count": 86,
+          "percent": null,
+          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+          "explanation": "Salesforce eliminated roles across its Agentforce AI product, MuleSoft, and Marketing Cloud divisions as the company restructured around AI-driven priorities."
+        }
+      ],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": "https://layoffs.fyi/company/salesforce/"
     }
   ]
 }

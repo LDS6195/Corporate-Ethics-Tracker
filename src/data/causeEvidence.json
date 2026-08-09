@@ -615,6 +615,26 @@
       "signal": "NVIDIA reported $64 million in combined employee donations and company matching through Inspire 365 in FY26.",
       "amountUsd": 64000000,
       "confidence": "high"
+    },
+    {
+      "companyId": "abbvie",
+      "categoryId": "community-health",
+      "sourceName": "AbbVie Foundation",
+      "sourceUrl": "https://www.abbvie.com/societal-impact/for-the-strength-of-our-communities/serving-communities-through-philanthropy.html",
+      "sourceDate": "2026-08-09",
+      "signal": "Since 2013, the AbbVie Foundation has provided $389 million in grants to more than 310 organizations focused on health equity, removing systemic barriers, and increasing access to care. The Foundation also funds $700K in annual ERG community grants and ~$1.5M in local community grants.",
+      "amountUsd": 389000000,
+      "confidence": "high"
+    },
+    {
+      "companyId": "abbvie",
+      "categoryId": "worker-wellbeing",
+      "sourceName": "SEC EDGAR",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+      "sourceDate": "2026-02-20",
+      "signal": "AbbVie employees have volunteered more than 428,000 hours globally since founding. AbbVie Employee Relief Program provides financial relief after disasters. Employee matching program has raised $185M+ total since inception.",
+      "amountUsd": null,
+      "confidence": "medium"
     }
   ]
 }

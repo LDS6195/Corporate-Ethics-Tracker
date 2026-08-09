@@ -49,6 +49,8 @@ export interface CompanyAudit {
   categoryScores: CategoryScores;
   /** True if the company has publicly confirmed AI-attributed layoffs. */
   aiLayoffTracked: boolean;
+  /** Confirmed AI-attributed headcount from layoffs.fyi; drives the scaled labor penalty. */
+  aiLayoffCount: number;
   /** True if the company funds reskilling/upskilling for displaced workers. */
   reskillingFunded: boolean;
   /** True if a human-in-the-loop review is mandated for high-stakes AI decisions. */
