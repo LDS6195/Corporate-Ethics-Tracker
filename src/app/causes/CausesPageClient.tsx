@@ -155,7 +155,7 @@ export default function CausesPageClient({
 
   const rows = useMemo(() => {
     const all = toCauseRows(companies, seededProfiles);
-    return all.filter(({ company, profile }) => {
+    return all.filter(({ company }) => {
       const query = search.trim().toLowerCase();
       const matchesSearch =
         query === "" ||

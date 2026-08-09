@@ -46,12 +46,14 @@ export default function PrimaryNav() {
     }
   }, []);
 
+  /* Theme toggle hidden — unwrap to restore
   const handleThemeToggle = () => {
     const nextIsLight = !isLightMode;
     setIsLightMode(nextIsLight);
     document.documentElement.classList.toggle("theme-light", nextIsLight);
     window.localStorage.setItem("theme", nextIsLight ? "light" : "dark");
   };
+  */
 
   const navShellClasses = isLightMode
     ? "mx-auto max-w-7xl rounded-xl border border-slate-300/95 bg-white/92 px-3 py-3.5 shadow-[0_10px_28px_rgba(15,23,42,0.1)] backdrop-blur"

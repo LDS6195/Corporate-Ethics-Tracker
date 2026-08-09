@@ -122,7 +122,7 @@ export default function PoliticsPageClient({
 
   const rows = useMemo(() => {
     const all = toRows(companies, seededProfiles);
-    return all.filter(({ company, profile }) => {
+    return all.filter(({ company }) => {
       const query = search.trim().toLowerCase();
       const matchesSearch =
         query === "" ||
