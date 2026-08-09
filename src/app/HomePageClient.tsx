@@ -124,47 +124,48 @@ export default function HomePageClient({ companies }: HomePageClientProps) {
           >
             {industries.map((ind) => (
               <option key={ind} value={ind}>
-                {ind}
+                {ind === "All" ? "All Industries" : ind}
               </option>
             ))}
           </select>
         </div>
-        <div className="flex items-center gap-4">
-          {viewMode === "grid" && (
-            <SortControl
-              options={SORT_OPTIONS}
-              sortKey={sortKey}
-              sortDir={sortDir}
-              onSortKeyChange={setSortKey}
-              onToggleDirection={() => setSortDir((d) => (d === "asc" ? "desc" : "asc"))}
-            />
-          )}
-          <div className="flex rounded-md border border-neutral-800 bg-neutral-900 p-0.5">
-            <button
-              type="button"
-              onClick={() => setViewMode("grid")}
-              aria-pressed={viewMode === "grid"}
-              className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
-                viewMode === "grid"
-                  ? "bg-neutral-700 text-neutral-100"
-                  : "text-neutral-400 hover:text-neutral-200"
-              }`}
-            >
-              Card
-            </button>
-            <button
-              type="button"
-              onClick={() => setViewMode("list")}
-              aria-pressed={viewMode === "list"}
-              className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
-                viewMode === "list"
-                  ? "bg-neutral-700 text-neutral-100"
-                  : "text-neutral-400 hover:text-neutral-200"
-              }`}
-            >
-              List
-            </button>
-          </div>
+        {viewMode === "grid" && (
+          <SortControl
+            options={SORT_OPTIONS}
+            sortKey={sortKey}
+            sortDir={sortDir}
+            onSortKeyChange={setSortKey}
+            onToggleDirection={() => setSortDir((d) => (d === "asc" ? "desc" : "asc"))}
+          />
+        )}
+      </section>
+
+      <section className="mb-6 flex items-center">
+        <div className="flex rounded-md border border-neutral-800 bg-neutral-900 p-0.5">
+          <button
+            type="button"
+            onClick={() => setViewMode("grid")}
+            aria-pressed={viewMode === "grid"}
+            className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
+              viewMode === "grid"
+                ? "bg-neutral-700 text-neutral-100"
+                : "text-neutral-400 hover:text-neutral-200"
+            }`}
+          >
+            Card
+          </button>
+          <button
+            type="button"
+            onClick={() => setViewMode("list")}
+            aria-pressed={viewMode === "list"}
+            className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
+              viewMode === "list"
+                ? "bg-neutral-700 text-neutral-100"
+                : "text-neutral-400 hover:text-neutral-200"
+            }`}
+          >
+            List
+          </button>
         </div>
       </section>
 

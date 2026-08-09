@@ -124,18 +124,47 @@ export default function CompanyCard({
         </dl>
       </div>
 
-      <div className="mb-4 flex flex-wrap gap-2">
-        <TagPill label="AI Layoff Tracked" positive={!company.aiLayoffTracked} />
-        <TagPill label="Reskilling Funded" positive={company.reskillingFunded} />
-        <TagPill
-          label="Human Oversight Mandate"
-          positive={company.humanInTheLoopMandate}
-        />
-        <TagPill
-          label="Unrestricted Data Scraping"
-          positive={!company.tosScrapingOptOut}
-        />
-      </div>
+      {/* Only render the badge row when at least one notable fact is confirmed */}
+      {(company.confirmedPrivacyFine || company.aiLayoffTracked || company.tosScrapingOptOut ||
+        company.reskillingFunded || company.humanInTheLoopMandate || company.noAiTrainingOnPersonalData ||
+        company.noConsequentialAutomatedDecisions || company.recurringPublicAiReport || company.concreteTransparencyArtifacts) ? (
+        <div className="mb-4 flex flex-wrap gap-2">
+          {company.confirmedPrivacyFine && (
+            <TagPill label="Confirmed Privacy Fine" positive={false} />
+          )}
+          {company.aiLayoffTracked && (
+            <TagPill label="A.I. Layoffs Tracked" positive={false} />
+          )}
+          {company.tosScrapingOptOut && (
+            <TagPill label="Data Scraping in ToS" positive={false} />
+          )}
+          {company.reskillingFunded && (
+            <TagPill label="Reskilling Funded" positive={true} />
+          )}
+          {company.humanInTheLoopMandate && (
+            <TagPill label="Human Oversight Mandate" positive={true} />
+          )}
+          {company.noAiTrainingOnPersonalData && (
+            <TagPill label="No A.I. Training on Personal Data" positive={true} />
+          )}
+          {company.noConsequentialAutomatedDecisions && (
+            <TagPill label="No Consequential A.I. Decisions" positive={true} />
+          )}
+          {company.recurringPublicAiReport && (
+            <TagPill label="Public A.I. Transparency Report" positive={true} />
+          )}
+          {company.concreteTransparencyArtifacts && (
+            <TagPill label="Published A.I. Artifacts" positive={true} />
+          )}
+        </div>
+      ) : (
+        <div className="mb-4 flex flex-wrap gap-2">
+          <span className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium bg-amber-950/50 text-amber-400 ring-1 ring-amber-700/40">
+            <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
+            Limited Public A.I. Disclosure
+          </span>
+        </div>
+      )}
 
       <div className="mt-auto flex items-center justify-between border-t border-neutral-800 pt-3">
         <span className="text-[11px] text-neutral-600">

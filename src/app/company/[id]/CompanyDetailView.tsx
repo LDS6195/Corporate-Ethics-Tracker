@@ -204,7 +204,7 @@ export default function CompanyDetailView({
               : "border-neutral-700 text-neutral-300 hover:border-neutral-500 hover:bg-neutral-800"
           }`}
         >
-          AI
+          A.I.
         </button>
         <button
           type="button"
@@ -230,7 +230,7 @@ export default function CompanyDetailView({
               : "border-neutral-700 text-neutral-300 hover:border-neutral-500 hover:bg-neutral-800"
           }`}
         >
-          Political
+          Politics
         </button>
       </nav>
 
@@ -470,10 +470,30 @@ export default function CompanyDetailView({
                     {formatRatio(politicalProfile.lobbyingSpendUsd, politicalProfile.pacContributionsUsd)}
                   </dd>
                 </div>
-                <div className="flex items-center justify-between gap-3 rounded border border-neutral-800/80 bg-neutral-950/40 px-3 py-2 sm:col-span-2">
-                  <dt className="text-neutral-500">Dem / Rep / 3rd split</dt>
-                  <dd className="font-medium text-neutral-200">
-                    {`${formatPercent(politicalProfile.democraticPct)} / ${formatPercent(politicalProfile.republicanPct)} / ${formatPercent(politicalProfile.thirdPartyPct)}`}
+                <div className="sm:col-span-2">
+                  <dt className="mb-2 text-neutral-500">PAC Contribution Split</dt>
+                  <dd className="grid grid-cols-3 gap-2">
+                    <div className="flex items-stretch overflow-hidden rounded border border-neutral-800/80 bg-neutral-950/40">
+                      <span className="w-1 shrink-0 bg-blue-500" />
+                      <div className="flex flex-1 flex-col px-2.5 py-2">
+                        <span className="text-[11px] text-neutral-500">Democrat</span>
+                        <span className="mt-0.5 font-medium text-neutral-200">{formatPercent(politicalProfile.democraticPct)}</span>
+                      </div>
+                    </div>
+                    <div className="flex items-stretch overflow-hidden rounded border border-neutral-800/80 bg-neutral-950/40">
+                      <span className="w-1 shrink-0 bg-red-500" />
+                      <div className="flex flex-1 flex-col px-2.5 py-2">
+                        <span className="text-[11px] text-neutral-500">Republican</span>
+                        <span className="mt-0.5 font-medium text-neutral-200">{formatPercent(politicalProfile.republicanPct)}</span>
+                      </div>
+                    </div>
+                    <div className="flex items-stretch overflow-hidden rounded border border-neutral-800/80 bg-neutral-950/40">
+                      <span className="w-1 shrink-0 bg-neutral-500" />
+                      <div className="flex flex-1 flex-col px-2.5 py-2">
+                        <span className="text-[11px] text-neutral-500">3rd Party</span>
+                        <span className="mt-0.5 font-medium text-neutral-200">{formatPercent(politicalProfile.thirdPartyPct)}</span>
+                      </div>
+                    </div>
                   </dd>
                 </div>
               </dl>

@@ -6,7 +6,6 @@ import type { CompanyAudit } from "@/types/company";
 import type {
   CauseCategoryId,
   CompanyCauseProfile,
-  CauseProfileStatus,
 } from "@/types/causes";
 import { compareCompaniesBySp500Rank } from "@/lib/companyRank";
 import { CAUSE_TAXONOMY } from "@/lib/causes";
@@ -37,12 +36,6 @@ interface CausesPageClientProps {
   seededProfiles: CompanyCauseProfile[];
   evidenceRows: CauseEvidenceSummaryRow[];
 }
-
-const STATUS_STYLES: Record<CauseProfileStatus, string> = {
-  "not-started": "text-neutral-300 bg-neutral-800/70 ring-1 ring-neutral-700",
-  "in-progress": "text-amber-300 bg-amber-950/50 ring-1 ring-amber-700/40",
-  published: "text-emerald-300 bg-emerald-950/50 ring-1 ring-emerald-700/40",
-};
 
 function formatCurrency(amount?: number) {
   if (amount === undefined) return "Not disclosed";
@@ -135,7 +128,6 @@ export default function CausesPageClient({
 }: CausesPageClientProps) {
   const [search, setSearch] = useState("");
   const [industry, setIndustry] = useState("All");
-  const [statusFilter, setStatusFilter] = useState<CauseProfileStatus | "All">("All");
   const [viewMode, setViewMode] = useState<ViewMode>("list");
   const [gridSortKey, setGridSortKey] = useState<GridSortKey>("sp500Rank");
   const [gridSortDir, setGridSortDir] = useState<SortDirection>("asc");
@@ -170,11 +162,9 @@ export default function CausesPageClient({
         company.name.toLowerCase().includes(query) ||
         company.ticker.toLowerCase().includes(query);
       const matchesIndustry = industry === "All" || company.industry === industry;
-      const matchesStatus =
-        statusFilter === "All" || profile.profileStatus === statusFilter;
-      return matchesSearch && matchesIndustry && matchesStatus;
+      return matchesSearch && matchesIndustry;
     });
-  }, [companies, seededProfiles, search, industry, statusFilter]);
+  }, [companies, seededProfiles, search, industry]);
 
   const gridRows = useMemo(() => {
     const dir = gridSortDir === "asc" ? 1 : -1;
@@ -253,57 +243,48 @@ export default function CausesPageClient({
           >
             {industries.map((ind) => (
               <option key={ind} value={ind}>
-                {ind}
+                {ind === "All" ? "All Industries" : ind}
               </option>
             ))}
           </select>
-          <select
-            value={statusFilter}
-            onChange={(e) => setStatusFilter(e.target.value as CauseProfileStatus | "All")}
-            className="w-full rounded-md border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm text-neutral-100 focus:border-sky-500 focus:outline-none sm:w-48"
-          >
-            <option value="All">All profile statuses</option>
-            <option value="published">Published</option>
-            <option value="in-progress">In progress</option>
-            <option value="not-started">Not started</option>
-          </select>
         </div>
-        <div className="flex items-center gap-3">
-          {viewMode === "grid" && (
-            <SortControl
-              options={GRID_SORT_OPTIONS}
-              sortKey={gridSortKey}
-              sortDir={gridSortDir}
-              onSortKeyChange={setGridSortKey}
-              onToggleDirection={() => setGridSortDir((d) => (d === "asc" ? "desc" : "asc"))}
-            />
-          )}
-          <div className="flex rounded-md border border-neutral-800 bg-neutral-900 p-0.5">
-            <button
-              type="button"
-              onClick={() => setViewMode("grid")}
-              aria-pressed={viewMode === "grid"}
-              className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
-                viewMode === "grid"
-                  ? "bg-neutral-700 text-neutral-100"
-                  : "text-neutral-400 hover:text-neutral-200"
-              }`}
-            >
-              Card
-            </button>
-            <button
-              type="button"
-              onClick={() => setViewMode("list")}
-              aria-pressed={viewMode === "list"}
-              className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
-                viewMode === "list"
-                  ? "bg-neutral-700 text-neutral-100"
-                  : "text-neutral-400 hover:text-neutral-200"
-              }`}
-            >
-              List
-            </button>
-          </div>
+        {viewMode === "grid" && (
+          <SortControl
+            options={GRID_SORT_OPTIONS}
+            sortKey={gridSortKey}
+            sortDir={gridSortDir}
+            onSortKeyChange={setGridSortKey}
+            onToggleDirection={() => setGridSortDir((d) => (d === "asc" ? "desc" : "asc"))}
+          />
+        )}
+      </section>
+
+      <section className="mb-6 flex items-center">
+        <div className="flex rounded-md border border-neutral-800 bg-neutral-900 p-0.5">
+          <button
+            type="button"
+            onClick={() => setViewMode("grid")}
+            aria-pressed={viewMode === "grid"}
+            className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
+              viewMode === "grid"
+                ? "bg-neutral-700 text-neutral-100"
+                : "text-neutral-400 hover:text-neutral-200"
+            }`}
+          >
+            Card
+          </button>
+          <button
+            type="button"
+            onClick={() => setViewMode("list")}
+            aria-pressed={viewMode === "list"}
+            className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
+              viewMode === "list"
+                ? "bg-neutral-700 text-neutral-100"
+                : "text-neutral-400 hover:text-neutral-200"
+            }`}
+          >
+            List
+          </button>
         </div>
       </section>
 
@@ -429,13 +410,6 @@ export default function CausesPageClient({
                       </p>
                     </div>
                   </div>
-                  <span
-                    className={`inline-block rounded px-2 py-0.5 text-xs font-semibold ${
-                      STATUS_STYLES[profile.profileStatus]
-                    }`}
-                  >
-                    {profile.profileStatus.replace("-", " ")}
-                  </span>
                 </div>
 
                 <dl className="mb-4 grid grid-cols-2 gap-2 rounded-lg border border-neutral-800 bg-neutral-950/30 p-3 text-xs">

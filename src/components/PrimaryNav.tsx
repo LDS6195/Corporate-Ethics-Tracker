@@ -104,6 +104,7 @@ export default function PrimaryNav() {
               </div>
             </div>
 
+            {/* Theme toggle hidden — unwrap the label below to restore
             <label className={`inline-flex shrink-0 cursor-pointer items-center gap-2 self-center sm:self-auto ${isLightMode ? "text-slate-700" : "text-neutral-300"}`}>
               <span className={`text-[13px] font-medium ${isLightMode ? "text-sky-700" : "text-neutral-500"}`}>
                 Light mode
@@ -130,6 +131,7 @@ export default function PrimaryNav() {
                 Dark mode
               </span>
             </label>
+            */}
           </div>
         </div>
       </div>
