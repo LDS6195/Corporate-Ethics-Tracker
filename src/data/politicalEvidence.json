@@ -850,6 +850,832 @@
       "sourceUrl": "https://www.opensecrets.org/orgs/home-depot/summary?id=D000000419",
       "sourceDate": "2026-01-23",
       "confidence": "high"
+    },
+    {
+      "companyId": "abbvie",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1850000,
+      "sourceName": "OpenSecrets - AbbVie Inc.",
+      "sourceUrl": "https://www.opensecrets.org/orgs/abbvie-inc/summary?id=D000067390",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "abbvie",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 9120000,
+      "sourceName": "OpenSecrets - AbbVie Inc.",
+      "sourceUrl": "https://www.opensecrets.org/orgs/abbvie-inc/summary?id=D000067390",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "abbvie",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 42,
+        "rep": 58,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/abbvie-inc/summary?id=D000067390",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "netflix",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 1100000,
+      "sourceName": "OpenSecrets - Netflix Inc.",
+      "sourceUrl": "https://www.opensecrets.org/orgs/netflix-inc/summary?id=D000035041",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "oracle",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 450000,
+      "sourceName": "OpenSecrets - Oracle Corp.",
+      "sourceUrl": "https://www.opensecrets.org/orgs/oracle-corp/summary?id=D000000672",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "oracle",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 8500000,
+      "sourceName": "OpenSecrets - Oracle Corp.",
+      "sourceUrl": "https://www.opensecrets.org/orgs/oracle-corp/summary?id=D000000672",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "oracle",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 35,
+        "rep": 65,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/oracle-corp/summary?id=D000000672",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "salesforce",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 2800000,
+      "sourceName": "OpenSecrets - Salesforce.com",
+      "sourceUrl": "https://www.opensecrets.org/orgs/salesforce-com/summary?id=D000028887",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "micron",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 320000,
+      "sourceName": "OpenSecrets - Micron Technology",
+      "sourceUrl": "https://www.opensecrets.org/orgs/micron-technology/summary?id=D000000494",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "micron",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 5200000,
+      "sourceName": "OpenSecrets - Micron Technology",
+      "sourceUrl": "https://www.opensecrets.org/orgs/micron-technology/summary?id=D000000494",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "micron",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 48,
+        "rep": 52,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/micron-technology/summary?id=D000000494",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "amd",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 185000,
+      "sourceName": "OpenSecrets - AMD",
+      "sourceUrl": "https://www.opensecrets.org/orgs/advanced-micro-devices/summary?id=D000021683",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "amd",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 3850000,
+      "sourceName": "OpenSecrets - AMD",
+      "sourceUrl": "https://www.opensecrets.org/orgs/advanced-micro-devices/summary?id=D000021683",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "amd",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 52,
+        "rep": 48,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/advanced-micro-devices/summary?id=D000021683",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "intel",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 450000,
+      "sourceName": "OpenSecrets - Intel",
+      "sourceUrl": "https://www.opensecrets.org/orgs/intel-corp/summary?id=D000000305",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "intel",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 7100000,
+      "sourceName": "OpenSecrets - Intel",
+      "sourceUrl": "https://www.opensecrets.org/orgs/intel-corp/summary?id=D000000305",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "intel",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 51,
+        "rep": 49,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/intel-corp/summary?id=D000000305",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "cisco",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 250000,
+      "sourceName": "OpenSecrets - Cisco",
+      "sourceUrl": "https://www.opensecrets.org/orgs/cisco-systems/summary?id=D000000201",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "cisco",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 3200000,
+      "sourceName": "OpenSecrets - Cisco",
+      "sourceUrl": "https://www.opensecrets.org/orgs/cisco-systems/summary?id=D000000201",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "cisco",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 55,
+        "rep": 45,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/cisco-systems/summary?id=D000000201",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "applied-materials",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 120000,
+      "sourceName": "OpenSecrets - Applied Materials",
+      "sourceUrl": "https://www.opensecrets.org/orgs/applied-materials/summary?id=D000021664",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "applied-materials",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 2500000,
+      "sourceName": "OpenSecrets - Applied Materials",
+      "sourceUrl": "https://www.opensecrets.org/orgs/applied-materials/summary?id=D000021664",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "applied-materials",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 50,
+        "rep": 50,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/applied-materials/summary?id=D000021664",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "palantir",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 4800000,
+      "sourceName": "OpenSecrets - Palantir",
+      "sourceUrl": "https://www.opensecrets.org/orgs/palantir-technologies/summary?id=D000067868",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "philip-morris",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 418500,
+      "sourceName": "OpenSecrets - Philip Morris International",
+      "sourceUrl": "https://www.opensecrets.org/orgs/philip-morris-international/summary?id=D000021941",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "philip-morris",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 2840000,
+      "sourceName": "OpenSecrets - Philip Morris International",
+      "sourceUrl": "https://www.opensecrets.org/orgs/philip-morris-international/summary?id=D000021941",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "caterpillar",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1250000,
+      "sourceName": "OpenSecrets - Caterpillar Inc.",
+      "sourceUrl": "https://www.opensecrets.org/orgs/caterpillar-inc/summary?id=D000000092",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "caterpillar",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 4120000,
+      "sourceName": "OpenSecrets - Caterpillar Inc.",
+      "sourceUrl": "https://www.opensecrets.org/orgs/caterpillar-inc/summary?id=D000000092",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "caterpillar",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 38,
+        "rep": 62,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/caterpillar-inc/summary?id=D000000092",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "lam-research",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 185000,
+      "sourceName": "OpenSecrets - Lam Research",
+      "sourceUrl": "https://www.opensecrets.org/orgs/lam-research/summary?id=D000035544",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "lam-research",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 1650000,
+      "sourceName": "OpenSecrets - Lam Research",
+      "sourceUrl": "https://www.opensecrets.org/orgs/lam-research/summary?id=D000035544",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "ge-aerospace",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1150000,
+      "sourceName": "OpenSecrets - General Electric",
+      "sourceUrl": "https://www.opensecrets.org/orgs/general-electric/summary?id=D000000125",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "ge-aerospace",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 7200000,
+      "sourceName": "OpenSecrets - General Electric",
+      "sourceUrl": "https://www.opensecrets.org/orgs/general-electric/summary?id=D000000125",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "ge-aerospace",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 48,
+        "rep": 52,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/general-electric/summary?id=D000000125",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "morgan-stanley",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 2450000,
+      "sourceName": "OpenSecrets - Morgan Stanley",
+      "sourceUrl": "https://www.opensecrets.org/orgs/morgan-stanley/summary?id=D000000109",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "morgan-stanley",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 4850000,
+      "sourceName": "OpenSecrets - Morgan Stanley",
+      "sourceUrl": "https://www.opensecrets.org/orgs/morgan-stanley/summary?id=D000000109",
+      "sourceDate": "2026-08-10",
+      "confidence": "high"
+    },
+    {
+      "companyId": "morgan-stanley",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 42,
+        "rep": 58,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/morgan-stanley/summary?id=D000000109",
+      "sourceDate": "2026-08-10",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "goldman-sachs",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 3531408,
+      "sourceName": "OpenSecrets - goldman-sachs",
+      "sourceUrl": "https://www.opensecrets.org/orgs/goldman-sachs/summary?id=d000000085",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "goldman-sachs",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 2740000,
+      "sourceName": "OpenSecrets - goldman-sachs",
+      "sourceUrl": "https://www.opensecrets.org/orgs/goldman-sachs/summary?id=d000000085",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "goldman-sachs",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 45,
+        "rep": 55,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/goldman-sachs/summary?id=d000000085",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "dell-technologies",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 2593063,
+      "sourceName": "OpenSecrets - dell-technologies",
+      "sourceUrl": "https://www.opensecrets.org/orgs/dell-technologies/summary?id=D000000585",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "dell-technologies",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 6340000,
+      "sourceName": "OpenSecrets - dell-technologies",
+      "sourceUrl": "https://www.opensecrets.org/orgs/dell-technologies/summary?id=D000000585",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "dell-technologies",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 52,
+        "rep": 48,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/dell-technologies/summary?id=D000000585",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "wells-fargo",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 4692633,
+      "sourceName": "OpenSecrets - wells-fargo",
+      "sourceUrl": "https://www.opensecrets.org/orgs/wells-fargo/summary?id=D000019743",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "wells-fargo",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 4550000,
+      "sourceName": "OpenSecrets - wells-fargo",
+      "sourceUrl": "https://www.opensecrets.org/orgs/wells-fargo/summary?id=D000019743",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "wells-fargo",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 58,
+        "rep": 42,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/wells-fargo/summary?id=D000019743",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "ge-vernova",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 101621,
+      "sourceName": "OpenSecrets - ge-vernova",
+      "sourceUrl": "https://www.opensecrets.org/orgs/ge-vernova/summary?id=D000110360",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "ge-vernova",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 590000,
+      "sourceName": "OpenSecrets - ge-vernova",
+      "sourceUrl": "https://www.opensecrets.org/orgs/ge-vernova/summary?id=D000110360",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "ge-vernova",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 40,
+        "rep": 58,
+        "third": 2
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/ge-vernova/summary?id=D000110360",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "klac",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 1380000,
+      "sourceName": "OpenSecrets - klac",
+      "sourceUrl": "https://www.opensecrets.org/orgs/kla-corp/summary?id=D000035133",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "klac",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 85,
+        "rep": 15,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/kla-corp/summary?id=D000035133",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "now",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 1600000,
+      "sourceName": "OpenSecrets - now",
+      "sourceUrl": "https://www.opensecrets.org/orgs/servicenow/summary?id=D000073991",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "now",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 75,
+        "rep": 25,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/servicenow/summary?id=D000073991",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "lin",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 68156,
+      "sourceName": "OpenSecrets - lin",
+      "sourceUrl": "https://www.opensecrets.org/orgs/linde-plc/summary?id=D000071865",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "lin",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 610000,
+      "sourceName": "OpenSecrets - lin",
+      "sourceUrl": "https://www.opensecrets.org/orgs/linde-plc/summary?id=D000071865",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "lin",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 42,
+        "rep": 55,
+        "third": 3
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/linde-plc/summary?id=D000071865",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "panw",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 1820000,
+      "sourceName": "OpenSecrets - panw",
+      "sourceUrl": "https://www.opensecrets.org/orgs/palo-alto-networks/summary?id=D000070976",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "panw",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 58,
+        "rep": 42,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/palo-alto-networks/summary?id=D000070976",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "anet",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 99,
+        "rep": 1,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/arista-networks/summary?id=D000070423",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "ba",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 5818876,
+      "sourceName": "OpenSecrets - ba",
+      "sourceUrl": "https://www.opensecrets.org/orgs/boeing-co/summary?id=D000000100",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "ba",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 11930000,
+      "sourceName": "OpenSecrets - ba",
+      "sourceUrl": "https://www.opensecrets.org/orgs/boeing-co/summary?id=D000000100",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "ba",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 55,
+        "rep": 45,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/boeing-co/summary?id=D000000100",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "axp",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1743331,
+      "sourceName": "OpenSecrets - axp",
+      "sourceUrl": "https://www.opensecrets.org/orgs/american-express/summary?id=D000000217",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "axp",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 1370000,
+      "sourceName": "OpenSecrets - axp",
+      "sourceUrl": "https://www.opensecrets.org/orgs/american-express/summary?id=D000000217",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "axp",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 68,
+        "rep": 32,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/american-express/summary?id=D000000217",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "ibm",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 5530000,
+      "sourceName": "OpenSecrets - ibm",
+      "sourceUrl": "https://www.opensecrets.org/orgs/ibm-corp/summary?id=D000000720",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "ibm",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 70,
+        "rep": 30,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/ibm-corp/summary?id=D000000720",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "qualcomm",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1786416,
+      "sourceName": "OpenSecrets - qualcomm",
+      "sourceUrl": "https://www.opensecrets.org/orgs/qualcomm-inc/summary?id=D000000794",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "qualcomm",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 7380000,
+      "sourceName": "OpenSecrets - qualcomm",
+      "sourceUrl": "https://www.opensecrets.org/orgs/qualcomm-inc/summary?id=D000000794",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "qualcomm",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 84,
+        "rep": 15,
+        "third": 1
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/qualcomm-inc/summary?id=D000000794",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "companyId": "uber",
+      "metric": "pacContributionsUsd",
+      "electionCycle": "2024",
+      "value": 1126755,
+      "sourceName": "OpenSecrets - uber",
+      "sourceUrl": "https://www.opensecrets.org/orgs/uber-technologies/summary?id=D000067336",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "uber",
+      "metric": "lobbyingSpendUsd",
+      "electionCycle": "2024",
+      "value": 2620000,
+      "sourceName": "OpenSecrets - uber",
+      "sourceUrl": "https://www.opensecrets.org/orgs/uber-technologies/summary?id=D000067336",
+      "sourceDate": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "companyId": "uber",
+      "metric": "partySplitPct",
+      "electionCycle": "2024",
+      "value": {
+        "dem": 65,
+        "rep": 35,
+        "third": 0
+      },
+      "sourceName": "OpenSecrets",
+      "sourceUrl": "https://www.opensecrets.org/orgs/uber-technologies/summary?id=D000067336",
+      "sourceDate": "2026-08-11",
+      "confidence": "medium"
     }
   ]
 }

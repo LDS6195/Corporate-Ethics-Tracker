@@ -52,8 +52,8 @@ interface PoliticsPageClientProps {
   seededProfiles: CompanyPoliticalProfile[];
 }
 
-function formatCurrency(amount?: number) {
-  if (amount === undefined) return "Not disclosed";
+function formatCurrency(amount?: number | null) {
+  if (amount == null) return "Not disclosed";
   return new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
@@ -61,8 +61,8 @@ function formatCurrency(amount?: number) {
   }).format(amount);
 }
 
-function formatPercent(value?: number) {
-  if (value === undefined) return "-";
+function formatPercent(value?: number | null) {
+  if (value == null) return "-";
   return `${value.toFixed(1)}%`;
 }
 

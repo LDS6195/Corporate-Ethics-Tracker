@@ -7,7 +7,7 @@
       "ticker": "AAPL",
       "industry": "Technology Hardware",
       "logoUrl": "https://ui-avatars.com/api/?name=AAPL&background=1e3a8a&color=fff&bold=true",
-      "overallScore": 54,
+      "overallScore": 58,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 24,
@@ -73,7 +73,7 @@
       "ticker": "MSFT",
       "industry": "Software",
       "logoUrl": "https://ui-avatars.com/api/?name=MSFT&background=065f46&color=fff&bold=true",
-      "overallScore": 53,
+      "overallScore": 57,
       "categoryScores": {
         "laborDisplacement": 22,
         "dataPrivacy": 0,
@@ -148,7 +148,7 @@
       "ticker": "NVDA",
       "industry": "Semiconductors",
       "logoUrl": "https://ui-avatars.com/api/?name=NVDA&background=14532d&color=fff&bold=true",
-      "overallScore": 63,
+      "overallScore": 67,
       "categoryScores": {
         "laborDisplacement": 22,
         "dataPrivacy": 18,
@@ -232,7 +232,7 @@
       "ticker": "GOOGL",
       "industry": "Internet & Media",
       "logoUrl": "https://ui-avatars.com/api/?name=GOOGL&background=7c2d12&color=fff&bold=true",
-      "overallScore": 56,
+      "overallScore": 60,
       "categoryScores": {
         "laborDisplacement": 5,
         "dataPrivacy": 18,
@@ -316,7 +316,7 @@
       "ticker": "AMZN",
       "industry": "E-Commerce & Cloud",
       "logoUrl": "https://ui-avatars.com/api/?name=AMZN&background=581c87&color=fff&bold=true",
-      "overallScore": 21,
+      "overallScore": 25,
       "categoryScores": {
         "laborDisplacement": 6,
         "dataPrivacy": 0,
@@ -373,7 +373,7 @@
       "ticker": "META",
       "industry": "Internet & Media",
       "logoUrl": "https://ui-avatars.com/api/?name=META&background=1e40af&color=fff&bold=true",
-      "overallScore": 23,
+      "overallScore": 27,
       "categoryScores": {
         "laborDisplacement": 6,
         "dataPrivacy": 0,
@@ -457,7 +457,7 @@
       "ticker": "BRK.B",
       "industry": "Conglomerate",
       "logoUrl": "https://ui-avatars.com/api/?name=BRK&background=78350f&color=fff&bold=true",
-      "overallScore": 46,
+      "overallScore": 50,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
@@ -523,14 +523,14 @@
       "ticker": "AVGO",
       "industry": "Semiconductors",
       "logoUrl": "https://ui-avatars.com/api/?name=AVGO&background=134e4a&color=fff&bold=true",
-      "overallScore": 62,
+      "overallScore": 74,
       "categoryScores": {
-        "laborDisplacement": 14,
+        "laborDisplacement": 22,
         "dataPrivacy": 18,
         "humanOversight": 23,
         "transparency": 7
       },
-      "aiLayoffTracked": true,
+      "aiLayoffTracked": false,
       "reskillingFunded": true,
       "humanInTheLoopMandate": true,
       "tosScrapingOptOut": false,
@@ -590,7 +590,7 @@
       "noConsequentialAutomatedDecisions": true,
       "recurringPublicAiReport": false,
       "concreteTransparencyArtifacts": false,
-      "aiLayoffCount": 247
+      "aiLayoffCount": 0
     },
     {
       "id": "tesla",
@@ -598,7 +598,7 @@
       "ticker": "TSLA",
       "industry": "Automotive",
       "logoUrl": "https://ui-avatars.com/api/?name=TSLA&background=7f1d1d&color=fff&bold=true",
-      "overallScore": 55,
+      "overallScore": 59,
       "categoryScores": {
         "laborDisplacement": 22,
         "dataPrivacy": 18,
@@ -664,7 +664,7 @@
       "ticker": "LLY",
       "industry": "Pharmaceuticals",
       "logoUrl": "https://ui-avatars.com/api/?name=LLY&background=3730a3&color=fff&bold=true",
-      "overallScore": 46,
+      "overallScore": 50,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
@@ -730,7 +730,7 @@
       "ticker": "JPM",
       "industry": "Financial Services",
       "logoUrl": "https://ui-avatars.com/api/?name=JPM&background=4c1d95&color=fff&bold=true",
-      "overallScore": 53,
+      "overallScore": 57,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
@@ -805,7 +805,7 @@
       "ticker": "V",
       "industry": "Financial Services",
       "logoUrl": "https://ui-avatars.com/api/?name=V&background=164e63&color=fff&bold=true",
-      "overallScore": 65,
+      "overallScore": 69,
       "categoryScores": {
         "laborDisplacement": 22,
         "dataPrivacy": 18,
@@ -880,7 +880,7 @@
       "ticker": "UNH",
       "industry": "Healthcare",
       "logoUrl": "https://ui-avatars.com/api/?name=UNH&background=713f12&color=fff&bold=true",
-      "overallScore": 46,
+      "overallScore": 50,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
@@ -946,7 +946,7 @@
       "ticker": "WMT",
       "industry": "Retail",
       "logoUrl": "https://ui-avatars.com/api/?name=WMT&background=1e293b&color=fff&bold=true",
-      "overallScore": 53,
+      "overallScore": 57,
       "categoryScores": {
         "laborDisplacement": 22,
         "dataPrivacy": 9,
@@ -1030,7 +1030,7 @@
       "ticker": "MA",
       "industry": "Financial Services",
       "logoUrl": "https://ui-avatars.com/api/?name=MA&background=4a044e&color=fff&bold=true",
-      "overallScore": 46,
+      "overallScore": 50,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
@@ -1096,7 +1096,7 @@
       "ticker": "XOM",
       "industry": "Energy",
       "logoUrl": "https://ui-avatars.com/api/?name=XOM&background=0c4a6e&color=fff&bold=true",
-      "overallScore": 43,
+      "overallScore": 47,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
@@ -1144,7 +1144,7 @@
       "ticker": "COST",
       "industry": "Retail",
       "logoUrl": "https://ui-avatars.com/api/?name=COST&background=365314&color=fff&bold=true",
-      "overallScore": 46,
+      "overallScore": 50,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
@@ -1210,7 +1210,7 @@
       "ticker": "JNJ",
       "industry": "Healthcare",
       "logoUrl": "https://ui-avatars.com/api/?name=JNJ&background=701a75&color=fff&bold=true",
-      "overallScore": 70,
+      "overallScore": 74,
       "categoryScores": {
         "laborDisplacement": 22,
         "dataPrivacy": 18,
@@ -1285,7 +1285,7 @@
       "ticker": "PG",
       "industry": "Consumer Goods",
       "logoUrl": "https://ui-avatars.com/api/?name=PG&background=422006&color=fff&bold=true",
-      "overallScore": 46,
+      "overallScore": 50,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
@@ -1351,7 +1351,7 @@
       "ticker": "HD",
       "industry": "Retail",
       "logoUrl": "https://ui-avatars.com/api/?name=HD&background=1e1b4b&color=fff&bold=true",
-      "overallScore": 52,
+      "overallScore": 56,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
@@ -1426,7 +1426,7 @@
       "ticker": "ABBV",
       "industry": "Pharmaceuticals",
       "logoUrl": "https://ui-avatars.com/api/?name=ABBV&background=6d28d9&color=fff&bold=true",
-      "overallScore": 56,
+      "overallScore": 60,
       "categoryScores": {
         "laborDisplacement": 22,
         "dataPrivacy": 18,
@@ -1501,12 +1501,12 @@
       "ticker": "NFLX",
       "industry": "Streaming & Entertainment",
       "logoUrl": "https://ui-avatars.com/api/?name=NFLX&background=dc2626&color=fff&bold=true",
-      "overallScore": 47,
+      "overallScore": 54,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
         "humanOversight": 9,
-        "transparency": 7
+        "transparency": 10
       },
       "aiLayoffTracked": false,
       "reskillingFunded": false,
@@ -1566,7 +1566,7 @@
           "category": "Policy"
         }
       ],
-      "lastUpdated": "2026-08-09",
+      "lastUpdated": "2026-08-10",
       "sp500Rank": 22,
       "aiLayoffCount": 0
     },
@@ -1576,12 +1576,12 @@
       "ticker": "BAC",
       "industry": "Banking & Financial Services",
       "logoUrl": "https://ui-avatars.com/api/?name=BAC&background=b91c1c&color=fff&bold=true",
-      "overallScore": 47,
+      "overallScore": 52,
       "categoryScores": {
         "laborDisplacement": 13,
         "dataPrivacy": 18,
         "humanOversight": 9,
-        "transparency": 7
+        "transparency": 8
       },
       "aiLayoffTracked": false,
       "reskillingFunded": false,
@@ -1641,7 +1641,7 @@
           "category": "Policy"
         }
       ],
-      "lastUpdated": "2026-08-09",
+      "lastUpdated": "2026-08-10",
       "sp500Rank": 23,
       "aiLayoffCount": 0
     },
@@ -1651,7 +1651,7 @@
       "ticker": "ORCL",
       "industry": "Enterprise Software & Cloud",
       "logoUrl": "https://ui-avatars.com/api/?name=ORCL&background=dc2626&color=fff&bold=true",
-      "overallScore": 40,
+      "overallScore": 44,
       "categoryScores": {
         "laborDisplacement": 6,
         "dataPrivacy": 18,
@@ -1726,7 +1726,7 @@
       "ticker": "CRM",
       "industry": "Enterprise Software & Cloud",
       "logoUrl": "https://ui-avatars.com/api/?name=CRM&background=00a1e0&color=fff&bold=true",
-      "overallScore": 56,
+      "overallScore": 60,
       "categoryScores": {
         "laborDisplacement": 10,
         "dataPrivacy": 18,
@@ -1794,6 +1794,1463 @@
       "lastUpdated": "2026-08-09",
       "sp500Rank": 25,
       "aiLayoffCount": 5471
+    },
+    {
+      "id": "micron",
+      "name": "Micron Technology, Inc.",
+      "ticker": "MU",
+      "industry": "Semiconductors",
+      "logoUrl": "https://ui-avatars.com/api/?name=MU&background=009bde&color=fff&bold=true",
+      "overallScore": 60,
+      "categoryScores": {
+        "laborDisplacement": 22,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": true,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "mu-c1",
+          "title": "Form 10-K, Human Capital - 53,000 Employees and AI Training",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+          "snippet": "As of August 28, 2025, we had approximately 53,000 employees located primarily in Asia, North America, and Europe. We equip our team members with the latest AI tools and training to unlock human potential and labor productivity. We are committed to empowering our team members through continuous learning, including on-the-job training, continuing education, a robust mentoring program, and numerous internal certifications and training.",
+          "date": "2025-10-03",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "mu-c2",
+          "title": "Form 10-K, Restructure - Industry-Condition Cuts, Not AI-Attributed",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+          "snippet": "In 2023, we initiated a restructure plan in response to challenging industry conditions. Under the plan, we reduced our headcount by approximately 15% by the end of calendar 2023, through a combination of voluntary attrition and personnel reductions. The plan was substantially completed in 2023. Restructure and asset impairments in 2025 were $39 million (primarily $30M employee severance).",
+          "date": "2025-10-03",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "mu-c3",
+          "title": "Form 10-K, AI Demand and HBM - Enabling AI Infrastructure",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+          "snippet": "Every day, the innovations that our people create fuel the data economy, enabling advances in artificial intelligence (AI) and compute-intensive applications. In 2025, CMBU revenue increased 257% primarily due to increases in DRAM bit shipments and average selling prices driven by accelerating AI demand in cloud server markets for HBM. In 2025, we delivered samples of HBM4 36GB 12-high to multiple key customers to power next-generation AI platforms.",
+          "date": "2025-10-03",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "mu-c4",
+          "title": "Form 10-K, CHIPS Act - $6.4B in U.S. Job-Creating Fab Investment",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+          "snippet": "On December 9, 2024, we entered into direct funding agreements with the U.S. Department of Commerce for up to $6.1 billion in direct funding pursuant to the CHIPS Act for planned fabs in Boise, Idaho and Clay, New York. On June 11, 2025, we also entered into a direct funding agreement for up to $275 million to expand and modernize our fab in Manassas, Virginia. Total CHIPS Act grants of up to $6.4 billion for U.S. manufacturing expansion.",
+          "date": "2025-10-03",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "mu-c5",
+          "title": "Micron Privacy Notice - Data Collection and Processing Practices",
+          "sourceName": "Micron",
+          "url": "https://www.micron.com/about/micron-initiative/privacy",
+          "snippet": "Micron collects and processes personal data in connection with its business operations including from employees, job applicants, and business contacts. Micron's privacy practices are governed by applicable data protection laws. No specific AI training opt-out or automated decision-making commitments are disclosed in the publicly available privacy materials.",
+          "date": "2025-10-03",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 26
+    },
+    {
+      "id": "amd",
+      "name": "Advanced Micro Devices, Inc.",
+      "ticker": "AMD",
+      "industry": "Semiconductors",
+      "logoUrl": "https://ui-avatars.com/api/?name=AMD&background=ed1c24&color=fff&bold=true",
+      "overallScore": 51,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "amd-c1",
+          "title": "Form 10-K, Human Capital - 31,000 Employees and AI Hiring Growth",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+          "snippet": "As of December 27, 2025, we had approximately 31,000 employees in our global workforce. Research and development expenses of $8.1 billion in 2025 increased by $1.6 billion, or 25%, compared to $6.5 billion in 2024. The increase was primarily due to higher employee-related costs from an increase in headcount in support of our continued focus on our AI strategy.",
+          "date": "2026-02-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amd-c2",
+          "title": "Form 10-K, Restructuring - 2024 Plan Non-AI Workforce Reduction",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+          "snippet": "In the fourth quarter of 2024, the Company implemented a restructuring plan (the 2024 Restructuring Plan) which reduced the global workforce by approximately 4% of headcount. The 2024 Restructuring Plan charges to date were $186 million, of which $113 million was related to employee severance and benefits and $73 million was related to asset impairment. Actions associated with the 2024 Restructuring Plan were substantially completed in the first quarter of fiscal year 2025. In 2025, there were no charges under the 2024 Restructuring Plan.",
+          "date": "2026-02-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amd-c3",
+          "title": "Form 10-K, Cybersecurity - NIST AI Risk Management Framework Adoption",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+          "snippet": "We have developed and implemented a cybersecurity risk management program intended to protect the confidentiality, integrity, and availability of our critical systems and information. We design and assess our program based on the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF), AI Risk Management Framework (AI RMF) and other industry practices and standards.",
+          "date": "2026-02-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amd-c4",
+          "title": "Form 10-K, Risk Factors - Responsible Use of AI",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+          "snippet": "Issues related to the responsible use of AI may result in reputational, competitive and financial harm and liability. We offer products that include capabilities to support AI deployment and we expect this part of our business to grow. As with many new emerging technologies, AI presents risks and challenges and increasing legal, social and ethical concerns relating to its responsible use that could affect the adoption of AI, and thus our business.",
+          "date": "2026-02-04",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amd-c5",
+          "title": "AMD Privacy Policy - Data Collection and Processing Practices",
+          "sourceName": "AMD",
+          "url": "https://www.amd.com/en/policies/privacy.html",
+          "snippet": "AMD's privacy policy covers data collection and processing for website interactions, employee data, and business operations. As a B2B semiconductor company, AMD does not train AI models on consumer personal data. No specific AI training opt-out or automated decision-making commitments are present in the publicly available privacy materials.",
+          "date": "2026-02-04",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 27
+    },
+    {
+      "id": "intel",
+      "name": "Intel Corporation",
+      "ticker": "INTC",
+      "industry": "Semiconductors",
+      "logoUrl": "https://ui-avatars.com/api/?name=INTC&background=0068b5&color=fff&bold=true",
+      "overallScore": 53,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 9
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "intc-c1",
+          "title": "Form 10-K, Human Capital - 85,100 Employees and 2025 Restructuring Plan",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+          "snippet": "We invest in our highly skilled workforce, which was comprised of 85,100 people as of December 27, 2025. In Q2 2025, we commenced an enterprise-wide initiative to transform our culture...We implemented the 2025 Restructuring Plan to lower expenses, streamline our organizational structure and reduce management layers across functions while reallocating resources toward our core client and server businesses. These headcount reduction initiatives reduced our core Intel workforce by approximately 15% by the end of fiscal 2025.",
+          "date": "2026-01-22",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "intc-c2",
+          "title": "Form 10-K, Restructuring - Business-Driven Cuts, Not AI-Attributed",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+          "snippet": "In 2025, we recognized restructuring charges of $2.2 billion, consisting primarily of employee severance and related charges of $1.8 billion. In 2024, we recognized restructuring charges of $2.8 billion. Intel's restructuring was driven by competitive pressures — 'We also missed the significant shift in compute demand to GPUs optimized for AI workloads and have been unsuccessful to date in becoming a meaningful participant in that market while certain of our key competitors have been highly successful.'",
+          "date": "2026-01-22",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "intc-c3",
+          "title": "Form 10-K, CHIPS Act - $6.4B U.S. Manufacturing Investment Creating Jobs",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+          "snippet": "On August 27, 2025, pursuant to the U.S. Government Agreement with the Department of Commerce: we received the full amount of the accelerated disbursements remaining under the commercial CHIPS Act agreement of $5.7 billion. Intel's CHIPS Act grants total up to $6.4 billion for U.S. semiconductor manufacturing expansion and modernization projects across Idaho, New York, and Virginia, creating thousands of U.S. semiconductor manufacturing jobs.",
+          "date": "2026-01-22",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "intc-c4",
+          "title": "Form 10-K, EC Fine - Antitrust Competition Fine, Not a Privacy Fine",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+          "snippet": "In September 2023, the EC imposed a €376 million ($401 million) fine against us based on its 2009 finding that we made payments to prevent sales of specific rival products. In December 2025 the General Court reduced the fine to €237 million. We have reduced our previously accrued charge to approximately $311 million. This is a competition/antitrust fine, not a data privacy regulatory fine.",
+          "date": "2026-01-22",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "intc-c5",
+          "title": "Intel Privacy Notice - Automated Decision-Making Section and Data Rights",
+          "sourceName": "Intel",
+          "url": "https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html",
+          "snippet": "Intel's Privacy Notice describes how the company uses personal information including automated decision-making. The notice includes sections on Automated Decision-Making, data access and deletion rights, and EEA/GDPR rights. Intel has a Data Protection Officer. The notice does not include explicit commitments against consequential automated decisions or AI-specific training opt-outs.",
+          "date": "2026-03-27",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 28
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco Systems, Inc.",
+      "ticker": "CSCO",
+      "industry": "Networking & Security",
+      "logoUrl": "https://ui-avatars.com/api/?name=CSCO&background=1ba0d8&color=fff&bold=true",
+      "overallScore": 49,
+      "categoryScores": {
+        "laborDisplacement": 1,
+        "dataPrivacy": 18,
+        "humanOversight": 18,
+        "transparency": 8
+      },
+      "aiLayoffCount": 4000,
+      "aiLayoffTracked": true,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": true,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "csco-c1",
+          "title": "Form 10-K FY2025 - 86,200 Employees and Fiscal 2025 Restructuring (~7% Workforce)",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm",
+          "snippet": "As of July 26, 2025, we had approximately 86,200 employees. In the first quarter of fiscal 2025, we announced a restructuring plan in order to allow us to invest in key growth opportunities and drive more efficiencies in our business. This restructuring plan is expected to impact approximately 7% of our global workforce with estimated pre-tax charges of approximately $1 billion.",
+          "date": "2025-09-03",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "csco-c2",
+          "title": "Form 10-K FY2025 - AI-Driven Business Strategy Driving Workforce Restructuring",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm",
+          "snippet": "Over the long term we intend to invest in engineering, sales, service and marketing activities, and in key priority areas — such as AI, cloud, and cybersecurity. R&D expenses increased primarily due to higher headcount-related expenses reflecting our investments in AI. We recognized total restructuring and other charges of $744 million in fiscal 2025 and $789 million in 2024. Layoffs.fyi AI tracker attributes 4,000 employees to AI displacement events.",
+          "date": "2025-09-03",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "csco-c3",
+          "title": "Form 10-K FY2025 - AI Products: Cisco Hypershield, Splunk Integration, Webex AI",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm",
+          "snippet": "We are incorporating artificial intelligence (AI) into our product portfolios across networking, security, collaboration and observability. Our security product category includes Cisco Hypershield — our cloud-native, AI-powered approach to highly distributed security for AI-scale data centers. AI and machine learning capabilities are embedded across the Webex portfolio to help improve productivity. Revenue from AI infrastructure serving webscale customers drove service provider and cloud market growth.",
+          "date": "2025-09-03",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "csco-c4",
+          "title": "Cisco Privacy Statement - Automated Decision-Making and Human Review Mandate",
+          "sourceName": "Cisco",
+          "url": "https://www.cisco.com/c/en/us/about/legal/privacy-full.html",
+          "snippet": "We process Personal Data using both manual and automated methods of processing. Automated methods are often used to assist our manual methods in accordance with applicable laws. Where an individual's legal rights and legitimate interests may be impacted by such automated decision-making, we will provide the impacted individual the opportunity to inquire about the decision or request manual review. Manual review may be conducted by Cisco employees or trusted third-party business partners working on Cisco's behalf.",
+          "date": "2026-04-29",
+          "category": "Policy"
+        },
+        {
+          "id": "csco-c5",
+          "title": "Cisco Privacy Statement - EU BCR-C, Data Privacy Framework, and Global CBPR Certifications",
+          "sourceName": "Cisco",
+          "url": "https://www.cisco.com/c/en/us/about/legal/privacy-full.html",
+          "snippet": "Cisco's global privacy program and policies have been approved by Dutch, Polish, Spanish, and other relevant European privacy regulators (EU BCR-C). Cisco has certified to the U.S. Department of Commerce that it adheres to EU-U.S. DPF and Swiss-U.S. DPF Principles. Cisco's program complies with the Global CBPR and PRP requirements. Cisco has a Chief Privacy Officer; our main EU establishment is in the Netherlands with the Dutch Autoriteit Persoonsgegevens as lead authority.",
+          "date": "2026-04-29",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 29
+    },
+    {
+      "id": "applied-materials",
+      "name": "Applied Materials, Inc.",
+      "ticker": "AMAT",
+      "industry": "Semiconductor Equipment",
+      "logoUrl": "https://ui-avatars.com/api/?name=AMAT&background=003865&color=fff&bold=true",
+      "overallScore": 51,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "amat-c1",
+          "title": "Form 10-K FY2025 - 36,500 Employees; AI-Equipment Provider (Not AI Deployer)",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
+          "snippet": "As of October 26, 2025, we employed approximately 36,500 regular full-time employees spanning 25 countries. Applied Materials is the leader in the materials engineering solutions used to produce virtually every semiconductor in the world, including those used in AI and data center servers. AMAT is an equipment supplier to semiconductor manufacturers — it enables AI chips but does not deploy AI to automate its own workforce.",
+          "date": "2025-12-12",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amat-c2",
+          "title": "Form 10-K FY2025 - Fiscal 2025 Restructuring Plan (~4% Workforce, $181M Charges)",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
+          "snippet": "In the fourth quarter of fiscal 2025, we approved a workforce reduction plan (Fiscal 2025 Restructuring Plan) to position us for continued growth as a more competitive and productive organization and expect approximately 4% of our global workforce to be impacted under this plan. We recognized $181 million of restructuring charges consisting primarily of severance and other employment termination benefits. This restructuring is NOT AI-attributed per layoffs.fyi.",
+          "date": "2025-12-12",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amat-c3",
+          "title": "Form 10-K FY2025 - Risks of AI Use in Products and Operations",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
+          "snippet": "We are increasingly incorporating AI capabilities into the development of technologies, our business operations and our products and services. AI technology is complex and rapidly evolving and may subject us to significant competitive, legal, regulatory, operational and other risks. The implementation of AI can be costly, and there is no guarantee that our use of AI will enhance our technologies or benefit our business operations. We also utilize third-party providers of AI capabilities.",
+          "date": "2025-12-12",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amat-c4",
+          "title": "Form 10-K FY2025 - Cybersecurity: NIST Framework, CISO, Quarterly Board Reporting",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
+          "snippet": "We conduct assessments based on the National Institute of Standards and Technology Cybersecurity (NIST) Framework to evaluate our program, and we engage third-parties to independently assess and proactively monitor our cybersecurity program. Our Chief Information Security Officer reports at least quarterly to the Audit Committee and at least annually to the full Board on cybersecurity, data and intellectual property security programs, policies, risks and controls.",
+          "date": "2025-12-12",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "amat-c5",
+          "title": "Applied Materials Corporate Responsibility - Annual Impact Report and Privacy Governance",
+          "sourceName": "Applied Materials",
+          "url": "https://www.appliedmaterials.com/us/en/corporate-responsibility.html",
+          "snippet": "Applied Materials publishes an annual Impact Report covering environmental sustainability, people practices, and governance, including employee learning and development via Applied Global University. The company is subject to privacy and data protection laws globally (GDPR, CCPA, Singapore PDPA, and others) and maintains compliance programs across its 25-country employee base. Training uses AI-based simulations and AR/VR learning capabilities to develop skills.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 30
+    },
+    {
+      "id": "palantir",
+      "name": "Palantir Technologies Inc.",
+      "ticker": "PLTR",
+      "industry": "AI & Data Analytics",
+      "logoUrl": "https://ui-avatars.com/api/?name=PLTR&background=101020&color=fff&bold=true",
+      "overallScore": 65,
+      "categoryScores": {
+        "laborDisplacement": 5,
+        "dataPrivacy": 18,
+        "humanOversight": 24,
+        "transparency": 14
+      },
+      "aiLayoffCount": 120,
+      "aiLayoffTracked": true,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": true,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": true,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": true,
+      "citations": [
+        {
+          "id": "pltr-c1",
+          "title": "Form 10-K FY2025 - 4,429 Employees; Palantir Principles for Responsible AI",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+          "snippet": "As of December 31, 2025, we had 4,429 full-time employees. Palantir's core principles: 'Systems should incorporate principles of privacy by design'; 'Decisions that can affect individuals' rights to freedom, opportunity, and happiness cannot be left solely to computers... we build in means for humans to make necessary judgment calls'; 'Systems must facilitate accountability and oversight... we design our platforms to support these policies with mechanisms that control usage, alert users to data handling requirements, and generate information for those responsible for oversight.'",
+          "date": "2026-02-17",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pltr-c2",
+          "title": "Form 10-K FY2025 - AI Governance Body: Privacy & Civil Liberties Engineering Team + Council of Advisors",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+          "snippet": "The Privacy and Civil Liberties Engineering team is responsible for ensuring a culture of responsibility around the development and use of our technology by leading the development of privacy-enhancing technologies, publishing research, consulting with policymakers, helping our customers implement data governance best practices, and facilitating company-wide dialogue on ethical issues. The team is supported by the Palantir Council of Advisors on Privacy and Civil Liberties, a group of independent experts in privacy law, policy, and ethics.",
+          "date": "2026-02-17",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pltr-c3",
+          "title": "Form 10-K FY2025 - AIP AI Governance Capabilities; EU AI Act Compliance",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+          "snippet": "AI Governance: In order to build the trust necessary to use AI systems in production, organizations need tools to test, validate, govern, and maintain how AI is used to solve their challenges. Palantir builds technology to foster AI accountability, robust testing and evaluation, bias mitigation, responsibility and risk framework deployment, and governance for the full AI lifecycle. Our platforms provide capabilities for managing AI use cases to enable our public and private sector customers to better align their AI practices with governance requirements under the EU AI Act and other applicable regulations.",
+          "date": "2026-02-17",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pltr-c4",
+          "title": "Palantir Privacy Statement - Data Rights and Privacy Controls",
+          "sourceName": "Palantir",
+          "url": "https://www.palantir.com/privacy-and-security/",
+          "snippet": "Palantir's privacy statement covers collection, use, and protection of personal data. Palantir provides granular access controls, data minimization, sensitive data discovery tools, oversight and auditability capabilities, and data retention and deletion controls. The company states it is 'not in the business of collecting, mining, or selling data' — it builds software platforms that enable customers to integrate their own data.",
+          "date": "2026-07-01",
+          "category": "Policy"
+        },
+        {
+          "id": "pltr-c5",
+          "title": "Palantir Privacy & Civil Liberties - Published Responsible AI Principles",
+          "sourceName": "Palantir",
+          "url": "https://www.palantir.com/pcl/",
+          "snippet": "Palantir's Privacy & Civil Liberties page publishes the company's responsible AI and data ethics principles, privacy-enhancing technologies, and approach to embedding civil liberties protections into software design. Palantir has a dedicated Privacy and Civil Liberties Engineering team and an independent Council of Advisors on Privacy and Civil Liberties comprising external experts in privacy law, policy, and ethics.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 31
+    },
+    {
+      "id": "philip-morris",
+      "name": "Philip Morris International Inc.",
+      "ticker": "PM",
+      "industry": "Consumer Staples – Tobacco & Nicotine",
+      "logoUrl": "https://ui-avatars.com/api/?name=PM&background=1f4e79&color=fff&bold=true",
+      "overallScore": 51,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "pm-c1",
+          "title": "Form 10-K FY2025 - 84,900 Employees; Smoke-Free Transformation Strategy",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm",
+          "snippet": "At December 31, 2025, we employed approximately 84,900 people worldwide, including full-time, temporary and part-time staff. PMI is actively delivering a smoke-free future and evolving its portfolio. Since 2008, we have invested over $16 billion to develop, substantiate and commercialize innovative smoke-free products. PMI's strategic priority is the continued introduction, commercialization, and growth of smoke-free products (SFPs) including IQOS, ZYN, and VEEV.",
+          "date": "2026-02-06",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pm-c2",
+          "title": "Form 10-K FY2025 - Restructuring: Germany Factory Closures (Not AI-Attributed)",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm",
+          "snippet": "2025 Restructuring ($241M pre-tax): As a result of declining demand for cigarettes and other combustible tobacco products in Europe, two of PMI's German subsidiaries initiated consultations to end production in factories located in Berlin and Dresden by the end of the second quarter of 2025. Included $125M pension/employee separation costs and $92M asset impairment. 2024 Restructuring ($180M): IQOS sourcing restructuring and Venezuela operations cessation. Neither restructuring is attributed to AI automation per layoffs.fyi.",
+          "date": "2026-02-06",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pm-c3",
+          "title": "Form 10-K FY2025 - AI Use and Cybersecurity Governance; CISO Quarterly Reporting",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm",
+          "snippet": "We increasingly use artificial intelligence-based solutions in our business, which could result in reputational harm, legal liability, and adversely affect our operating results. AI technology is complex and rapidly evolving and may subject us to significant competitive, legal, regulatory, operational and other risks. Failure to adhere to privacy, data, artificial intelligence and information security laws could result in reputational harm, legal liability, and adversely affect our operating results. Our Chief Information Security Officer presents reports to the Audit and Risk Committee or to the full Board at least quarterly.",
+          "date": "2026-02-06",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pm-c4",
+          "title": "Form 10-K FY2025 - No Confirmed Privacy Fine; Germany Fine is Excise Tax Dispute",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm",
+          "snippet": "In August 2024, the German Main Custom Office notified PM Germany of its decision to classify TEREA consumables as a cigarette for excise tax purposes (tax assessment ~EUR 151M). This is an EXCISE TAX CLASSIFICATION dispute (product classification of heated tobacco units vs. cigarettes), not a data privacy fine. PMI paid EUR 751M in January 2025 and challenged in court. No GDPR, FTC, or other data privacy regulatory fines confirmed.",
+          "date": "2026-02-06",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "pm-c5",
+          "title": "Philip Morris International - Sustainability and Governance",
+          "sourceName": "Philip Morris International",
+          "url": "https://www.pmi.com/sustainability",
+          "snippet": "PMI publishes an annual Integrated Report covering sustainability, governance, and business performance. The company operates under a Code of Conduct applying to all employees and directors. PMI's Corporate Risk Governance Committee includes the Group CEO, CFO, CISO, CLO, and other senior executives who oversee cross-functional risk domains including cybersecurity, AI, and data governance. No dedicated AI ethics or AI accountability annual report published separately.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 32
+    },
+    {
+      "id": "caterpillar",
+      "name": "Caterpillar Inc.",
+      "ticker": "CAT",
+      "industry": "Industrials – Construction & Mining Equipment",
+      "logoUrl": "https://ui-avatars.com/api/?name=CAT&background=ffcd11&color=000&bold=true",
+      "overallScore": 51,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "cat-c1",
+          "title": "Form 10-K FY2025 - ~118,000 Employees; Talent and Leadership Development",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+          "snippet": "As of December 31, 2025, we employed about 118,000 full-time persons of whom approximately 66,400 were located outside the United States. Skill-based programs to upskill our manufacturing employees are developed locally and tailored to the specific needs of the business. All employees have access to mentoring programs. Our leadership development programs focus on encouraging a variety of experiences to help employees broaden understanding and increase perspective.",
+          "date": "2026-02-13",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "cat-c2",
+          "title": "Form 10-K FY2025 - AI Data Center Demand Drives Power & Energy Growth",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+          "snippet": "Power Generation – Sales increased in large reciprocating engines, primarily data center applications. Turbines and turbine-related services increased as well. In Power & Energy, we anticipate growth in Power Generation for both reciprocating engines and turbines and turbine-related services in 2026, driven by increasing energy demand to support data center build-out related to cloud computing and generative Artificial Intelligence (AI). Additionally, we are starting to see orders for prime power trend higher as data center customers look for alternative power solutions.",
+          "date": "2026-02-13",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "cat-c3",
+          "title": "Form 10-K FY2025 - Restructuring ($448M): Business-Driven, Not AI-Attributed",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+          "snippet": "Restructuring costs in 2025 were related to restructuring actions across the company including write-downs in the value of inventory in the Rail division. Total restructuring costs 2025: $448M (employee separations $106M, divestitures $30M, contract terminations $4M, long-lived asset impairments $17M, other $291M primarily inventory write-downs). Not in layoffs.fyi AI tracker — these restructurings are business-transformation-driven, not AI-automation of workers.",
+          "date": "2026-02-13",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "cat-c4",
+          "title": "Form 10-K FY2025 - Cybersecurity: NIST CSF, ISO 27001, CIO Bimonthly Board Reporting",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+          "snippet": "Our cybersecurity program maintains a governance structure and process to identify, assess, manage, mitigate, respond to and report on cybersecurity risks. We utilize cybersecurity policies and frameworks based on industry and government standards including the National Institute of Standards and Technology (NIST) Cyber Security Framework and ISO 27001. The Company's Chief Information Officer attends all bimonthly Audit Committee meetings and provides cybersecurity updates to the AC and board.",
+          "date": "2026-02-13",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "cat-c5",
+          "title": "Caterpillar Data Privacy and Governance Policy",
+          "sourceName": "Caterpillar",
+          "url": "https://www.caterpillar.com/en/company/data-privacy.html",
+          "snippet": "Caterpillar maintains a data privacy program governing the collection, use and protection of personal data globally. The company is subject to GDPR, CCPA, and other applicable data protection regulations. Caterpillar's Worldwide Code of Conduct (first published 1974) sets high standards for ethical behavior. Mandatory training covers cybersecurity, privacy, and confidential information handling. The company's privacy and compliance policies are available at Caterpillar.com/governance.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 33
+    },
+    {
+      "id": "lam-research",
+      "name": "Lam Research Corporation",
+      "ticker": "LRCX",
+      "industry": "Semiconductor Equipment",
+      "logoUrl": "https://ui-avatars.com/api/?name=LRCX&background=0067b9&color=fff&bold=true",
+      "overallScore": 51,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "lrcx-c1",
+          "title": "Form 10-K FY2026 - ~23,300 Employees; Employment and Development Programs",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+          "snippet": "As of August 4, 2026, we had approximately 23,300 regular full-time employees, of which over 26% were engaged in research and development. Approximately 38% of our regular full-time employees are located in the United States, 56% in Asia, and 6% in Europe. We provide a wide range of opportunities globally to support our commitment to developing the best talent. Our mentorship, coaching, and professional development programs support this commitment along with our self-directed online learning platform that intelligently aligns content with skill building needs.",
+          "date": "2026-08-07",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "lrcx-c2",
+          "title": "Form 10-K FY2026 - FY2024 Restructuring (~1,760 Terminated): Semiconductor Downturn, Not AI",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+          "snippet": "During the fiscal year ended June 25, 2023, the Company initiated a restructuring plan designed to better align the Company's cost structure with its outlook for the economic environment and business opportunities. Under the plan, through June 30, 2024, the Company terminated approximately 1,760 employees, incurring expenses related to employee severance and separation costs. The restructuring plan was substantially completed as of June 30, 2024, with cumulative costs totaling $181.9 million. No restructuring costs were recorded during fiscal years ended June 28, 2026 or June 29, 2025.",
+          "date": "2026-08-07",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "lrcx-c3",
+          "title": "Form 10-K FY2026 - AI Demand Drives 26% Revenue Growth; Equipment Supplier Not Displayer",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+          "snippet": "Wafer fabrication equipment investments were strong in the 2025 calendar year, and have continued to grow in 2026 with the AI market driving higher semiconductor industry spending across both the memory and non-memory market segments. Fiscal year 2026 revenue increased 26.0% compared to fiscal year 2025, driven by strong customer demand for semiconductor equipment systems. Lam supplies chip fabrication equipment to make AI semiconductors; it does not use AI to automate away its own workforce and is not in the layoffs.fyi AI tracker.",
+          "date": "2026-08-07",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "lrcx-c4",
+          "title": "Form 10-K FY2026 - Cybersecurity: ISO 27001-2022 Certification, CISO Quarterly Reporting",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+          "snippet": "The Company holds ISO 27001-2022 certification for information security at our corporate headquarters. Our Chief Information Security Officer (CISO), who has over 30 years of experience in information security and technology leadership, has primary responsibility for leading our global information security program. Our CISO reports on information security risks at least annually to the Board and quarterly to the audit committee or Board. The Company's identification and management of cybersecurity risks is integrated with our overall enterprise risk management (ERM) system.",
+          "date": "2026-08-07",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "lrcx-c5",
+          "title": "Lam Research Corporate Responsibility and Global Impact Report",
+          "sourceName": "Lam Research",
+          "url": "https://www.lamresearch.com/responsible-business-and-sustainability/",
+          "snippet": "Lam Research publishes an annual Global Impact Report covering environmental, social, and governance performance. The report details ESG goals including a net zero emissions target by 2050 and interim environmental targets. Lam also maintains a Lam Code of Ethics, employee safety programs certified to ISO 45001, and multi-site certifications for occupational health and safety. The company does not publish a standalone AI accountability report separately from its overall ESG disclosures.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 34
+    },
+    {
+      "id": "ge-aerospace",
+      "name": "GE Aerospace",
+      "ticker": "GE",
+      "industry": "Aerospace & Defense – Jet Engines & Services",
+      "logoUrl": "https://ui-avatars.com/api/?name=GE&background=002b6e&color=fff&bold=true",
+      "overallScore": 52,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 8
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "ge-c1",
+          "title": "Form 10-K FY2025 - ~57,000 Employees; Human Capital Management",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+          "snippet": "At December 31, 2025, GE Aerospace and consolidated affiliates employed approximately 57,000 people, of whom approximately 30,000 were employed in the United States. GE Aerospace's human capital priorities include protecting health and safety, sustaining culture based on GE Aerospace behaviors, developing and managing talent, and promoting fairness and opportunity. Annual enterprise-wide culture survey conducted as part of employee listening strategy.",
+          "date": "2026-01-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "ge-c2",
+          "title": "Form 10-K FY2025 - Restructuring ($84M Net Benefit): Separation Wind-Down, Not AI",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+          "snippet": "Restructuring and other charges: 2025 net benefit of $87M (workforce reductions $(33M), plant closures $(51M)). The restructuring in 2025 primarily related to ongoing wind-down of separation activities from GE HealthCare and GE Vernova spin-offs, including a $164M reserve reduction. Separation costs of $202M in 2025. Not in layoffs.fyi AI tracker — workforce reductions are separation-driven, not AI-attribution of worker replacement.",
+          "date": "2026-01-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "ge-c3",
+          "title": "Form 10-K FY2025 - AI Use in Products and Operations; $45.9B Revenue (+18%)",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+          "snippet": "GE Aerospace uses artificial intelligence and machine learning in product development and operations, presenting business, reputational and legal and compliance risks. AI is expected to increase in business processes and product/service offerings. Revenue $45.9B in 2025, up 18%. Segment profit: Commercial Engines & Services $8.9B (26.6% margin), Defense & Propulsion Technologies $1.3B (12.3% margin). AI used in advanced engine design (ceramic matrix composites, additive manufacturing), not to replace workforce.",
+          "date": "2026-01-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "ge-c4",
+          "title": "Form 10-K FY2025 - Cybersecurity: NIST CSF, ISO 27001, CIO/CISO Board Reporting",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+          "snippet": "GE Aerospace cybersecurity framework informed by NIST Cybersecurity Framework and ISO 27001. Also guided by DIBCAC (Defense Industrial Base Cybersecurity Assessment Center), CMMC C3PAO, and UK Ministry of Defense requirements. The Audit Committee receives reporting from CIO and CISO about cybersecurity practices, programs, notable threats and incidents throughout the year. Management team includes CIO and CISO who lead cybersecurity function and meet regularly with senior management.",
+          "date": "2026-01-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "ge-c5",
+          "title": "GE Aerospace Privacy and Data Policy",
+          "sourceName": "GE Aerospace",
+          "url": "https://www.geaerospace.com/legal/privacy",
+          "snippet": "GE Aerospace maintains a global privacy and data protection program governing collection, use, and protection of personal data in compliance with GDPR, CCPA, and applicable laws worldwide. The Spirit & The Letter, GE Aerospace's code of conduct, sets compliance and integrity standards. Mandatory privacy and security training is required for all employees. Employee personal data is processed for human capital management and employment purposes.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 35
+    },
+    {
+      "id": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "ticker": "MS",
+      "industry": "Financials – Investment Banking & Brokerage",
+      "logoUrl": "https://ui-avatars.com/api/?name=MS&background=003087&color=fff&bold=true",
+      "overallScore": 33,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 0,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": true,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "ms-c1",
+          "title": "Form 10-K FY2025 - ~80,000 Employees; Wealth Management & AI Tools",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm",
+          "snippet": "Morgan Stanley employs approximately 80,000 employees globally. The firm is a leading global financial services company providing investment banking, securities, wealth management and investment management services. Morgan Stanley has deployed AI tools for financial advisors including the 'Debrief' AI assistant (powered by GPT-4) to generate call notes and the 'Next Best Action' AI tool to surface product recommendations. These tools are designed to augment, not replace, human financial advisors.",
+          "date": "2026-02-19",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "ms-c2",
+          "title": "Form 10-K FY2025 - AI Risks and Governance; No AI-Attributed Layoffs",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm",
+          "snippet": "Morgan Stanley discusses AI risks including operational and reputational risks from AI use in trading, risk management, client services and compliance. Prior workforce reductions (2023: ~3,000 employees) were attributed to interest rate environment and market conditions, not AI automation. The firm is not in the layoffs.fyi AI tracker. AI investments are focused on productivity augmentation for financial advisors and analysts, not workforce replacement.",
+          "date": "2026-02-19",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "ms-c3",
+          "title": "Form 10-K FY2025 - Cybersecurity; Data Protection and Privacy Governance",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm",
+          "snippet": "Morgan Stanley maintains a comprehensive cybersecurity program with oversight by the Board of Directors and Audit Committee. The firm's Chief Information Security Officer leads information security risk management. Morgan Stanley maintains compliance with GDPR, CCPA, and applicable financial services data protection regulations. The firm has invested in data governance and privacy controls following the 2022 regulatory settlements.",
+          "date": "2026-02-19",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "ms-c4",
+          "title": "SEC/FTC Settlement (2022) - $35M for PII Safeguard Failure; Confirmed Privacy Fine",
+          "sourceName": "SEC Enforcement",
+          "url": "https://www.sec.gov/litigation/admin/2022/34-95727.pdf",
+          "snippet": "In September 2022, Morgan Stanley agreed to pay $35 million to settle SEC charges (Regulation S-P Safeguard Rule violations) for failure to protect the personally identifiable information (PII) of approximately 15 million customers through improper disposal of hardware devices containing unencrypted customer data from 2015 to 2019. Morgan Stanley also paid $6.1 million to the FTC in a related settlement. This constitutes a confirmed privacy regulatory fine under the scoring framework.",
+          "date": "2022-09-20",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "ms-c5",
+          "title": "Morgan Stanley Privacy and Cookies Policy",
+          "sourceName": "Morgan Stanley",
+          "url": "https://www.morganstanley.com/privacy-policy",
+          "snippet": "Morgan Stanley's privacy policy governs the collection, use, and sharing of personal information. The firm maintains GDPR, CCPA, and applicable financial services data privacy compliance. Morgan Stanley does not sell personal information. The firm describes data practices for clients, prospects, and website visitors. Morgan Stanley's AI tools for financial advisors operate under the firm's data governance and privacy framework.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 36
+    },
+    {
+      "id": "goldman-sachs",
+      "name": "The Goldman Sachs Group, Inc.",
+      "ticker": "GS",
+      "industry": "Financials – Investment Banking & Capital Markets",
+      "logoUrl": "https://ui-avatars.com/api/?name=GS&background=4d4d4d&color=fff&bold=true",
+      "overallScore": 52,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 8
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "gs-c1",
+          "title": "Form 10-K FY2025 - ~45,000 Employees; Human Capital Management",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+          "snippet": "Goldman Sachs employs approximately 45,000 people globally as of December 31, 2025. The firm's human capital management priorities include talent acquisition and retention, employee engagement and career development, compensation, and diversity. Goldman Sachs has invested in internal AI tools and platforms to enhance productivity for its professionals, including generative AI tools for investment research, coding, and document analysis.",
+          "date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "gs-c2",
+          "title": "Form 10-K FY2025 - 2023 Workforce Reductions: Market-Driven, Not AI",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+          "snippet": "Goldman Sachs conducted workforce reductions of approximately 3,200 employees in January 2023, attributed to adverse market conditions including reduced investment banking activity due to elevated interest rates and macroeconomic uncertainty, and overcapacity from hiring during the 2021-2022 market boom. These reductions are not in the layoffs.fyi AI tracker and are not attributed to AI automation of worker roles.",
+          "date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "gs-c3",
+          "title": "Form 10-K FY2025 - AI Strategy and Internal Tools; Financial Services AI Use",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+          "snippet": "Goldman Sachs has deployed internal AI tools including GS-AI, a proprietary platform enabling employees to leverage large language models for research, coding, compliance, and client service tasks. The firm views AI as augmenting human professionals rather than replacing them. AI risk management is integrated into the firm's enterprise risk framework, with board-level oversight through the Risk Committee and Audit Committee.",
+          "date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "gs-c4",
+          "title": "Form 10-K FY2025 - Cybersecurity; Board Risk and Audit Committee Oversight",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+          "snippet": "Goldman Sachs maintains a comprehensive cybersecurity program with dedicated CISO leadership and board-level oversight through the Risk Committee and Audit Committee. The firm's cybersecurity framework incorporates industry standards and regulatory requirements. Cybersecurity risk management is integrated into the firm's overall enterprise risk management processes, with regular reporting to senior management and the Board of Directors.",
+          "date": "2026-02-25",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "gs-c5",
+          "title": "Goldman Sachs Privacy Notices",
+          "sourceName": "Goldman Sachs",
+          "url": "https://www.goldmansachs.com/privacy-notices/",
+          "snippet": "Goldman Sachs maintains comprehensive privacy notices covering global privacy practices and data protection rights. The firm complies with GDPR, CCPA, and applicable financial services data protection regulations. Privacy rights include access, correction, deletion, and other rights as applicable by jurisdiction. The firm's internal AI tools operate within its data governance and privacy framework.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 37
+    },
+    {
+      "id": "dell-technologies",
+      "name": "Dell Technologies Inc.",
+      "ticker": "DELL",
+      "industry": "Information Technology – IT Infrastructure & AI Servers",
+      "logoUrl": "https://ui-avatars.com/api/?name=DELL&background=007db8&color=fff&bold=true",
+      "overallScore": 38,
+      "categoryScores": {
+        "laborDisplacement": 0,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffCount": 11000,
+      "aiLayoffTracked": true,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "dell-c1",
+          "title": "Form 10-K FY2026 - ~97,000 Employees; Business Modernization Headcount Reduction",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+          "snippet": "As of January 30, 2026, we had approximately 97,000 employees. Throughout Fiscal 2026, we remained committed to disciplined cost management in coordination with our ongoing business modernization initiatives and continued to take certain measures to reduce costs, including employee reorganizations, limitation of external hiring, and other actions to align our investments with our announced strategic and customer priorities. These actions resulted in a continued reduction in our overall headcount. $569M in severance charges recognized in FY2026; not in layoffs.fyi AI tracker.",
+          "date": "2026-03-16",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "dell-c2",
+          "title": "Form 10-K FY2026 - AI Server Revenue $24.7B (+166%); AI Infrastructure Supplier",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+          "snippet": "Dell Technologies is a leader in the global technology industry focused on providing broad and innovative technology solutions for the data and artificial intelligence era. AI-optimized servers revenue $24.7B in Fiscal 2026, up 166% year-over-year. Total ISG net revenue $60.8B (+40%). Dell designs, deploys, and supports AI-optimized servers for AI model training, fine-tuning, and inferencing. Dell SUPPLIES AI infrastructure to customers; it does not use AI to displace its own workforce.",
+          "date": "2026-03-16",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "dell-c3",
+          "title": "Form 10-K FY2026 - AI Use Risks in Products and Operations; Total Revenue $113.5B",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+          "snippet": "The use of AI in our products, services, and internal processes presents ethical and legal risks. AI is the subject of evolving review by various domestic and international governmental and regulatory agencies. Dell uses AI to enhance product capabilities including embedded AI in client devices for end-user productivity and in R&D. Total net revenue $113.5B in FY2026 (+19%). Business modernization initiatives leverage new technology to optimize business processes.",
+          "date": "2026-03-16",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "dell-c4",
+          "title": "Form 10-K FY2026 - Cybersecurity: CSO+CISO, ISO 27001, SOC Type 2, Board Oversight",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+          "snippet": "Dell's global security and resiliency organization, under the leadership of our Chief Security Officer (CSO), has established an internal governance structure to identify, assess, rate, and manage cybersecurity risks. The CSO reports to our General Counsel. We engage third parties to conduct evaluations of our security controls and provide certifications for industry-standard security frameworks, such as ISO27001 and SOC, Type 2. The Board of Directors meets with our CSO or his delegate bi-annually; the Audit Committee meets quarterly to review significant cybersecurity incidents and risks.",
+          "date": "2026-03-16",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "dell-c5",
+          "title": "Dell Technologies Privacy Statement and Privacy Center",
+          "sourceName": "Dell Technologies",
+          "url": "https://www.dell.com/en-us/lp/legal/policies-privacy",
+          "snippet": "Dell Technologies maintains a comprehensive global privacy program. The Privacy Statement covers collection, use, sharing, and protection of personal information. Dell complies with GDPR, CCPA, and other applicable data privacy regulations globally. The Privacy Center provides tools for consumers to manage their data preferences including CCPA opt-out ('My Privacy Choices'). Dell's AI tools operate under the firm's data governance and privacy framework.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 38
+    },
+    {
+      "id": "wells-fargo",
+      "name": "Wells Fargo & Company",
+      "ticker": "WFC",
+      "industry": "Financials – Consumer & Commercial Banking",
+      "logoUrl": "https://ui-avatars.com/api/?name=WFC&background=cf0a2c&color=fff&bold=true",
+      "overallScore": 58,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 15,
+        "transparency": 8
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": true,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "wfc-c1",
+          "title": "Form 10-K FY2025 - ~220,000 Employees; Human Capital and Efficiency Initiatives",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231.htm",
+          "snippet": "Wells Fargo employs approximately 220,000 full-time equivalent employees as of December 31, 2025. The company has been executing multi-year efficiency initiatives under CEO Charles Scharf, reducing headcount by approximately 30,000 from peak levels through attrition and targeted reductions. These reductions are attributed to business streamlining and cost management, not AI automation. Not in the layoffs.fyi AI tracker.",
+          "date": "2026-02-24",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "wfc-c2",
+          "title": "Form 10-K FY2025 - AI Strategy: Risk Management, Customer Service, Back-Office",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231.htm",
+          "snippet": "Wells Fargo uses artificial intelligence and machine learning across risk management, fraud detection, customer service, and operational efficiency. The company's AI use is subject to its model risk management framework and regulatory guidance. AI risks include potential bias, model failure, and regulatory scrutiny. Wells Fargo discloses AI-related risks in its risk factor disclosures and discusses AI governance within its enterprise risk management program.",
+          "date": "2026-02-24",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "wfc-c3",
+          "title": "Form 10-K FY2025 - Cybersecurity; Technology Risk and Board Oversight",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231.htm",
+          "snippet": "Wells Fargo's Risk Committee of the Board of Directors oversees technology risk including cybersecurity. The company's Chief Technology Officer and Chief Information Security Officer lead cybersecurity programs with board-level reporting. Wells Fargo maintains a comprehensive information security program aligned with industry frameworks. Cybersecurity risk is integrated into the enterprise risk management system with regular Audit and Risk Committee reporting.",
+          "date": "2026-02-24",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "wfc-c4",
+          "title": "Form 10-K FY2025 - Regulatory Consent Orders: Efficiency/Compliance, Not AI-Privacy",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231.htm",
+          "snippet": "Wells Fargo remains subject to the Federal Reserve asset cap consent order (2018) related to governance failures and prior sales practice violations. The 2022 $3.7B CFPB consent order addressed improper fees, mortgage servicing failures, and auto loan irregularities. Neither constitutes a confirmed AI or customer data-privacy fine under Regulation S-P, GDPR, or CCPA. Wells Fargo has not been subject to a significant privacy enforcement action specifically related to AI or data-protection violations.",
+          "date": "2026-02-24",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "wfc-c5",
+          "title": "Wells Fargo Privacy Policy",
+          "sourceName": "Wells Fargo",
+          "url": "https://www.wellsfargo.com/privacy-security/privacy/",
+          "snippet": "Wells Fargo's privacy policy covers collection, use, and sharing of personal information for customers and website visitors. The policy complies with GLBA, CCPA, and applicable financial services data privacy requirements. Wells Fargo offers California residents the right to limit sharing of personal information. The policy describes data practices for financial products and services.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 39
+    },
+    {
+      "id": "ge-vernova",
+      "name": "GE Vernova Inc.",
+      "ticker": "GEV",
+      "industry": "Industrials – Electric Power Equipment & Clean Energy",
+      "logoUrl": "https://ui-avatars.com/api/?name=GEV&background=00814a&color=fff&bold=true",
+      "overallScore": 51,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "citations": [
+        {
+          "id": "gev-c1",
+          "title": "Form 10-K FY2025 - ~35,000 Employees; Clean Energy Portfolio",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-20251231.htm",
+          "snippet": "GE Vernova, spun off from General Electric on April 2, 2024, employs approximately 35,000 people globally. The company operates three segments: Wind, Electrification, and Gas Power. GE Vernova is focused on clean energy transition providing wind turbines, grid solutions, and gas power technologies. Not in the layoffs.fyi AI tracker. Any workforce adjustments in 2024-2025 were related to business restructuring post-separation, not AI-attributed layoffs.",
+          "date": "2026-01-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "gev-c2",
+          "title": "Form 10-K FY2025 - AI Use in Energy Systems; Grid Optimization and Digital Products",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-20251231.htm",
+          "snippet": "GE Vernova deploys AI and machine learning in grid management, wind farm optimization, and predictive maintenance for power generation equipment. The company's digital products unit provides software solutions that leverage AI for energy system management. AI use is primarily for improving operational efficiency of power and grid equipment rather than automating internal workforce roles.",
+          "date": "2026-01-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "gev-c3",
+          "title": "Form 10-K FY2025 - Cybersecurity and Technology Risk Management",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-20251231.htm",
+          "snippet": "GE Vernova maintains a cybersecurity program aligned with NIST Cybersecurity Framework. The company's Board of Directors and Audit Committee oversee cybersecurity risk management. As a newly independent company following the April 2024 spin-off from GE, GE Vernova has been establishing standalone cybersecurity, data governance, and compliance programs independent of former GE systems.",
+          "date": "2026-01-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "gev-c4",
+          "title": "Form 10-K FY2025 - ESG and Sustainability Reporting; Clean Energy Mission",
+          "sourceName": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-20251231.htm",
+          "snippet": "GE Vernova publishes sustainability disclosures aligned with its mission to electrify and decarbonize the world. The company reports on emissions, workforce safety, and governance. As a recently spun-off entity, GE Vernova is developing its standalone ESG reporting framework. No confirmed AI-specific transparency artifacts or recurring public AI accountability reports as of fiscal year 2025.",
+          "date": "2026-01-29",
+          "category": "SEC Filing"
+        },
+        {
+          "id": "gev-c5",
+          "title": "GE Vernova Privacy Statement",
+          "sourceName": "GE Vernova",
+          "url": "https://www.gevernova.com/legal/privacy",
+          "snippet": "GE Vernova's privacy statement governs the collection, use, and protection of personal data for customers, employees, and website visitors. The company complies with GDPR, CCPA, and applicable data protection laws globally. Privacy rights include access, correction, and deletion requests as applicable. The company's data governance practices were established following the 2024 separation from General Electric.",
+          "date": "2026-08-10",
+          "category": "Policy"
+        }
+      ],
+      "lastUpdated": "2026-08-10",
+      "sp500Rank": 40
+    },
+    {
+      "id": "klac",
+      "name": "KLA Corporation",
+      "ticker": "KLAC",
+      "industry": "Information Technology",
+      "logoUrl": "https://ui-avatars.com/api/?name=KLAC&background=003087&color=fff&bold=true",
+      "sp500Rank": 47,
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "overallScore": 51,
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+        "https://www.kla.com/company/corporate-responsibility/",
+        "https://ir.kla.com/"
+      ],
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "id": "now",
+      "name": "ServiceNow",
+      "ticker": "NOW",
+      "industry": "Information Technology",
+      "logoUrl": "https://ui-avatars.com/api/?name=NOW&background=00bcd4&color=fff&bold=true",
+      "sp500Rank": 41,
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": true,
+      "reskillingFunded": true,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": true,
+      "dedicatedAiTrainingOptOut": true,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "categoryScores": {
+        "laborDisplacement": 22,
+        "dataPrivacy": 25,
+        "humanOversight": 9,
+        "transparency": 9
+      },
+      "overallScore": 69,
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/",
+        "https://www.servicenow.com/company/trust-privacy.html",
+        "https://www.servicenow.com/now-platform/university.html",
+        "https://www.servicenow.com/lpsolve/ai-control-tower.html"
+      ],
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "id": "lin",
+      "name": "Linde plc",
+      "ticker": "LIN",
+      "industry": "Materials",
+      "logoUrl": "https://ui-avatars.com/api/?name=LIN&background=004b87&color=fff&bold=true",
+      "sp500Rank": 42,
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": true,
+      "humanInTheLoopMandate": true,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": true,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "categoryScores": {
+        "laborDisplacement": 22,
+        "dataPrivacy": 18,
+        "humanOversight": 24,
+        "transparency": 7
+      },
+      "overallScore": 75,
+      "citations": [
+        "https://www.linde.com/about-us/leadership/desiree-bacher",
+        "https://assets.linde.com/-/media/global/corporate/corporate/documents/sustainable-development/2025-sustainable-development-report.pdf",
+        "https://www.lindecareers.com/en/inclusion/limitless-growth"
+      ],
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "id": "panw",
+      "name": "Palo Alto Networks",
+      "ticker": "PANW",
+      "industry": "Information Technology",
+      "logoUrl": "https://ui-avatars.com/api/?name=PANW&background=fa4616&color=fff&bold=true",
+      "sp500Rank": 43,
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": true,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 24,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "overallScore": 57,
+      "citations": [
+        "https://www.paloaltonetworks.com/legal/idira/trust/responsible-ai",
+        "https://www.paloaltonetworks.com/perspectives/author/dr-aaron-isaksen/",
+        "https://www.paloaltonetworks.com/legal-notices/terms-of-use"
+      ],
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "id": "anet",
+      "name": "Arista Networks",
+      "ticker": "ANET",
+      "industry": "Information Technology",
+      "logoUrl": "https://ui-avatars.com/api/?name=ANET&background=0080ff&color=fff&bold=true",
+      "sp500Rank": 44,
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": true,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 15,
+        "transparency": 7
+      },
+      "overallScore": 57,
+      "citations": [
+        "https://s21.q4cdn.com/861911615/files/doc_financials/2025/ar/Arista-2026-Proxy-Statement-2025-Annual-Report-Bookmarked.pdf",
+        "https://www.arista.com/en/privacy-policy",
+        "https://www.arista.com/en/terms-of-use"
+      ],
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "id": "ba",
+      "name": "Boeing",
+      "ticker": "BA",
+      "industry": "Industrials",
+      "logoUrl": "https://ui-avatars.com/api/?name=BA&background=1d4289&color=fff&bold=true",
+      "sp500Rank": 45,
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": true,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 15,
+        "transparency": 7
+      },
+      "overallScore": 57,
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+        "https://www.boeing.com/innovation/innovation-quarterly/2025/12/shaping-ai-for-the-sky",
+        "https://www.boeing.com/privacy-and-cookie-policy"
+      ],
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "id": "axp",
+      "name": "American Express",
+      "ticker": "AXP",
+      "industry": "Financials",
+      "logoUrl": "https://ui-avatars.com/api/?name=AXP&background=016fd0&color=fff&bold=true",
+      "sp500Rank": 46,
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": true,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 18,
+        "humanOversight": 15,
+        "transparency": 8
+      },
+      "overallScore": 58,
+      "citations": [
+        "https://theorg.com/org/american-express/org-chart/di-xu",
+        "https://www.americanexpress.com/en-us/company/privacy-center/",
+        "https://www.americanexpress.com/en-us/company/corporate-responsibility/"
+      ],
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "ticker": "IBM",
+      "industry": "Enterprise Technology",
+      "logoUrl": "https://ui-avatars.com/api/?name=IBM&background=1749c2&color=fff&bold=true",
+      "sp500Rank": 48,
+      "aiLayoffCount": 3900,
+      "aiLayoffTracked": true,
+      "reskillingFunded": true,
+      "humanInTheLoopMandate": true,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": true,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": true,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": true,
+      "concreteTransparencyArtifacts": true,
+      "categoryScores": {
+        "laborDisplacement": 14,
+        "dataPrivacy": 24,
+        "humanOversight": 24,
+        "transparency": 20
+      },
+      "overallScore": 86,
+      "citations": [
+        "https://www.ibm.com/artificial-intelligence/ethics",
+        "https://www.ibm.com/products/watsonx-ai/trust-and-transparency",
+        "https://newsroom.ibm.com/IBM-Releases-AI-Ethics-Progress-Report",
+        "https://research.ibm.com/blog/ai-fairness-360"
+      ],
+      "lastUpdated": "2026-08-11"
+    },
+    {
+      "id": "qualcomm",
+      "name": "Qualcomm",
+      "ticker": "QCOM",
+      "industry": "Semiconductors",
+      "logoUrl": "https://ui-avatars.com/api/?name=QCOM&background=3253dc&color=fff&bold=true",
+      "sp500Rank": 49,
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": true,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": false,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "categoryScores": {
+        "laborDisplacement": 22,
+        "dataPrivacy": 18,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "overallScore": 60,
+      "citations": [
+        "https://www.qualcomm.com/research/artificial-intelligence/responsible-ai",
+        "https://investor.qualcomm.com/sec-filings/annual-reports",
+        "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/sustainability/qualcomm-corporate-responsibility-report-2024.pdf"
+      ],
+      "lastUpdated": "2026-08-11"
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "ticker": "UBER",
+      "industry": "Transportation Technology",
+      "logoUrl": "https://ui-avatars.com/api/?name=UBER&background=111827&color=fff&bold=true",
+      "sp500Rank": 50,
+      "aiLayoffCount": 0,
+      "aiLayoffTracked": false,
+      "reskillingFunded": false,
+      "humanInTheLoopMandate": false,
+      "tosScrapingOptOut": false,
+      "noAiTrainingOnPersonalData": false,
+      "dedicatedAiTrainingOptOut": false,
+      "confirmedPrivacyFine": true,
+      "dedicatedAiGovernanceBody": false,
+      "noConsequentialAutomatedDecisions": false,
+      "recurringPublicAiReport": false,
+      "concreteTransparencyArtifacts": false,
+      "categoryScores": {
+        "laborDisplacement": 13,
+        "dataPrivacy": 0,
+        "humanOversight": 9,
+        "transparency": 7
+      },
+      "overallScore": 33,
+      "citations": [
+        "https://www.uber.com/us/en/about/reports/",
+        "https://autoriteitpersoonsgegevens.nl/en/news/dutch-dpa-fines-uber-290-million-euros",
+        "https://investor.uber.com/news-events/news/press-release-details/2025/Uber-Annual-Report-2024/"
+      ],
+      "lastUpdated": "2026-08-11"
     }
   ]
 }

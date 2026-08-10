@@ -37,7 +37,10 @@ export const CATEGORY_INFO: Record<
 
 /** Explains how the overall composite score is derived, for tooltips. */
 export const OVERALL_SCORE_DESCRIPTION =
-  "Composite accountability score out of 100. A higher score means the company has stronger verified evidence of responsible A.I. practices across labor impact, data privacy, human oversight, and transparency. No company currently scores above 73 — the ceiling reflects gaps in public disclosure, not a scoring flaw.";
+  "Composite accountability score out of 100. A higher score means the company has stronger verified evidence of responsible A.I. practices across labor impact, data privacy, human oversight, and transparency. No company currently scores above 86 — the ceiling reflects gaps in public disclosure, not a scoring flaw.";
+
+/** Neutral baseline: a company with no violations and no positive AI commitments scores 50. */
+export const BASELINE_OFFSET = 4;
 
 /** User-adjustable importance weights, one per sub-category. */
 export type CategoryWeights = Record<keyof CategoryScores, number>;
@@ -75,7 +78,7 @@ export function computeWeightedScore(
     return sum + ratio * normalizedWeight;
   }, 0);
 
-  return Math.round(weighted);
+  return Math.min(100, Math.round(weighted) + BASELINE_OFFSET);
 }
 
 export type ScoreTier = "high" | "medium" | "low";

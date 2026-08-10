@@ -635,6 +635,216 @@
       "signal": "AbbVie employees have volunteered more than 428,000 hours globally since founding. AbbVie Employee Relief Program provides financial relief after disasters. Employee matching program has raised $185M+ total since inception.",
       "amountUsd": null,
       "confidence": "medium"
+    },
+    {
+      "companyId": "bank-of-america",
+      "categoryId": "health-human-services",
+      "sourceName": "Bank of America 2023 ESG Report",
+      "sourceUrl": "https://about.bankofamerica.com/en/making-an-impact/charitable-giving",
+      "sourceDate": "2026-08-11",
+      "signal": "Bank of America Foundation reported approximately $200M in philanthropic grants in 2023, with primary focus on affordable housing, community development, and workforce training.",
+      "amountUsd": 200000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "goldman-sachs",
+      "categoryId": "education-opportunity",
+      "sourceName": "Goldman Sachs 2023 Sustainability Report",
+      "sourceUrl": "https://www.goldmansachs.com/our-commitments/philanthropy",
+      "sourceDate": "2026-08-11",
+      "signal": "Goldman Sachs Foundation and Goldman Sachs Gives employee matching program provided approximately $80M in philanthropic grants in 2023. The 10,000 Small Businesses program has deployed $750M since 2009 in small business education and capital access.",
+      "amountUsd": 80000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "wells-fargo",
+      "categoryId": "health-human-services",
+      "sourceName": "Wells Fargo Foundation 2023 Community Impact Report",
+      "sourceUrl": "https://www.wellsfargo.com/about/corporate-responsibility/community-giving/",
+      "sourceDate": "2026-08-11",
+      "signal": "Wells Fargo Foundation invested approximately $175M in philanthropic grants in 2023, focused on affordable housing (NeighborhoodLIFT program), community development, and small business support.",
+      "amountUsd": 175000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "dell-technologies",
+      "categoryId": "education-opportunity",
+      "sourceName": "Dell Technologies FY2024 Social Impact Report",
+      "sourceUrl": "https://www.dell.com/en-us/dt/corporate/social-impact.htm",
+      "sourceDate": "2026-08-11",
+      "signal": "Dell Technologies reported approximately $50M in community impact investment in FY2024 through digital inclusion, education access, and circular economy programs. Dell Reconnect has recycled over 2 billion lbs of electronics and redistributed refurbished technology to nonprofits.",
+      "amountUsd": 50000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "ba",
+      "categoryId": "education-opportunity",
+      "sourceName": "Boeing 2023 Global Engagement Report",
+      "sourceUrl": "https://www.boeing.com/company/key-orgs/boeing-global-engagement",
+      "sourceDate": "2026-08-11",
+      "signal": "Boeing Global Engagement reported approximately $50M in community investment in 2023, with STEM education as the primary focus. Programs include Future of Flight scholarships, aviation career academies, and veteran hiring initiatives (Heroes Work Here).",
+      "amountUsd": 50000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "axp",
+      "categoryId": "education-opportunity",
+      "sourceName": "American Express 2023 ESG Report",
+      "sourceUrl": "https://www.americanexpress.com/en-us/company/corporate-responsibility/",
+      "sourceDate": "2026-08-11",
+      "signal": "American Express Foundation disclosed approximately $37M in philanthropic giving in 2023, anchored by the Backing Small Business program, financial literacy grants, and heritage/arts preservation funding.",
+      "amountUsd": 37000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "caterpillar",
+      "categoryId": "health-human-services",
+      "sourceName": "Caterpillar Foundation 2023 Community Report",
+      "sourceUrl": "https://www.caterpillar.com/en/company/caterpillar-foundation.html",
+      "sourceDate": "2026-08-11",
+      "signal": "Caterpillar Foundation disclosed approximately $30M in grants in 2023, focused on workforce readiness/STEM education, sustainable natural infrastructure, and access to basic services such as clean water and energy in underserved communities.",
+      "amountUsd": 30000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "morgan-stanley",
+      "categoryId": "equity-inclusion",
+      "sourceName": "Morgan Stanley 2023 Impact Report",
+      "sourceUrl": "https://www.morganstanley.com/about-us/sustainability",
+      "sourceDate": "2026-08-11",
+      "signal": "Morgan Stanley Foundation committed approximately $20M in grants in 2023 to inclusive entrepreneurship (Next Level program), career development, and sustainability education. The Institute for Sustainable Investing also provides additional capital for ESG research and market development.",
+      "amountUsd": 20000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "ge-aerospace",
+      "categoryId": "education-opportunity",
+      "sourceName": "GE Aerospace 2023 Sustainability Report",
+      "sourceUrl": "https://www.geaerospace.com/sustainability",
+      "sourceDate": "2026-08-11",
+      "signal": "GE Aerospace Foundation invests in STEM education, aviation career development programs, and veteran employment initiatives. Annual charitable giving total not separately disclosed following GE's 2024 company restructuring into three independent entities.",
+      "amountUsd": null,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "lam-research",
+      "categoryId": "education-opportunity",
+      "sourceName": "Lam Research 2024 Sustainability Report",
+      "sourceUrl": "https://www.lamresearch.com/sustainability",
+      "sourceDate": "2026-08-11",
+      "signal": "Lam Research Foundation and corporate giving programs focus on STEM education and semiconductor workforce development. Total annual charitable giving not publicly disclosed; programs include university partnerships, K-12 science programs, and employee matching gifts.",
+      "amountUsd": null,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "philip-morris",
+      "categoryId": "health-human-services",
+      "sourceName": "Philip Morris International 2023 Integrated Report",
+      "sourceUrl": "https://www.pmi.com/sustainability",
+      "sourceDate": "2026-08-11",
+      "signal": "Philip Morris International funds community programs in smoke-free alternatives access, harm reduction, and agricultural community development. PMI's IMPACT anti-illicit trade program also supports law enforcement capacity. Total community investment not disclosed as standalone figure.",
+      "amountUsd": null,
+      "confidence": "low"
+    },
+    {
+      "companyId": "palantir",
+      "categoryId": null,
+      "sourceName": "Palantir Technologies Corporate Overview",
+      "sourceUrl": "https://www.palantir.com/impact/",
+      "sourceDate": "2026-08-11",
+      "signal": "Palantir's philanthropy is primarily delivered as product/service donations — providing data analytics platforms to nonprofits, disaster response agencies, and public health organizations at no cost. No formal charitable foundation or disclosed annual grant budget found.",
+      "amountUsd": null,
+      "confidence": "low"
+    },
+    {
+      "companyId": "ge-vernova",
+      "categoryId": "climate-environment",
+      "sourceName": "GE Vernova 2024 Sustainability Report",
+      "sourceUrl": "https://www.gevernova.com/sustainability",
+      "sourceDate": "2026-08-11",
+      "signal": "GE Vernova launched as an independent company in April 2024 and has not yet disclosed annual charitable giving totals. Sustainability — clean energy technology and grid decarbonization — is central to the company's core business mission rather than a separate foundation activity.",
+      "amountUsd": null,
+      "confidence": "low"
+    },
+    {
+      "companyId": "klac",
+      "categoryId": "education-opportunity",
+      "sourceName": "KLA Foundation",
+      "sourceUrl": "https://www.kla.com/csr",
+      "sourceDate": "2026-08-11",
+      "signal": "KLA Foundation focuses on STEM education and semiconductor workforce development, including university partnerships and K-12 engineering programs. Total annual charitable giving not publicly disclosed; programs include employee matching gifts and grants to local educational nonprofits.",
+      "amountUsd": null,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "now",
+      "categoryId": "education-opportunity",
+      "sourceName": "ServiceNow 2024 Global Impact Report",
+      "sourceUrl": "https://www.servicenow.com/company/global-impact.html",
+      "sourceDate": "2026-08-11",
+      "signal": "ServiceNow.org and the RiseUp with ServiceNow initiative committed to training 1 million people in digital workflow skills. ServiceNow Foundation supports digital equity and skills access programs. Total annual charitable giving not separately disclosed.",
+      "amountUsd": null,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "lin",
+      "categoryId": "climate-environment",
+      "sourceName": "Linde plc 2023 Sustainability Report",
+      "sourceUrl": "https://www.linde.com/about-linde/sustainability",
+      "sourceDate": "2026-08-11",
+      "signal": "Linde Foundation supports sustainability, clean hydrogen research, and community programs globally. US charitable giving is not separately disclosed; the company's primary societal contribution is through clean energy and industrial gas technology that enables emissions reduction.",
+      "amountUsd": null,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "panw",
+      "categoryId": "education-opportunity",
+      "sourceName": "Palo Alto Networks 2024 CSR Report",
+      "sourceUrl": "https://www.paloaltonetworks.com/company/csr",
+      "sourceDate": "2026-08-11",
+      "signal": "Palo Alto Networks Foundation and corporate programs focus on cybersecurity education and workforce diversity, including the Women in Cybersecurity scholarship program and Cybersecurity Academy partnerships. Total annual charitable giving not publicly disclosed.",
+      "amountUsd": null,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "anet",
+      "categoryId": null,
+      "sourceName": "Arista Networks Corporate Overview",
+      "sourceUrl": "https://www.arista.com/en/company/community",
+      "sourceDate": "2026-08-11",
+      "signal": "Arista Networks has minimal formal corporate philanthropy. Notable political giving in 2024 was driven by individual executive donations (CEO's $2.875M to Future Forward USA), not a company foundation. No disclosed charitable grant budget or formal giving program found.",
+      "amountUsd": null,
+      "confidence": "low"
+    },
+    {
+      "companyId": "ibm",
+      "categoryId": "education-opportunity",
+      "sourceName": "IBM Foundation and SkillsBuild Program",
+      "sourceUrl": "https://www.ibm.com/skills/ibm-skillsbuild",
+      "sourceDate": "2026-08-11",
+      "signal": "IBM Foundation and IBM SkillsBuild provide free digital and AI education to millions globally. IBM reported approximately $40M in philanthropic grants in 2023 through its foundation and corporate giving programs, focused on workforce development and STEM education. IBM has committed to training 30 million people in digital skills by 2030.",
+      "amountUsd": 40000000,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "qualcomm",
+      "categoryId": "education-opportunity",
+      "sourceName": "Qualcomm Corporate Responsibility Report 2024",
+      "sourceUrl": "https://www.qualcomm.com/research/university-relations",
+      "sourceDate": "2026-08-11",
+      "signal": "Qualcomm supports STEM education through Qualcomm Thinkabit Labs (hands-on engineering programs for K-12 students), university research partnerships, and the Qualcomm Scholars program. Total annual charitable giving not separately disclosed; programs focus on semiconductor engineering workforce and diversity in STEM.",
+      "amountUsd": null,
+      "confidence": "medium"
+    },
+    {
+      "companyId": "uber",
+      "categoryId": "health-human-services",
+      "sourceName": "Uber Community Impact",
+      "sourceUrl": "https://www.uber.com/us/en/about/sustainability/",
+      "sourceDate": "2026-08-11",
+      "signal": "Uber's community programs include free and discounted rides for healthcare access, disaster relief transportation, and the Uber Movement Grants program for nonprofit organizations. Total annual charitable giving not publicly disclosed; primary community impact is delivered through subsidized transportation access rather than cash grants.",
+      "amountUsd": null,
+      "confidence": "low"
     }
   ]
 }

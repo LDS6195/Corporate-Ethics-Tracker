@@ -32,7 +32,8 @@
       "topCauseCategoryId": "worker-wellbeing",
       "evidenceRecords": 5,
       "highConfidenceRecords": 2,
-      "lastUpdated": "2026-08-07"
+      "lastUpdated": "2026-08-07",
+      "categorySpendUsd": {}
     },
     {
       "companyId": "alphabet",
@@ -164,7 +165,9 @@
       "evidenceRecords": 2,
       "highConfidenceRecords": 0,
       "lastUpdated": "2026-08-06",
-      "topCauseCategoryId": "worker-wellbeing"
+      "topCauseCategoryId": "worker-wellbeing",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
     },
     {
       "companyId": "eli-lilly",
@@ -172,7 +175,9 @@
       "evidenceRecords": 2,
       "highConfidenceRecords": 0,
       "lastUpdated": "2026-08-06",
-      "topCauseCategoryId": "worker-wellbeing"
+      "topCauseCategoryId": "worker-wellbeing",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
     },
     {
       "companyId": "mastercard",
@@ -192,7 +197,9 @@
       "evidenceRecords": 2,
       "highConfidenceRecords": 0,
       "lastUpdated": "2026-08-06",
-      "topCauseCategoryId": "worker-wellbeing"
+      "topCauseCategoryId": "worker-wellbeing",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
     },
     {
       "companyId": "costco",
@@ -200,7 +207,9 @@
       "evidenceRecords": 2,
       "highConfidenceRecords": 0,
       "lastUpdated": "2026-08-06",
-      "topCauseCategoryId": "worker-wellbeing"
+      "topCauseCategoryId": "worker-wellbeing",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
     },
     {
       "companyId": "johnson-johnson",
@@ -208,7 +217,9 @@
       "evidenceRecords": 2,
       "highConfidenceRecords": 0,
       "lastUpdated": "2026-08-06",
-      "topCauseCategoryId": "worker-wellbeing"
+      "topCauseCategoryId": "worker-wellbeing",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
     },
     {
       "companyId": "home-depot",
@@ -226,43 +237,354 @@
     {
       "companyId": "abbvie",
       "profileStatus": "in-progress",
-      "disclosedSpendUsd": 389000000,
-      "topCauseCategoryId": "community-health",
-      "evidenceRecords": 2,
-      "highConfidenceRecords": 1,
-      "lastUpdated": "2026-08-09"
+      "disclosedSpendUsd": 350000000,
+      "topCauseCategoryId": "health-human-services",
+      "evidenceRecords": 4,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-10",
+      "categorySpendUsd": {
+        "health-human-services": 350000000
+      }
     },
     {
       "companyId": "netflix",
-      "profileStatus": "not-started",
-      "evidenceRecords": 0,
-      "highConfidenceRecords": 0,
-      "lastUpdated": "2026-08-09",
-      "topCauseCategoryId": "equity-inclusion"
+      "profileStatus": "in-progress",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-10",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": 100000000,
+      "categorySpendUsd": {
+        "education-opportunity": 100000000
+      }
     },
     {
       "companyId": "bank-of-america",
-      "profileStatus": "not-started",
-      "evidenceRecords": 0,
-      "highConfidenceRecords": 0,
-      "lastUpdated": "2026-08-09",
-      "topCauseCategoryId": "community-health"
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "health-human-services",
+      "disclosedSpendUsd": 200000000,
+      "categorySpendUsd": {
+        "health-human-services": 200000000
+      }
     },
     {
       "companyId": "oracle",
-      "profileStatus": "not-started",
-      "evidenceRecords": 1,
-      "highConfidenceRecords": 0,
-      "lastUpdated": "2026-08-09",
-      "topCauseCategoryId": "education-opportunity"
+      "profileStatus": "in-progress",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-10",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": 20000000,
+      "categorySpendUsd": {
+        "education-opportunity": 20000000
+      }
     },
     {
       "companyId": "salesforce",
-      "profileStatus": "not-started",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 4,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-10",
+      "topCauseCategoryId": "health-human-services",
+      "disclosedSpendUsd": 100000000,
+      "categorySpendUsd": {
+        "health-human-services": 100000000,
+        "education-opportunity": 150000000
+      }
+    },
+    {
+      "companyId": "micron",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-10",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": 10000000,
+      "categorySpendUsd": {
+        "education-opportunity": 10000000
+      }
+    },
+    {
+      "companyId": "amd",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-10",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": 5000000,
+      "categorySpendUsd": {
+        "education-opportunity": 5000000
+      }
+    },
+    {
+      "companyId": "intel",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 3,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-10",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": 10000000,
+      "categorySpendUsd": {
+        "education-opportunity": 10000000
+      }
+    },
+    {
+      "companyId": "cisco",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 4,
+      "highConfidenceRecords": 2,
+      "lastUpdated": "2026-08-10",
+      "topCauseCategoryId": "health-human-services",
+      "disclosedSpendUsd": 50000000,
+      "categorySpendUsd": {
+        "health-human-services": 50000000,
+        "equity-inclusion": 150000000
+      }
+    },
+    {
+      "companyId": "applied-materials",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 2,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-10",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": 3000000,
+      "categorySpendUsd": {
+        "education-opportunity": 3000000
+      }
+    },
+    {
+      "companyId": "palantir",
+      "profileStatus": "in-progress",
       "evidenceRecords": 1,
       "highConfidenceRecords": 0,
-      "lastUpdated": "2026-08-09",
-      "topCauseCategoryId": "education-opportunity"
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": null,
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
+    },
+    {
+      "companyId": "philip-morris",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "health-human-services",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
+    },
+    {
+      "companyId": "caterpillar",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "health-human-services",
+      "disclosedSpendUsd": 30000000,
+      "categorySpendUsd": {
+        "health-human-services": 30000000
+      }
+    },
+    {
+      "companyId": "lam-research",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
+    },
+    {
+      "companyId": "ge-aerospace",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
+    },
+    {
+      "companyId": "morgan-stanley",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "equity-inclusion",
+      "disclosedSpendUsd": 20000000,
+      "categorySpendUsd": {
+        "equity-inclusion": 20000000
+      }
+    },
+    {
+      "companyId": "goldman-sachs",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": 80000000,
+      "categorySpendUsd": {
+        "education-opportunity": 80000000
+      }
+    },
+    {
+      "companyId": "dell-technologies",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "education-opportunity",
+      "disclosedSpendUsd": 50000000,
+      "categorySpendUsd": {
+        "education-opportunity": 50000000
+      }
+    },
+    {
+      "companyId": "wells-fargo",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "health-human-services",
+      "disclosedSpendUsd": 175000000,
+      "categorySpendUsd": {
+        "health-human-services": 175000000
+      }
+    },
+    {
+      "companyId": "ge-vernova",
+      "profileStatus": "in-progress",
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-11",
+      "topCauseCategoryId": "climate-environment",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {}
+    },
+    {
+      "companyId": "klac",
+      "profileStatus": "in-progress",
+      "causeScore": null,
+      "topCategories": [],
+      "evidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {},
+      "topCauseCategoryId": "education-opportunity",
+      "highConfidenceRecords": 0
+    },
+    {
+      "companyId": "now",
+      "profileStatus": "in-progress",
+      "causeScore": null,
+      "topCategories": [],
+      "evidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {},
+      "topCauseCategoryId": "education-opportunity",
+      "highConfidenceRecords": 0
+    },
+    {
+      "companyId": "lin",
+      "profileStatus": "in-progress",
+      "causeScore": null,
+      "topCategories": [],
+      "evidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {},
+      "topCauseCategoryId": "climate-environment",
+      "highConfidenceRecords": 0
+    },
+    {
+      "companyId": "panw",
+      "profileStatus": "in-progress",
+      "causeScore": null,
+      "topCategories": [],
+      "evidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {},
+      "topCauseCategoryId": "education-opportunity",
+      "highConfidenceRecords": 0
+    },
+    {
+      "companyId": "anet",
+      "profileStatus": "in-progress",
+      "causeScore": null,
+      "topCategories": [],
+      "evidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "disclosedSpendUsd": null,
+      "categorySpendUsd": {},
+      "topCauseCategoryId": null,
+      "highConfidenceRecords": 0
+    },
+    {
+      "companyId": "ba",
+      "profileStatus": "in-progress",
+      "causeScore": null,
+      "topCategories": [],
+      "evidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "disclosedSpendUsd": 50000000,
+      "categorySpendUsd": {
+        "education-opportunity": 50000000
+      },
+      "topCauseCategoryId": "education-opportunity",
+      "highConfidenceRecords": 1
+    },
+    {
+      "companyId": "axp",
+      "profileStatus": "in-progress",
+      "causeScore": null,
+      "topCategories": [],
+      "evidenceRecords": 1,
+      "lastUpdated": "2026-08-11",
+      "disclosedSpendUsd": 37000000,
+      "categorySpendUsd": {
+        "education-opportunity": 37000000
+      },
+      "topCauseCategoryId": "education-opportunity",
+      "highConfidenceRecords": 1
+    },
+    {
+      "companyId": "ibm",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": 40000000,
+      "topCauseCategoryId": "education-opportunity",
+      "categorySpendUsd": {
+        "education-opportunity": 40000000
+      },
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 1,
+      "lastUpdated": "2026-08-11"
+    },
+    {
+      "companyId": "qualcomm",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": null,
+      "topCauseCategoryId": "education-opportunity",
+      "categorySpendUsd": {},
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-11"
+    },
+    {
+      "companyId": "uber",
+      "profileStatus": "in-progress",
+      "disclosedSpendUsd": null,
+      "topCauseCategoryId": "health-human-services",
+      "categorySpendUsd": {},
+      "evidenceRecords": 1,
+      "highConfidenceRecords": 0,
+      "lastUpdated": "2026-08-11"
     }
   ]
 }

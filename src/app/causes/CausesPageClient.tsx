@@ -37,8 +37,8 @@ interface CausesPageClientProps {
   evidenceRows: CauseEvidenceSummaryRow[];
 }
 
-function formatCurrency(amount?: number) {
-  if (amount === undefined) return "Not disclosed";
+function formatCurrency(amount?: number | null) {
+  if (amount == null) return "Not disclosed";
   return new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
