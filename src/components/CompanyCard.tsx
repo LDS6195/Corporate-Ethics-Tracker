@@ -44,7 +44,7 @@ export default function CompanyCard({
   const score = displayScore ?? company.overallScore;
   const layoffCountMatch = company.citations
     .map((citation) =>
-      citation.snippet.match(
+      citation.snippet?.match(
         /(?:cut|cuts|cutting|laid off|eliminat(?:e|ed|ing)|layoffs?)\s+(?:about\s+|around\s+|roughly\s+)?([\d,]+)\s+(?:employees|workers|roles|jobs)|([\d,]+)\s+(?:employees|workers|roles|jobs)[^.]{0,80}(?:laid off|eliminations|layoffs|cut)/i
       )
     )

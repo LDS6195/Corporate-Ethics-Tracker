@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Sans, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 import PrimaryNav from "@/components/PrimaryNav";
+import MobileDebugOverlay from "@/components/MobileDebugOverlay";
 
 const sans = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className={`${sans.variable} ${serif.variable} min-h-screen bg-neutral-950 font-sans text-neutral-100 antialiased`}>
         <PrimaryNav />
         {children}
+        <MobileDebugOverlay />
       </body>
     </html>
   );
