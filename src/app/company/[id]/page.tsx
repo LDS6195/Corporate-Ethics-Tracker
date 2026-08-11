@@ -30,6 +30,7 @@ function findMetricFromCitations(
   pattern: RegExp
 ): string | null {
   for (const citation of company.citations) {
+    if (!citation.snippet) continue;
     const metric = extractNumberMetric(citation.snippet, pattern);
     if (metric) {
       return metric;
@@ -43,6 +44,7 @@ function findTextMetricFromCitations(
   pattern: RegExp
 ): string | null {
   for (const citation of company.citations) {
+    if (!citation.snippet) continue;
     const match = citation.snippet.match(pattern);
     if (match?.[0]) {
       return match[0];
