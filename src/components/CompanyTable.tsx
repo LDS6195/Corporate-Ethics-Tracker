@@ -75,6 +75,7 @@ export default function CompanyTable({ rows }: { rows: ScoredCompany[] }) {
       displayScore,
       sp500Rank: getSp500Rank(company),
       aiLayoffCount: getAiLayoffCount(company),
+      aiLayoffEstimated: company.aiLayoffEstimated ?? false,
       workforceSupport: company.reskillingFunded,
       humanInTheLoopMandate: company.humanInTheLoopMandate,
     }));
@@ -216,7 +217,7 @@ export default function CompanyTable({ rows }: { rows: ScoredCompany[] }) {
               <td className="px-4 py-3 text-right text-xs tabular-nums text-neutral-300 sm:font-mono">
                 {row.aiLayoffCount === null
                   ? "Not disclosed"
-                  : row.aiLayoffCount.toLocaleString()}
+                  : <>{row.aiLayoffCount.toLocaleString()}{row.aiLayoffEstimated && <span title="Estimated — exact count not publicly reported">*</span>}</>}
               </td>
               <td className="px-4 py-3 text-right">
                 <YesNoPill value={row.workforceSupport} />

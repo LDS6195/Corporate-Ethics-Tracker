@@ -79,6 +79,8 @@ export interface CompanyAudit {
   layoffsIndustry?: string;
   /** Optional AI-attributed layoffs total from external layoff-tracker sources. */
   aiLayoffEmployees?: number;
+  /** True when aiLayoffEmployees is an estimate (exact count not publicly reported). */
+  aiLayoffEstimated?: boolean;
   /** Optional AI-attributed layoff event count from external layoff-tracker sources. */
   aiLayoffEvents?: number;
   citations: Citation[];

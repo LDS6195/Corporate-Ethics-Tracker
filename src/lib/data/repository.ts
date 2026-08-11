@@ -20,6 +20,7 @@ interface LayoffsSignalRow {
   layoffsLatest?: string | null;
   layoffsIndustry?: string | null;
   aiLayoffEmployees?: number | null;
+  aiLayoffEstimated?: boolean | null;
   aiLayoffEvents?: number | null;
 }
 
@@ -41,6 +42,7 @@ function mergeLayoffsSignals(companies: CompanyAudit[]): CompanyAudit[] {
       layoffsLatest: signal.layoffsLatest ?? undefined,
       layoffsIndustry: signal.layoffsIndustry ?? undefined,
       aiLayoffEmployees: signal.aiLayoffEmployees ?? undefined,
+      aiLayoffEstimated: signal.aiLayoffEstimated ?? undefined,
       aiLayoffEvents: signal.aiLayoffEvents ?? undefined,
     };
   });

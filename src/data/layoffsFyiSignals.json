@@ -12,11 +12,11 @@
     "2025",
     "2024"
   ],
-  "sourceUpdatedAt": "2026-08-06T22:22:57.406Z",
-  "generatedAt": "2026-08-06T22:27:31.533Z",
-  "trackedCount": 37,
-  "matchedCount": 17,
-  "aiTrackedCount": 6,
+  "sourceUpdatedAt": "2026-08-11T14:48:52.806Z",
+  "generatedAt": "2026-08-11T14:49:37.698Z",
+  "trackedCount": 50,
+  "matchedCount": 22,
+  "aiTrackedCount": 11,
   "trackedCompanies": [
     {
       "companyId": "apple",
@@ -250,9 +250,9 @@
       "layoffsTotal": 247,
       "layoffsLatest": "2025-10-17",
       "layoffsIndustry": "Hardware",
-      "aiLayoffEmployees": null,
-      "aiLayoffEvents": 0,
-      "aiLayoffTrackedFromSource": false,
+      "aiLayoffEmployees": 247,
+      "aiLayoffEvents": 1,
+      "aiLayoffTrackedFromSource": true,
       "aiEvents": [
         {
           "year": "2025",
@@ -473,6 +473,57 @@
       "sourceCompanyUrl": null
     },
     {
+      "companyId": "abbvie",
+      "companyName": "AbbVie Inc.",
+      "ticker": "ABBV",
+      "matched": false,
+      "matchedName": null,
+      "matchedSlug": null,
+      "layoffsTotal": null,
+      "layoffsLatest": null,
+      "layoffsIndustry": null,
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": null
+    },
+    {
+      "companyId": "netflix",
+      "companyName": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "matched": true,
+      "matchedName": "Netflix",
+      "matchedSlug": "netflix",
+      "layoffsTotal": 505,
+      "layoffsLatest": "2022-09-14",
+      "layoffsIndustry": "Media",
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": "https://layoffs.fyi/company/netflix/"
+    },
+    {
+      "companyId": "bank-of-america",
+      "companyName": "Bank of America Corp.",
+      "ticker": "BAC",
+      "matched": false,
+      "matchedName": null,
+      "matchedSlug": null,
+      "layoffsTotal": null,
+      "layoffsLatest": null,
+      "layoffsIndustry": null,
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": null
+    },
+    {
       "companyId": "oracle",
       "companyName": "Oracle Corporation",
       "ticker": "ORCL",
@@ -507,32 +558,32 @@
       "matched": true,
       "matchedName": "Salesforce",
       "matchedSlug": "salesforce",
-      "layoffsTotal": 5782,
-      "layoffsLatest": "2026-06-09",
-      "layoffsIndustry": "Software",
+      "layoffsTotal": 16744,
+      "layoffsLatest": "2026-08-07",
+      "layoffsIndustry": "Sales",
       "aiLayoffEmployees": 5471,
       "aiLayoffEvents": 7,
       "aiLayoffTrackedFromSource": true,
       "aiEvents": [
         {
-          "year": "2025",
+          "year": "2026",
           "company": "Salesforce",
           "slug": "salesforce",
-          "date": "2025-08-31",
-          "count": 4000,
+          "date": "2026-06-09",
+          "count": 86,
           "percent": null,
-          "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9",
-          "explanation": "Salesforce's Agentforce AI agents automated customer support tasks to the point where CEO Marc Benioff directly attributed the elimination of 4,000 support roles to the technology, stating \"I've reduced it from 9,000 heads to about 5,000, because I need less heads\" and crediting \"the benefits and efficiencies of Agentforce\" for handling roughly 50% of the customer division's workload, rendering thousands of human support positions redundant."
+          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+          "explanation": "Salesforce eliminated roles across its Agentforce AI product, MuleSoft, and Marketing Cloud divisions as the company restructured around AI-driven priorities, with concern mounting that AI could replace some of its traditional software services."
         },
         {
-          "year": "2025",
+          "year": "2026",
           "company": "Salesforce",
           "slug": "salesforce",
-          "date": "2025-02-03",
-          "count": 1000,
-          "percent": 1,
-          "source": "https://finance.yahoo.com/news/salesforce-cut-1-000-roles-002028643.html",
-          "explanation": "Salesforce eliminated over 1,000 roles as part of a deliberate workforce restructuring to shift resources toward its agentic AI platform, Agentforce, simultaneously announcing plans to hire 2,000 new employees focused on selling AI products."
+          "date": "2026-02-09",
+          "count": 0,
+          "percent": null,
+          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-executive-changes-2026-2",
+          "explanation": "Salesforce restructured its marketing, product, and data teams as part of a broader strategic pivot toward AI-driven products and services, particularly its Agentforce AI platform, which reduced the need for certain traditional roles in those functions. The company had been aggressively reallocating headcount and resources to support AI development and sales, making legacy positions in marketing and data operations redundant."
         },
         {
           "year": "2025",
@@ -542,7 +593,7 @@
           "count": 262,
           "percent": null,
           "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/",
-          "explanation": "Salesforce CEO Marc Benioff explicitly credited AI as enabling the company to reduce its workforce, stating that artificial intelligence had let him slash support staff and describing it as an 'exciting' labor replacement."
+          "explanation": "Salesforce CEO Marc Benioff explicitly credited AI as enabling the company to reduce its workforce, stating that artificial intelligence had let him slash support staff and describing it as an 'exciting' labor replacement, directly linking the cuts to the company's accelerating push into AI-driven automation of roles previously held by human workers."
         },
         {
           "year": "2025",
@@ -562,27 +613,27 @@
           "count": 30,
           "percent": null,
           "source": "https://www.thejournal.ie/salesforce-ireland-redundancies-6806486-Sep2025/",
-          "explanation": "Salesforce cut roles in Ireland as part of its broader workforce restructuring driven by AI automation, as the company has been actively replacing traditional sales and support functions with AI-powered agents."
+          "explanation": "Salesforce cut roles in Ireland as part of its broader workforce restructuring driven by AI automation, as the company has been actively replacing traditional sales and support functions with AI-powered agents, reducing headcount in favor of its own Agentforce platform."
         },
         {
-          "year": "2026",
+          "year": "2025",
           "company": "Salesforce",
           "slug": "salesforce",
-          "date": "2026-02-09",
-          "count": 0,
+          "date": "2025-08-31",
+          "count": 4000,
           "percent": null,
-          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-executive-changes-2026-2",
-          "explanation": "Salesforce restructured its marketing, product, and data teams as part of a broader strategic pivot toward AI-driven products and services, particularly its Agentforce AI platform, which reduced the need for certain traditional roles."
+          "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9",
+          "explanation": "Salesforce's Agentforce AI agents automated customer support tasks to the point where CEO Marc Benioff directly attributed the elimination of 4,000 support roles to the technology, stating \"I've reduced it from 9,000 heads to about 5,000, because I need less heads\" and crediting \"the benefits and efficiencies of Agentforce\" for handling roughly 50% of the customer division's workload, rendering thousands of human support positions redundant."
         },
         {
-          "year": "2026",
+          "year": "2025",
           "company": "Salesforce",
           "slug": "salesforce",
-          "date": "2026-06-09",
-          "count": 86,
-          "percent": null,
-          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
-          "explanation": "Salesforce eliminated roles across its Agentforce AI product, MuleSoft, and Marketing Cloud divisions as the company restructured around AI-driven priorities."
+          "date": "2025-02-03",
+          "count": 1000,
+          "percent": 1,
+          "source": "https://finance.yahoo.com/news/salesforce-cut-1-000-roles-002028643.html",
+          "explanation": "Salesforce eliminated over 1,000 roles as part of a deliberate workforce restructuring to shift resources toward its agentic AI platform, Agentforce, simultaneously announcing plans to hire 2,000 new employees focused on selling AI products. The cuts reflected a strategic pivot away from traditional roles toward positions requiring deeper expertise in automation and AI, repositioning Salesforce as an AI- and data-led company."
         }
       ],
       "source": "Layoffs.fyi",
@@ -595,8 +646,8 @@
       "matched": true,
       "matchedName": "Micron",
       "matchedSlug": "micron",
-      "layoffsTotal": 22294,
-      "layoffsLatest": "2023-10-31",
+      "layoffsTotal": 7500,
+      "layoffsLatest": "2025-08-12",
       "layoffsIndustry": "Hardware",
       "aiLayoffEmployees": null,
       "aiLayoffEvents": 0,
@@ -612,8 +663,8 @@
       "matched": true,
       "matchedName": "AMD",
       "matchedSlug": "amd",
-      "layoffsTotal": 1400,
-      "layoffsLatest": "2024-11-01",
+      "layoffsTotal": 1000,
+      "layoffsLatest": "2024-11-13",
       "layoffsIndustry": "Hardware",
       "aiLayoffEmployees": null,
       "aiLayoffEvents": 0,
@@ -654,9 +705,14 @@
       "aiLayoffTrackedFromSource": true,
       "aiEvents": [
         {
-          "date": "2024-08-01",
-          "employees": 4000,
-          "notes": "Cisco cut ~4,000 employees to fund AI, cloud, and cybersecurity investments. Source: layoffs.fyi AI tracker."
+          "year": "2026",
+          "company": "Cisco",
+          "slug": "cisco",
+          "date": "2026-05-13",
+          "count": 4000,
+          "percent": 5,
+          "source": "https://blogs.cisco.com/news/our-path-forward",
+          "explanation": "Cisco's CEO Chuck Robbins framed the cuts as a strategic reallocation toward AI-era competitiveness, stating that \"the companies that will win in the AI era will be those with focus, urgency, and the discipline to continuously shift investment toward the areas where demand and long-term value creation are strongest.\" While reducing headcount in some areas, Cisco simultaneously announced targeted investments in silicon, optics, security, and employee use of AI across the company."
         }
       ],
       "source": "Layoffs.fyi",
@@ -666,18 +722,18 @@
       "companyId": "applied-materials",
       "companyName": "Applied Materials, Inc.",
       "ticker": "AMAT",
-      "matched": true,
-      "matchedName": "Applied Materials",
-      "matchedSlug": "applied-materials",
-      "layoffsTotal": 1460,
-      "layoffsLatest": "2025-11-01",
-      "layoffsIndustry": "Hardware",
+      "matched": false,
+      "matchedName": null,
+      "matchedSlug": null,
+      "layoffsTotal": null,
+      "layoffsLatest": null,
+      "layoffsIndustry": null,
       "aiLayoffEmployees": null,
       "aiLayoffEvents": 0,
       "aiLayoffTrackedFromSource": false,
       "aiEvents": [],
       "source": "Layoffs.fyi",
-      "sourceCompanyUrl": "https://layoffs.fyi/company/applied-materials/"
+      "sourceCompanyUrl": null
     },
     {
       "companyId": "palantir",
@@ -694,9 +750,14 @@
       "aiLayoffTrackedFromSource": true,
       "aiEvents": [
         {
+          "year": "2025",
+          "company": "Palantir",
+          "slug": "palantir",
           "date": "2025-03-27",
-          "employees": 120,
-          "notes": "Palantir laid off ~120 employees attributed to AI-driven internal efficiency. Palantir is itself an AI software company. Source: layoffs.fyi AI tracker."
+          "count": 120,
+          "percent": null,
+          "source": "https://finance.yahoo.com/news/palantir-just-cut-over-60-192816370.html",
+          "explanation": "Palantir reduced its internal IT team from over 200 to fewer than 80 full-time employees as part of a broader strategy to decentralize technology operations, with the company leaning on AI tooling and large language models to maintain operational efficiency with a dramatically smaller headcount. CEO Alex Karp has stated the company will \"grow 10x … with fewer employees than we have today,\" reflecting a deliberate model in which AI capabilities replace traditional internal support roles."
         }
       ],
       "source": "Layoffs.fyi",
@@ -709,15 +770,15 @@
       "matched": false,
       "matchedName": null,
       "matchedSlug": null,
-      "layoffsTotal": 0,
+      "layoffsTotal": null,
       "layoffsLatest": null,
-      "layoffsIndustry": "Consumer Staples",
+      "layoffsIndustry": null,
       "aiLayoffEmployees": null,
       "aiLayoffEvents": 0,
       "aiLayoffTrackedFromSource": false,
       "aiEvents": [],
       "source": "Layoffs.fyi",
-      "sourceCompanyUrl": "https://layoffs.fyi/company/philip-morris/"
+      "sourceCompanyUrl": null
     },
     {
       "companyId": "caterpillar",
@@ -726,15 +787,15 @@
       "matched": false,
       "matchedName": null,
       "matchedSlug": null,
-      "layoffsTotal": 0,
+      "layoffsTotal": null,
       "layoffsLatest": null,
-      "layoffsIndustry": "Industrials",
+      "layoffsIndustry": null,
       "aiLayoffEmployees": null,
       "aiLayoffEvents": 0,
       "aiLayoffTrackedFromSource": false,
       "aiEvents": [],
       "source": "Layoffs.fyi",
-      "sourceCompanyUrl": "https://layoffs.fyi/company/caterpillar/"
+      "sourceCompanyUrl": null
     },
     {
       "companyId": "lam-research",
@@ -760,15 +821,15 @@
       "matched": false,
       "matchedName": null,
       "matchedSlug": null,
-      "layoffsTotal": 0,
+      "layoffsTotal": null,
       "layoffsLatest": null,
-      "layoffsIndustry": "Industrials",
+      "layoffsIndustry": null,
       "aiLayoffEmployees": null,
       "aiLayoffEvents": 0,
       "aiLayoffTrackedFromSource": false,
       "aiEvents": [],
       "source": "Layoffs.fyi",
-      "sourceCompanyUrl": "https://layoffs.fyi/company/ge-aerospace/"
+      "sourceCompanyUrl": null
     },
     {
       "companyId": "morgan-stanley",
@@ -777,15 +838,15 @@
       "matched": false,
       "matchedName": null,
       "matchedSlug": null,
-      "layoffsTotal": 0,
+      "layoffsTotal": null,
       "layoffsLatest": null,
-      "layoffsIndustry": "Finance",
+      "layoffsIndustry": null,
       "aiLayoffEmployees": null,
       "aiLayoffEvents": 0,
       "aiLayoffTrackedFromSource": false,
       "aiEvents": [],
       "source": "Layoffs.fyi",
-      "sourceCompanyUrl": "https://layoffs.fyi/company/morgan-stanley/"
+      "sourceCompanyUrl": null
     },
     {
       "companyId": "goldman-sachs",
@@ -794,15 +855,15 @@
       "matched": false,
       "matchedName": null,
       "matchedSlug": null,
-      "layoffsTotal": 0,
+      "layoffsTotal": null,
       "layoffsLatest": null,
-      "layoffsIndustry": "Finance",
+      "layoffsIndustry": null,
       "aiLayoffEmployees": null,
       "aiLayoffEvents": 0,
       "aiLayoffTrackedFromSource": false,
       "aiEvents": [],
       "source": "Layoffs.fyi",
-      "sourceCompanyUrl": "https://layoffs.fyi/company/goldman-sachs/"
+      "sourceCompanyUrl": null
     },
     {
       "companyId": "dell-technologies",
@@ -817,9 +878,30 @@
       "aiLayoffEmployees": 11000,
       "aiLayoffEvents": 2,
       "aiLayoffTrackedFromSource": true,
-      "aiEvents": [],
+      "aiEvents": [
+        {
+          "year": "2026",
+          "company": "Dell",
+          "slug": "dell",
+          "date": "2026-03-16",
+          "count": 11000,
+          "percent": 10,
+          "source": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/",
+          "explanation": "Dell limited external hiring and restructured operations to reduce costs while shifting its business model toward AI infrastructure, with the company describing the cuts as part of \"disciplined cost management\" as it transforms from a hardware company into an AI server provider."
+        },
+        {
+          "year": "2024",
+          "company": "Dell",
+          "slug": "dell",
+          "date": "2024-08-05",
+          "count": 0,
+          "percent": null,
+          "source": "https://siliconangle.com/2024/08/05/dell-lays-off-thousands-workers-sales-reorganization/",
+          "explanation": "Dell reorganized its go-to-market teams around a new group focused on artificial intelligence services, shifting investment priorities in ways that eliminated sales and marketing roles. Internally, leadership stated, \"We are getting leaner. We're streamlining layers of management and reprioritizing where we invest,\" as the company restructured to absorb the growing AI server business while offsetting margin pressure caused by rising AI infrastructure demand."
+        }
+      ],
       "source": "Layoffs.fyi",
-      "sourceCompanyUrl": "https://layoffs.fyi/company/dell-technologies/"
+      "sourceCompanyUrl": "https://layoffs.fyi/company/dell/"
     },
     {
       "companyId": "wells-fargo",
@@ -828,7 +910,7 @@
       "matched": false,
       "matchedName": null,
       "matchedSlug": null,
-      "layoffsTotal": 0,
+      "layoffsTotal": null,
       "layoffsLatest": null,
       "layoffsIndustry": null,
       "aiLayoffEmployees": null,
@@ -836,7 +918,7 @@
       "aiLayoffTrackedFromSource": false,
       "aiEvents": [],
       "source": "Layoffs.fyi",
-      "sourceCompanyUrl": "https://layoffs.fyi/company/wells-fargo/"
+      "sourceCompanyUrl": null
     },
     {
       "companyId": "ge-vernova",
@@ -845,7 +927,7 @@
       "matched": false,
       "matchedName": null,
       "matchedSlug": null,
-      "layoffsTotal": 0,
+      "layoffsTotal": null,
       "layoffsLatest": null,
       "layoffsIndustry": null,
       "aiLayoffEmployees": null,
@@ -853,7 +935,200 @@
       "aiLayoffTrackedFromSource": false,
       "aiEvents": [],
       "source": "Layoffs.fyi",
-      "sourceCompanyUrl": "https://layoffs.fyi/company/ge-vernova/"
+      "sourceCompanyUrl": null
+    },
+    {
+      "companyId": "klac",
+      "companyName": "KLA Corporation",
+      "ticker": "KLAC",
+      "matched": true,
+      "matchedName": "Klarna",
+      "matchedSlug": "klarna",
+      "layoffsTotal": 800,
+      "layoffsLatest": "2022-09-22",
+      "layoffsIndustry": "Finance",
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": "https://layoffs.fyi/company/klarna/"
+    },
+    {
+      "companyId": "now",
+      "companyName": "ServiceNow",
+      "ticker": "NOW",
+      "matched": true,
+      "matchedName": "ServiceNow",
+      "matchedSlug": "servicenow",
+      "layoffsTotal": 54,
+      "layoffsLatest": "2026-07-28",
+      "layoffsIndustry": "Support",
+      "aiLayoffEmployees": 54,
+      "aiLayoffEvents": 1,
+      "aiLayoffTrackedFromSource": true,
+      "aiEvents": [
+        {
+          "year": "2026",
+          "company": "ServiceNow",
+          "slug": "servicenow",
+          "date": "2026-06-11",
+          "count": 54,
+          "percent": null,
+          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+          "explanation": "ServiceNow eliminated roles as part of a broader restructuring effort driven by its accelerating investment in AI-powered workflow automation, which reduced the need for headcount in functions the platform increasingly handles autonomously. The June 2026 cuts were described as a sweeping reorg — the largest and most shocking tenured employees had seen — reflecting the company's strategic shift toward AI-driven service delivery across IT management and business process automation."
+        }
+      ],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": "https://layoffs.fyi/company/servicenow/"
+    },
+    {
+      "companyId": "lin",
+      "companyName": "Linde plc",
+      "ticker": "LIN",
+      "matched": false,
+      "matchedName": null,
+      "matchedSlug": null,
+      "layoffsTotal": null,
+      "layoffsLatest": null,
+      "layoffsIndustry": null,
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": null
+    },
+    {
+      "companyId": "panw",
+      "companyName": "Palo Alto Networks",
+      "ticker": "PANW",
+      "matched": false,
+      "matchedName": null,
+      "matchedSlug": null,
+      "layoffsTotal": null,
+      "layoffsLatest": null,
+      "layoffsIndustry": null,
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": null
+    },
+    {
+      "companyId": "anet",
+      "companyName": "Arista Networks",
+      "ticker": "ANET",
+      "matched": false,
+      "matchedName": null,
+      "matchedSlug": null,
+      "layoffsTotal": null,
+      "layoffsLatest": null,
+      "layoffsIndustry": null,
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": null
+    },
+    {
+      "companyId": "ba",
+      "companyName": "Boeing",
+      "ticker": "BA",
+      "matched": false,
+      "matchedName": null,
+      "matchedSlug": null,
+      "layoffsTotal": null,
+      "layoffsLatest": null,
+      "layoffsIndustry": null,
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": null
+    },
+    {
+      "companyId": "axp",
+      "companyName": "American Express",
+      "ticker": "AXP",
+      "matched": false,
+      "matchedName": null,
+      "matchedSlug": null,
+      "layoffsTotal": null,
+      "layoffsLatest": null,
+      "layoffsIndustry": null,
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": null
+    },
+    {
+      "companyId": "ibm",
+      "companyName": "IBM",
+      "ticker": "IBM",
+      "matched": true,
+      "matchedName": "IBM",
+      "matchedSlug": "ibm",
+      "layoffsTotal": 4900,
+      "layoffsLatest": "2024-09-18",
+      "layoffsIndustry": "Hardware",
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": "https://layoffs.fyi/company/ibm/"
+    },
+    {
+      "companyId": "qualcomm",
+      "companyName": "Qualcomm",
+      "ticker": "QCOM",
+      "matched": true,
+      "matchedName": "Qualcomm",
+      "matchedSlug": "qualcomm",
+      "layoffsTotal": 1629,
+      "layoffsLatest": "2026-04-09",
+      "layoffsIndustry": "Hardware",
+      "aiLayoffEmployees": null,
+      "aiLayoffEvents": 0,
+      "aiLayoffTrackedFromSource": false,
+      "aiEvents": [],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": "https://layoffs.fyi/company/qualcomm/"
+    },
+    {
+      "companyId": "uber",
+      "companyName": "Uber",
+      "ticker": "UBER",
+      "matched": true,
+      "matchedName": "Uber",
+      "matchedSlug": "uber",
+      "layoffsTotal": 7785,
+      "layoffsLatest": "2026-07-22",
+      "layoffsIndustry": "Transportation",
+      "aiLayoffEmployees": 300,
+      "aiLayoffEstimated": true,
+      "aiLayoffEvents": 1,
+      "aiLayoffTrackedFromSource": true,
+      "aiEvents": [
+        {
+          "year": "2026",
+          "company": "Uber",
+          "slug": "uber",
+          "date": "2026-07-22",
+          "count": 0,
+          "percent": null,
+          "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai",
+          "explanation": "Uber cut its customer service workforce as part of what the company described as an \"embrace\" of AI, directly citing artificial intelligence as the reason for the job cuts and framing the reductions as part of a broader effort to achieve AI-based efficiencies across its operations."
+        }
+      ],
+      "source": "Layoffs.fyi",
+      "sourceCompanyUrl": "https://layoffs.fyi/company/uber/"
     }
   ]
 }

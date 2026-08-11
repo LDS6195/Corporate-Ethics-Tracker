@@ -30,5 +30,25 @@
   "home-depot": {
     "names": ["Home Depot"],
     "slugs": ["home-depot"]
+  },
+  "dell-technologies": {
+    "names": ["Dell", "Dell Technologies"],
+    "slugs": ["dell", "dell-technologies"]
+  },
+  "broadcom": {
+    "names": ["Broadcom"],
+    "slugs": ["broadcom"]
+  },
+  "ibm": {
+    "names": ["IBM", "International Business Machines"],
+    "slugs": ["ibm"]
+  },
+  "qualcomm": {
+    "names": ["Qualcomm"],
+    "slugs": ["qualcomm"]
+  },
+  "uber": {
+    "names": ["Uber", "Uber Technologies"],
+    "slugs": ["uber", "uber-technologies"]
   }
 }

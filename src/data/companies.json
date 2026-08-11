@@ -523,14 +523,15 @@
       "ticker": "AVGO",
       "industry": "Semiconductors",
       "logoUrl": "https://ui-avatars.com/api/?name=AVGO&background=134e4a&color=fff&bold=true",
-      "overallScore": 74,
+      "overallScore": 66,
       "categoryScores": {
-        "laborDisplacement": 22,
+        "laborDisplacement": 14,
         "dataPrivacy": 18,
         "humanOversight": 23,
         "transparency": 7
       },
-      "aiLayoffTracked": false,
+      "aiLayoffCount": 247,
+      "aiLayoffTracked": true,
       "reskillingFunded": true,
       "humanInTheLoopMandate": true,
       "tosScrapingOptOut": false,
@@ -589,8 +590,7 @@
       "dedicatedAiGovernanceBody": false,
       "noConsequentialAutomatedDecisions": true,
       "recurringPublicAiReport": false,
-      "concreteTransparencyArtifacts": false,
-      "aiLayoffCount": 0
+      "concreteTransparencyArtifacts": false
     },
     {
       "id": "tesla",
@@ -2960,7 +2960,7 @@
       "industry": "Information Technology",
       "logoUrl": "https://ui-avatars.com/api/?name=NOW&background=00bcd4&color=fff&bold=true",
       "sp500Rank": 41,
-      "aiLayoffCount": 0,
+      "aiLayoffCount": 54,
       "aiLayoffTracked": true,
       "reskillingFunded": true,
       "humanInTheLoopMandate": false,
@@ -2973,12 +2973,12 @@
       "recurringPublicAiReport": false,
       "concreteTransparencyArtifacts": false,
       "categoryScores": {
-        "laborDisplacement": 22,
+        "laborDisplacement": 18,
         "dataPrivacy": 25,
         "humanOversight": 9,
         "transparency": 9
       },
-      "overallScore": 69,
+      "overallScore": 65,
       "citations": [
         "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/",
         "https://www.servicenow.com/company/trust-privacy.html",
@@ -3226,8 +3226,8 @@
       "industry": "Transportation Technology",
       "logoUrl": "https://ui-avatars.com/api/?name=UBER&background=111827&color=fff&bold=true",
       "sp500Rank": 50,
-      "aiLayoffCount": 0,
-      "aiLayoffTracked": false,
+      "aiLayoffCount": 300,
+      "aiLayoffTracked": true,
       "reskillingFunded": false,
       "humanInTheLoopMandate": false,
       "tosScrapingOptOut": false,
@@ -3239,16 +3239,17 @@
       "recurringPublicAiReport": false,
       "concreteTransparencyArtifacts": false,
       "categoryScores": {
-        "laborDisplacement": 13,
+        "laborDisplacement": 5,
         "dataPrivacy": 0,
         "humanOversight": 9,
         "transparency": 7
       },
-      "overallScore": 33,
+      "overallScore": 25,
       "citations": [
         "https://www.uber.com/us/en/about/reports/",
         "https://autoriteitpersoonsgegevens.nl/en/news/dutch-dpa-fines-uber-290-million-euros",
-        "https://investor.uber.com/news-events/news/press-release-details/2025/Uber-Annual-Report-2024/"
+        "https://investor.uber.com/news-events/news/press-release-details/2025/Uber-Annual-Report-2024/",
+        "https://layoffs.fyi/company/uber/"
       ],
       "lastUpdated": "2026-08-11"
     }
