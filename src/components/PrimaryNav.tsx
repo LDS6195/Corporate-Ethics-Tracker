@@ -36,13 +36,17 @@ export default function PrimaryNav() {
   const [isLightMode, setIsLightMode] = useState(false);
 
   useEffect(() => {
-    const savedTheme = window.localStorage.getItem("theme");
-    const shouldUseLight = savedTheme === "light";
-    document.documentElement.classList.toggle("theme-light", shouldUseLight);
-    setIsLightMode(shouldUseLight);
+    try {
+      const savedTheme = window.localStorage.getItem("theme");
+      const shouldUseLight = savedTheme === "light";
+      document.documentElement.classList.toggle("theme-light", shouldUseLight);
+      setIsLightMode(shouldUseLight);
 
-    if (!savedTheme) {
-      window.localStorage.setItem("theme", "dark");
+      if (!savedTheme) {
+        window.localStorage.setItem("theme", "dark");
+      }
+    } catch {
+      // localStorage unavailable (e.g. iOS Safari private mode) — default to dark
     }
   }, []);
 
